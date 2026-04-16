@@ -45,19 +45,30 @@ export default function Home() {
             </div>
           </div>
 
-          <aside className="hero-aside" aria-label="Example parent conversation moments">
-            <p className="aside-kicker">Example WhatsApp Timeline</p>
-            <div className="aside-card dark">
-              <p className="aside-time">3:04 AM</p>
-              <p>Baby woke up with mild fever. What should we track right now?</p>
+          <aside className="wa-window" aria-label="Example parent conversation moments">
+            <div className="wa-header">
+              <div className="wa-avatar" aria-hidden="true">PA</div>
+              <div className="wa-header-info">
+                <p className="wa-name">Parenting AI</p>
+                <p className="wa-status">online</p>
+              </div>
             </div>
-            <div className="aside-card">
-              <p className="aside-time">3:05 AM</p>
-              <p>Got it. I logged temperature, wake-up, and feed window. I’ll check in shortly.</p>
+            <div className="wa-body">
+              <div className="wa-bubble wa-bubble-in">
+                <p>Baby woke up with mild fever. What should we track right now?</p>
+                <span className="wa-meta">3:04 AM</span>
+              </div>
+              <div className="wa-bubble wa-bubble-out">
+                <p>Got it. I logged temperature, wake-up, and feed window. I'll check in shortly.</p>
+                <span className="wa-meta">3:05 AM <span className="wa-tick" aria-hidden="true">✓✓</span></span>
+              </div>
+              <div className="wa-bubble wa-bubble-out">
+                <p>I can remind you about medication intervals and hydration checks today.</p>
+                <span className="wa-meta">8:00 AM <span className="wa-tick" aria-hidden="true">✓✓</span></span>
+              </div>
             </div>
-            <div className="aside-card">
-              <p className="aside-time">8:00 AM</p>
-              <p>I can remind you about medication intervals and hydration checks today.</p>
+            <div className="wa-input-bar" aria-hidden="true">
+              <span className="wa-input-placeholder">Message</span>
             </div>
           </aside>
         </div>

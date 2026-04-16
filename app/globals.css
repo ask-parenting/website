@@ -234,53 +234,149 @@ h1 {
   color: rgba(233, 237, 242, 0.76);
 }
 
-.hero-aside {
-  background: linear-gradient(170deg, rgba(255, 255, 255, 0.11), rgba(255, 255, 255, 0.05));
-  border: 1px solid var(--line-dark);
+/* ── WhatsApp chat widget ── */
+.wa-window {
   border-radius: var(--radius-lg);
-  padding: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.22);
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  font-family: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.wa-header {
+  background: #075e54;
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.wa-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #25d366;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  flex-shrink: 0;
+}
+
+.wa-header-info {
   min-width: 0;
 }
 
-.aside-kicker {
-  margin: 0 0 12px;
-  font-size: 11px;
-  line-height: 1;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.66);
+.wa-name {
+  margin: 0;
+  font-size: 15px;
   font-weight: 600;
-}
-
-.aside-card {
-  background: rgba(255, 255, 255, 0.92);
-  border: 1px solid rgba(255, 255, 255, 0.7);
-  border-radius: 14px;
-  padding: 13px 14px;
-  margin-bottom: 9px;
-  color: #15161a;
-}
-
-.aside-card.dark {
-  background: linear-gradient(170deg, #323842, #232932);
-  border-color: rgba(255, 255, 255, 0.16);
   color: #fff;
+  line-height: 1.2;
 }
 
-.aside-card:last-child {
-  margin-bottom: 0;
+.wa-status {
+  margin: 0;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.82);
+  line-height: 1.2;
 }
 
-.aside-time {
-  margin: 0 0 6px;
+.wa-body {
+  flex: 1;
+  padding: 12px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background-color: #eae6df;
+  background-image:
+    url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 5 Q32 15 40 20 Q32 25 30 35 Q28 25 20 20 Q28 15 30 5Z' fill='rgba(0,0,0,0.03)'/%3E%3C/svg%3E");
+}
+
+.wa-bubble {
+  max-width: 84%;
+  border-radius: 8px;
+  padding: 6px 9px 4px;
+  font-size: 14px;
+  line-height: 1.4;
+  position: relative;
+  word-break: break-word;
+}
+
+.wa-bubble p {
+  margin: 0 0 2px;
+  color: #111b21;
+}
+
+.wa-bubble-in {
+  background: #fff;
+  align-self: flex-start;
+  border-top-left-radius: 0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
+}
+
+.wa-bubble-in::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -8px;
+  width: 0;
+  height: 0;
+  border-top: 8px solid #fff;
+  border-left: 8px solid transparent;
+}
+
+.wa-bubble-out {
+  background: #d9fdd3;
+  align-self: flex-end;
+  border-top-right-radius: 0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
+}
+
+.wa-bubble-out::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -8px;
+  width: 0;
+  height: 0;
+  border-top: 8px solid #d9fdd3;
+  border-right: 8px solid transparent;
+}
+
+.wa-meta {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 3px;
   font-size: 11px;
+  color: #667781;
   line-height: 1;
-  font-weight: 600;
-  color: #6e7380;
+  margin-top: 1px;
 }
 
-.aside-card.dark .aside-time {
-  color: rgba(255, 255, 255, 0.72);
+.wa-tick {
+  color: #53bdeb;
+  font-size: 13px;
+  letter-spacing: -2px;
+}
+
+.wa-input-bar {
+  background: #f0f2f5;
+  border-top: 1px solid #d1d7db;
+  padding: 8px 14px;
+  flex-shrink: 0;
+}
+
+.wa-input-placeholder {
+  font-size: 14px;
+  color: #8696a0;
 }
 
 .value-props {

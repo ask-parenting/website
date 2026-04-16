@@ -9,14 +9,14 @@ export default function Home() {
 
   return (
     <main className="page-shell">
-      <section className="hero section">
-        <div className="topbar">
+      <section className="hero">
+        <div className="topbar section">
           <p className="brand-mark">{siteConfig.brand.toUpperCase()}</p>
           <p className="micro-tag">Care via WhatsApp</p>
         </div>
 
-        <div className="hero-grid">
-          <div>
+        <div className="hero-grid section">
+          <div className="hero-main">
             <p className="eyebrow">Built for newborn parents</p>
             <h1>{siteConfig.headline}</h1>
             <p className="lead">{siteConfig.subheadline}</p>
@@ -24,26 +24,40 @@ export default function Home() {
               <a className="dji-btn dji-btn-primary" href={whatsappLink} target="_blank" rel="noreferrer">
                 Chat on WhatsApp
               </a>
-              <a className="dji-learn-more" href="#value-proposition-title">
-                Learn More
+              <a className="dji-learn-more" href="#value-proposition-title" aria-label="Learn more about features">
+                Learn More &rsaquo;
               </a>
             </div>
-            <div className="trust-row" aria-label="Key service highlights">
-              <span>24/7 support flow</span>
-              <span>Newborn phase focused</span>
-              <span>One private thread</span>
+
+            <div className="feature-strip" aria-label="Key service highlights">
+              <div className="feature-item">
+                <p className="feature-value">24/7</p>
+                <p className="feature-label">Support Flow</p>
+              </div>
+              <div className="feature-item">
+                <p className="feature-value">1 Thread</p>
+                <p className="feature-label">Everything Logged</p>
+              </div>
+              <div className="feature-item">
+                <p className="feature-value">0 Apps</p>
+                <p className="feature-label">Download Required</p>
+              </div>
             </div>
           </div>
 
           <aside className="hero-aside" aria-label="Example parent conversation moments">
-            <p className="aside-kicker">Typical late-night use</p>
-            <div className="aside-card">
+            <p className="aside-kicker">Example WhatsApp Timeline</p>
+            <div className="aside-card dark">
               <p className="aside-time">3:04 AM</p>
               <p>Baby woke up with mild fever. What should we track right now?</p>
             </div>
             <div className="aside-card">
               <p className="aside-time">3:05 AM</p>
               <p>Got it. I logged temperature, wake-up, and feed window. I’ll check in shortly.</p>
+            </div>
+            <div className="aside-card">
+              <p className="aside-time">8:00 AM</p>
+              <p>I can remind you about medication intervals and hydration checks today.</p>
             </div>
           </aside>
         </div>

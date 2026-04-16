@@ -48,7 +48,12 @@ body {
 .page-shell {
   width: min(1280px, 90vw);
   margin: 0 auto;
-  padding: 40px 0 120px;
+  padding: 24px 0 120px;
+}
+
+.shell-inner {
+  width: min(1280px, 90vw);
+  margin: 0 auto;
 }
 
 .section {
@@ -66,14 +71,23 @@ body {
   margin-bottom: 32px;
 }
 
-.topbar.section {
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  border-bottom: 1px solid rgba(16, 24, 40, 0.08);
+  background: rgba(247, 249, 252, 0.72);
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+}
+
+.topbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 20px;
-  padding: 18px 32px;
-  background: rgba(255, 255, 255, 0.84);
-  border-color: rgba(255, 255, 255, 0.84);
+  min-height: 64px;
+  padding: 14px 0;
 }
 
 .brand-mark {
@@ -658,10 +672,14 @@ h1 {
 }
 
 .footer {
+  margin-top: 32px;
+  width: 100%;
   background: linear-gradient(175deg, #13171d 0%, #0d1117 100%);
-  border-color: #242b35;
-  box-shadow: 0 20px 42px rgba(8, 12, 18, 0.34);
+  border-top: 1px solid #242b35;
   color: #dbe1ea;
+}
+
+.footer-shell {
   padding-top: 44px;
   padding-bottom: 30px;
 }
@@ -887,14 +905,18 @@ h1 {
     padding-bottom: 80px;
   }
 
+  .shell-inner {
+    width: 92vw;
+  }
+
   .section {
     border-radius: 24px;
     padding: 32px;
   }
 
-  .topbar.section {
-    margin-bottom: 16px;
-    padding: 16px 24px;
+  .topbar {
+    min-height: 58px;
+    padding: 12px 0;
   }
 
   h1,
@@ -953,14 +975,19 @@ h1 {
     padding-bottom: 72px;
   }
 
+  .shell-inner {
+    width: 93vw;
+  }
+
   .section,
   .hero-grid.section {
     padding: 28px;
     border-radius: 22px;
   }
 
-  .topbar.section {
-    padding: 15px 20px;
+  .topbar {
+    min-height: 54px;
+    padding: 10px 0;
   }
 
   .micro-tag {
@@ -1045,6 +1072,10 @@ h1 {
   }
 
   .footer {
+    margin-top: 24px;
+  }
+
+  .footer-shell {
     padding-top: 36px;
     padding-bottom: 24px;
   }
@@ -1084,14 +1115,19 @@ h1 {
     width: 94vw;
   }
 
+  .shell-inner {
+    width: 94vw;
+  }
+
   .section,
   .hero-grid.section {
     padding: 22px;
     border-radius: 20px;
   }
 
-  .topbar.section {
-    padding: 14px 18px;
+  .topbar {
+    min-height: 50px;
+    padding: 9px 0;
   }
 
   .brand-mark {

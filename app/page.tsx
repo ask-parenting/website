@@ -118,20 +118,22 @@ export default function Home() {
       {siteConfig.testimonials.length > 0 && (
         <section className="section testimonial-section" aria-label="Parent testimonials">
           <div className="testimonial-head">
-            <p className="testimonial-kicker">Social proof from early parents</p>
-            <h2>Loved in real 3 AM moments</h2>
+            <p className="testimonial-kicker">Early beta feedback</p>
+            <h2>What parents actually said on WhatsApp</h2>
           </div>
 
           <div className="testimonial-rail" role="list" aria-label="Highlights from parent feedback">
-            <p className="testimonial-chip" role="listitem">Great experience!</p>
-            <p className="testimonial-chip" role="listitem">Highly recommend.</p>
-            <p className="testimonial-chip" role="listitem">Fast replies on WhatsApp.</p>
-            <p className="testimonial-chip" role="listitem">Made night feeds less stressful.</p>
+            <p className="testimonial-chip" role="listitem">Used during night feeds</p>
+            <p className="testimonial-chip" role="listitem">Replies within minutes</p>
+            <p className="testimonial-chip" role="listitem">No app install needed</p>
           </div>
 
           {siteConfig.testimonials.map((t, i) => (
             <figure key={i} className="testimonial-card">
-              <div className="testimonial-rating" aria-label="Rated five out of five stars">5.0 / 5</div>
+              <div className="testimonial-meta">
+                <span className="testimonial-badge">Verified beta parent</span>
+                <span className="testimonial-channel">Shared via WhatsApp</span>
+              </div>
               <blockquote className="testimonial-quote">&ldquo;{t.quote}&rdquo;</blockquote>
               <figcaption className="testimonial-author">{t.author}</figcaption>
             </figure>
@@ -139,14 +141,42 @@ export default function Home() {
         </section>
       )}
 
-      <footer className="section footer">
-        <p className="legal-line">{siteConfig.legal.ownershipStatement}</p>
-        <p className="address">{siteConfig.legal.address}</p>
-        <nav className="legal-links" aria-label="Legal navigation">
-          {siteConfig.legal.links.map((link) => (
-            <Link key={link.url} href={link.url}>{link.label}</Link>
-          ))}
-        </nav>
+      <footer className="section footer" aria-label="Site footer">
+        <div className="footer-top">
+          <div className="footer-brand-block">
+            <p className="footer-brand">{siteConfig.brand}</p>
+            <p className="footer-tagline">Your digital co-parent, available 24/7 on WhatsApp.</p>
+            <p className="footer-address-label">Registered Address</p>
+            <p className="address">{siteConfig.legal.address}</p>
+          </div>
+
+          <nav className="footer-columns" aria-label="Footer navigation">
+            <div className="footer-col">
+              <p className="footer-col-title">Product</p>
+              <a href="#value-proposition-title">How It Works</a>
+              <a href="#onboarding-title">Get Started</a>
+              <a href={whatsappLink} target="_blank" rel="noreferrer">WhatsApp Chat</a>
+            </div>
+
+            <div className="footer-col">
+              <p className="footer-col-title">Company</p>
+              <a href="#trust-title">Trust &amp; Safety</a>
+              <Link href="/privacy">Privacy Policy</Link>
+              <Link href="/terms">Terms of Service</Link>
+            </div>
+
+            <div className="footer-col">
+              <p className="footer-col-title">Contact</p>
+              <a href={whatsappLink} target="_blank" rel="noreferrer">WhatsApp Support</a>
+              <p className="footer-col-note">Response window: 24/7</p>
+            </div>
+          </nav>
+        </div>
+
+        <div className="footer-bottom">
+          <p className="legal-line">{siteConfig.legal.ownershipStatement}</p>
+          <p className="footer-copy">&copy; {new Date().getFullYear()} {siteConfig.brand}. All rights reserved.</p>
+        </div>
       </footer>
     </main>
   );

@@ -6,7 +6,6 @@ import HelpTopicsSection from "@/app/components/sections/HelpTopicsSection";
 import HowItWorksSection from "@/app/components/sections/HowItWorksSection";
 import WhyParentsLoveSection from "@/app/components/sections/WhyParentsLoveSection";
 import AboutSection from "@/app/components/sections/AboutSection";
-import FaqSection from "@/app/components/sections/FaqSection";
 
 export default function Home() {
   const whatsappLink = buildWhatsAppLink(
@@ -24,7 +23,6 @@ export default function Home() {
         <HowItWorksSection whatsappLink={whatsappLink} />
         <WhyParentsLoveSection />
         <AboutSection />
-        <FaqSection />
       </main>
 
       <SiteFooter whatsappLink={whatsappLink} />

@@ -60,7 +60,10 @@ export default function WhyParentsLoveSection() {
                 onClick={() => toggleReviewExpansion(index)}
                 aria-expanded={isExpanded}
               >
-                {isExpanded ? "Collapse" : "Expand"}
+                <span>{isExpanded ? "Collapse" : "Expand"}</span>
+                <span className={`review-toggle-icon ${isExpanded ? "open" : ""}`} aria-hidden="true">
+                  ▾
+                </span>
               </button>
             ) : null}
             <p className="review-author">- {review.name}, Parent</p>
@@ -76,7 +79,10 @@ export default function WhyParentsLoveSection() {
           onClick={() => setShowAllReviews((prev) => !prev)}
           aria-expanded={showAllReviews}
         >
-          {showAllReviews ? "Show Less" : "Show More"}
+          <span>{showAllReviews ? "Show Less" : "Show More"}</span>
+          <span className={`review-toggle-icon ${showAllReviews ? "open" : ""}`} aria-hidden="true">
+            ▾
+          </span>
         </button>
       ) : null}
 

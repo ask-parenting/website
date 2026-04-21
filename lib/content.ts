@@ -217,6 +217,56 @@ export const faqs = [
     question: "Do I need to install another app?",
     answer: "No. The experience is built for WhatsApp, with no app install and no separate signup flow.",
   },
+  {
+    question: "Can both parents use the same child profile?",
+    answer:
+      "Yes. You can share context between caregivers by using the same WhatsApp flow and clearly mentioning updates from each parent.",
+  },
+  {
+    question: "What kind of questions can I ask?",
+    answer:
+      "You can ask about feeding, sleep, milestones, routines, behavior, and day-to-day parenting concerns for children up to 5 years.",
+  },
+  {
+    question: "How are reminders handled?",
+    answer:
+      "When enabled, reminders can be sent for practical parenting tasks like routines and follow-ups. You can choose to ignore or request changes.",
+  },
+  {
+    question: "Can I delete my chat data?",
+    answer:
+      "Yes. You can request deletion using the contact details in the footer. We process deletion requests according to our policy obligations.",
+  },
+  {
+    question: "What if my child has urgent symptoms?",
+    answer:
+      "For urgent symptoms, contact emergency services or a licensed doctor immediately. Use this service for educational support, not emergency care.",
+  },
+  {
+    question: "Is this only for newborns?",
+    answer:
+      "No. The service supports parents from pre-delivery preparation through early childhood, up to 5 years of age.",
+  },
+  {
+    question: "Do responses consider my child's age?",
+    answer:
+      "Yes. Guidance is designed to be age-aware when you share your child\'s age or due-date context.",
+  },
+  {
+    question: "Can I use it while traveling?",
+    answer:
+      "Yes. Since it runs on WhatsApp, you can use it wherever your WhatsApp access is available.",
+  },
+  {
+    question: "How much does it cost right now?",
+    answer:
+      "Current pricing and offers are shown on the landing page. If a beta or free access program is active, it will be clearly stated there.",
+  },
+  {
+    question: "How do I start quickly?",
+    answer:
+      "Tap Start on WhatsApp, send the prefilled message, and ask your first parenting question. No separate signup is required.",
+  },
 ];
 
 export const aboutParagraphs: string[] = [

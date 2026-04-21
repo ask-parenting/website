@@ -5,6 +5,7 @@
 - [ ] Footer includes exact string:
   - `Parenting AI is a product of AvNeer Solutions Private Limited.`
 - [ ] Footer includes exact physical address that matches utility bill/bank statement word-for-word.
+- [ ] FAQ page is publicly reachable.
 - [ ] Privacy Policy page is publicly reachable.
 - [ ] Terms of Service page is publicly reachable.
 

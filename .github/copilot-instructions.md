@@ -24,6 +24,8 @@ Use these instructions for all changes in this repository unless a user explicit
 
 ## Theme and Styling Guardrails
 - Follow the established Apple-inspired visual system in `app/globals.css`.
+- Treat Apple.com as the visual benchmark for all CSS decisions (layout rhythm, typography scale, spacing, motion subtlety, and interaction polish).
+- For new or updated CSS, first try to match Apple website styling patterns before introducing alternatives.
 - Reuse CSS variables from `:root` (colors, radii, shadows, typography) before introducing new tokens.
 - Maintain visual rhythm: spacing, border radii, and section density should match nearby sections.
 - Prefer extending existing utility/class patterns rather than creating one-off styles.
@@ -58,14 +60,9 @@ Use these instructions for all changes in this repository unless a user explicit
 - Validate no TypeScript errors.
 - Verify mobile viewport behavior for header, nav, and CTA placement.
 - Verify no broken internal links.
-- Confirm content still matches section IA:
-  - Hero
-  - What It Helps With
-  - How It Works
-  - Why Parents Love This
-  - About Us
-  - FAQ
-  - Footer
+- Confirm content still matches IA:
+  - Landing sections: Hero, What It Helps With, How It Works, Why Parents Love This, About Us, Footer
+  - Dedicated FAQ page: `/faq`
 
 ## When Updating Specs
 - Keep docs under `docs/specs/` synchronized with implementation.

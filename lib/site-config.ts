@@ -28,7 +28,7 @@ export const siteConfig = {
     },
     {
       sender: "AI",
-      text: "I'm here. First, let's check his temperature. If it's over 100.4°F and he is under 3 months, you need to call a doctor immediately. If not, here are three things we can try..."
+      text: "I'm here. First, let's check his temperature. If it's over 38°C and he is under 3 months, you need to call a doctor immediately. If not, here are three things we can try..."
     }
   ],
   trustSignals: [

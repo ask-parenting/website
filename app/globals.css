@@ -476,7 +476,6 @@ h1 {
   line-height: 1.06;
   letter-spacing: -0.028em;
   margin-bottom: 40px;
-  max-width: 28ch;
 }
 
 .trust-grid {
@@ -541,7 +540,6 @@ h1 {
   line-height: 1.06;
   letter-spacing: -0.028em;
   margin-bottom: 40px;
-  max-width: 20ch;
 }
 
 .onboarding-steps {
@@ -611,7 +609,6 @@ h1 {
   line-height: 1.06;
   letter-spacing: -0.028em;
   margin-bottom: 40px;
-  max-width: 20ch;
 }
 
 .card-grid {
@@ -688,6 +685,7 @@ h1 {
   line-height: 1.06;
   letter-spacing: -0.028em;
   margin-bottom: 28px;
+  white-space: nowrap;
 }
 
 .about-copy {

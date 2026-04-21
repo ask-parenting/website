@@ -62,7 +62,7 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en">
+    <html lang="en" data-scroll-behavior="smooth">
       <body>
         <a className="skip-link" href="#main-content">
           Skip to main content

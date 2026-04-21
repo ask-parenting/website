@@ -6,9 +6,7 @@ export default function HelpTopicsSection() {
       className="section trust-section"
       aria-labelledby="helps-title"
     >
-      <h2 id="helps-title">
-        Everything you worry about as a parent, handled gently
-      </h2>
+      <h2 id="helps-title">What It Helps With</h2>
 
       <div className="trust-grid">
         {helpTopics.map((item) => (

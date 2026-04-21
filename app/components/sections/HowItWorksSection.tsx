@@ -13,7 +13,7 @@ export default function HowItWorksSection({
       className="section onboarding-section"
       aria-labelledby="how-it-works-title"
     >
-      <h2 id="how-it-works-title">Simple. Instant. Always there.</h2>
+      <h2 id="how-it-works-title">How It Works</h2>
 
       <ol className="onboarding-steps">
         {howItWorksSteps.map((step, i) => (

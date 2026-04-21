@@ -10,6 +10,13 @@ export interface FeatureStat {
   label: string;
 }
 
+export interface ParentSuccessMessage {
+  name: string;
+  rating: 4.25 | 4.5 | 4.75 | 5;
+  scenario: string;
+  reviewedAt: string;
+}
+
 export const helpTopics: HelpTopic[] = [
   {
     icon: "🥣",
@@ -48,6 +55,129 @@ export const whyParentsLove: string[] = [
   "Simple advice, not overwhelming information",
   "Personalized to your child's age",
   "Available 24/7 — even at 2 AM",
+];
+
+export const parentSuccessMessages: ParentSuccessMessage[] = [
+  {
+    name: "Harleen",
+    rating: 5,
+    scenario: "My 9-month-old was refusing solids for days. The day-wise plan helped us restart gently by the weekend.",
+    reviewedAt: "2026-02-03T21:14:00+05:30",
+  },
+  {
+    name: "Imran",
+    rating: 4.75,
+    scenario: "At 2 AM my child had fever. The checklist showed what to track first and when to call the doctor.",
+    reviewedAt: "2026-04-11T06:42:00+05:30",
+  },
+  {
+    name: "Rukmini",
+    rating: 4.5,
+    scenario: "Bedtime tantrums were daily. We followed the calming routine and nights improved within a week.",
+    reviewedAt: "2026-03-19T20:05:00+05:30",
+  },
+  {
+    name: "Madhumita",
+    rating: 4.25,
+    scenario: "I worried about milestones. The age-wise guidance clarified what to watch now versus later.",
+    reviewedAt: "2026-02-27T11:31:00+05:30",
+  },
+  {
+    name: "Dhiren",
+    rating: 5,
+    scenario: "We had a long train journey with our toddler and I expected full chaos. The chat gave practical tips for snacks, water, and nap timing during delays, and honestly the trip went far better than usual.",
+    reviewedAt: "2026-04-02T17:56:00+05:30",
+  },
+  {
+    name: "Thoibi",
+    rating: 4.75,
+    scenario: "My son kept waking at night. The sleep steps were practical, and we got longer stretches in a few days.",
+    reviewedAt: "2026-01-28T22:23:00+05:30",
+  },
+  {
+    name: "Pranab",
+    rating: 4.5,
+    scenario: "I used to miss vaccine follow-ups. The reminders are timely and clear, so we are on schedule now.",
+    reviewedAt: "2026-04-14T09:10:00+05:30",
+  },
+  {
+    name: "Nivedita",
+    rating: 4.25,
+    scenario: "After delivery I had nonstop feeding doubts. The replies were practical and easy to apply.",
+    reviewedAt: "2026-03-07T14:48:00+05:30",
+  },
+  {
+    name: "Jasmeet",
+    rating: 5,
+    scenario: "My daughter stopped napping and evenings were tough. Daytime activity tips improved her mood quickly.",
+    reviewedAt: "2026-02-15T19:39:00+05:30",
+  },
+  {
+    name: "Tsering",
+    rating: 4.75,
+    scenario: "I was unsure whether my son\'s speech delay was within range. The app helped me track weekly patterns and prepare focused questions, so our pediatric visit felt informed instead of anxious.",
+    reviewedAt: "2026-04-20T07:27:00+05:30",
+  },
+  {
+    name: "Kavitha",
+    rating: 4.5,
+    scenario: "Introducing foods felt risky. The weekly plan made testing and logging reactions simple.",
+    reviewedAt: "2026-03-25T12:16:00+05:30",
+  },
+  {
+    name: "Naveen",
+    rating: 4.25,
+    scenario: "With twins, sleep timings were opposite. Personalized suggestions helped us set two workable routines.",
+    reviewedAt: "2026-02-09T18:01:00+05:30",
+  },
+  {
+    name: "Zoya",
+    rating: 5,
+    scenario: "Potty training had stalled for months. The gentle prompts changed our approach and helped us progress.",
+    reviewedAt: "2026-04-06T10:53:00+05:30",
+  },
+  {
+    name: "Bimal",
+    rating: 4.75,
+    scenario: "My toddler kept skipping meals. The portion and timing suggestions improved appetite quickly.",
+    reviewedAt: "2026-03-02T21:36:00+05:30",
+  },
+  {
+    name: "Revathi",
+    rating: 4.5,
+    scenario: "After a very difficult day, I just needed someone to guide me calmly. The instant response gave me a two-step bedtime plan I could use right away.",
+    reviewedAt: "2026-01-30T16:44:00+05:30",
+  },
+  {
+    name: "Lalthlamuani",
+    rating: 4.25,
+    scenario: "I did not know how to track progress. The weekly check-in format made consistency easy.",
+    reviewedAt: "2026-04-18T08:12:00+05:30",
+  },
+  {
+    name: "Chaitali",
+    rating: 5,
+    scenario: "Once daycare infections started, symptom guidance helped me manage home care with confidence.",
+    reviewedAt: "2026-02-21T13:29:00+05:30",
+  },
+  {
+    name: "Farooq",
+    rating: 4.75,
+    scenario: "Picky eating had turned dinner into a daily argument. The practical meal swaps reduced stress and gave us a realistic weekly rotation without extra cooking.",
+    reviewedAt: "2026-03-30T20:22:00+05:30",
+  },
+  {
+    name: "Shalini",
+    rating: 4.5,
+    scenario: "I was overwhelmed by random tips online. Here the advice is clear, age-specific, and kind.",
+    reviewedAt: "2026-02-12T07:58:00+05:30",
+  },
+  {
+    name: "Sonam",
+    rating: 4.25,
+    scenario: "Late-night cough episodes scared us. Guided next steps helped us monitor safely till morning.",
+    reviewedAt: "2026-04-09T23:05:00+05:30",
+  },
 ];
 
 export const howItWorksSteps: string[] = [

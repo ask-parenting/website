@@ -25,17 +25,6 @@ export default function Home() {
         <WhyParentsLoveSection />
         <AboutSection />
         <FaqSection />
-        <section className="section disclaimer-section" aria-labelledby="disclaimer-title">
-          <h2 id="disclaimer-title">Important medical disclaimer</h2>
-          <p>
-            Parenting AI provides educational and informational support. It is not a substitute for
-            medical diagnosis, treatment, or emergency care.
-          </p>
-          <p>
-            For urgent or emergency symptoms, contact your local emergency number or a licensed
-            medical professional immediately.
-          </p>
-        </section>
       </main>
 
       <SiteFooter whatsappLink={whatsappLink} />

@@ -13,7 +13,7 @@ export default function HeroSection({ whatsappLink }: HeroSectionProps) {
         <div className="hero-main">
           <p className="eyebrow">Parenting support on WhatsApp</p>
           <h1>
-            Your Parenting Companion-on WhatsApp <span aria-hidden="true">👶</span>
+            Your Parenting Companion on WhatsApp
           </h1>
           <p className="lead">
             From feeding struggles to sleep worries, get calm, simple guidance
@@ -21,7 +21,7 @@ export default function HeroSection({ whatsappLink }: HeroSectionProps) {
           </p>
 
           <div className="cta-row">
-            <CtaButton href={whatsappLink}>👉 Start on WhatsApp</CtaButton>
+            <CtaButton href={whatsappLink}>Start on WhatsApp</CtaButton>
           </div>
 
           <p className="pricing-transparency">

@@ -13,9 +13,7 @@ export default function HowItWorksSection({
       className="section onboarding-section"
       aria-labelledby="how-it-works-title"
     >
-      <h2 id="how-it-works-title">
-        <span aria-hidden="true">⚡ </span>Simple. Instant. Always there.
-      </h2>
+      <h2 id="how-it-works-title">Simple. Instant. Always there.</h2>
 
       <ol className="onboarding-steps">
         {howItWorksSteps.map((step, i) => (
@@ -31,7 +29,7 @@ export default function HowItWorksSection({
       </p>
 
       <CtaButton href={whatsappLink} className="onboarding-cta">
-        👉 Start on WhatsApp
+        Start on WhatsApp
       </CtaButton>
     </section>
   );

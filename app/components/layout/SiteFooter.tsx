@@ -28,6 +28,11 @@ export default function SiteFooter({ whatsappLink }: SiteFooterProps) {
 
   return (
     <footer className="footer" aria-label="Site footer">
+      <div className="footer-disclaimer-bar" role="note" aria-label="Medical disclaimer">
+        Disclaimer: Parenting AI is for educational support only and is not a substitute for medical diagnosis,
+        treatment, or emergency care. For urgent symptoms, contact local emergency services or a
+        licensed doctor immediately.
+      </div>
       <div className="footer-shell shell-inner">
         <div className="footer-top">
           <div className="footer-brand-block">

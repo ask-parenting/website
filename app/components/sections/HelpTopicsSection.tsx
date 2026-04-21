@@ -7,7 +7,7 @@ export default function HelpTopicsSection() {
       aria-labelledby="helps-title"
     >
       <h2 id="helps-title">
-        <span aria-hidden="true">✨ </span>Everything you worry about as a parent-handled gently
+        Everything you worry about as a parent, handled gently
       </h2>
 
       <div className="trust-grid">

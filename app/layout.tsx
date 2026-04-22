@@ -15,6 +15,11 @@ export const metadata: Metadata = {
   title: "Parenting AI | 24/7 Baby and Toddler Support on WhatsApp",
   description:
     "Get calm, evidence-informed parenting guidance for feeding, sleep, milestones, and everyday care for children 0-5 years old, right inside WhatsApp.",
+  icons: {
+    icon: "/logo.svg",
+    shortcut: "/logo.svg",
+    apple: "/logo.svg"
+  },
   metadataBase: new URL(siteUrl)
   ,
   keywords: [

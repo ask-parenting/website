@@ -1,5 +1,8 @@
 "use client";
 
+import Image from "next/image";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { siteConfig } from "@/lib/site-config";
 
@@ -15,6 +18,8 @@ const navLinks = [
 
 export default function SiteHeader({ whatsappLink }: SiteHeaderProps) {
   const [menuOpen, setMenuOpen] = useState(false);
+  const pathname = usePathname();
+  const isHomePage = pathname === "/";
 
   const handleHeaderCtaClick = () => {
     if (typeof window === "undefined") return;
@@ -34,41 +39,48 @@ export default function SiteHeader({ whatsappLink }: SiteHeaderProps) {
     <header className="site-header" aria-label="Site header">
       <div className="topbar shell-inner">
         <div className="topbar-left">
-          <p className="brand-mark">{siteConfig.brand}</p>
+          <Link className="brand-link" href="/" aria-label="Go to Parenting AI homepage">
+            <Image src="/logo.svg" alt="Parenting AI logo" width={28} height={28} className="brand-logo" />
+            <p className="brand-mark">{siteConfig.brand}</p>
+          </Link>
           <p className="micro-tag">Care via WhatsApp</p>
         </div>
 
-        <button
-          className={`menu-toggle ${menuOpen ? "open" : ""}`}
-          type="button"
-          aria-expanded={menuOpen}
-          aria-controls="primary-nav"
-          aria-label={menuOpen ? "Close menu" : "Open menu"}
-          onClick={() => setMenuOpen((open) => !open)}
-        >
-          <span className="menu-toggle-line" aria-hidden="true" />
-          <span className="menu-toggle-line" aria-hidden="true" />
-          <span className="menu-toggle-line" aria-hidden="true" />
-        </button>
+        {isHomePage ? (
+          <>
+            <button
+              className={`menu-toggle ${menuOpen ? "open" : ""}`}
+              type="button"
+              aria-expanded={menuOpen}
+              aria-controls="primary-nav"
+              aria-label={menuOpen ? "Close menu" : "Open menu"}
+              onClick={() => setMenuOpen((open) => !open)}
+            >
+              <span className="menu-toggle-line" aria-hidden="true" />
+              <span className="menu-toggle-line" aria-hidden="true" />
+              <span className="menu-toggle-line" aria-hidden="true" />
+            </button>
 
-        <nav id="primary-nav" className={`topbar-nav ${menuOpen ? "open" : ""}`} aria-label="Primary">
-          {navLinks.map(({ href, label }) => (
-            <a key={href} href={href} onClick={() => setMenuOpen(false)}>
-              {label}
+            <nav id="primary-nav" className={`topbar-nav ${menuOpen ? "open" : ""}`} aria-label="Primary">
+              {navLinks.map(({ href, label }) => (
+                <a key={href} href={isHomePage ? href : `/${href}`} onClick={() => setMenuOpen(false)}>
+                  {label}
+                </a>
+              ))}
+            </nav>
+
+            <a
+              className="nav-signup"
+              href={whatsappLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Start Chat on WhatsApp (opens in a new tab)"
+              onClick={handleHeaderCtaClick}
+            >
+              Start Chat
             </a>
-          ))}
-        </nav>
-
-        <a
-          className="nav-signup"
-          href={whatsappLink}
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Start Chat on WhatsApp (opens in a new tab)"
-          onClick={handleHeaderCtaClick}
-        >
-          Start Chat
-        </a>
+          </>
+        ) : null}
       </div>
     </header>
   );

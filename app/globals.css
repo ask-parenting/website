@@ -124,6 +124,19 @@ body {
   flex-shrink: 0;
 }
 
+.brand-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.brand-logo {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
 .brand-mark {
   margin: 0;
   font-size: 18px;
@@ -1515,6 +1528,11 @@ h1 {
 
   .brand-mark {
     font-size: 16px;
+  }
+
+  .brand-logo {
+    width: 24px;
+    height: 24px;
   }
 
   h1 {

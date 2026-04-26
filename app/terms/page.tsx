@@ -13,7 +13,7 @@ export default function TermsPage() {
 
       <main className="legal-page">
         <h1>Terms of Service</h1>
-        <p>Effective date: April 16, 2026</p>
+        <p>Effective date: April 26, 2026</p>
         <p>
           Parenting AI provides informational support for caregivers and is not a substitute for professional
           medical diagnosis, treatment, or emergency services.
@@ -42,11 +42,6 @@ export default function TermsPage() {
           prior notice.
         </p>
         <p>
-          This service operates through WhatsApp, a platform owned by Meta Platforms, Inc. Your use of
-          WhatsApp is also governed by WhatsApp&apos;s Terms of Service and Privacy Policy. We are not
-          responsible for the availability or conduct of the WhatsApp platform.
-        </p>
-        <p>
           To the maximum extent allowed by law, the service is provided on an as-is and as-available basis,
           without warranties of uninterrupted operation or error-free output.
         </p>
@@ -56,6 +51,17 @@ export default function TermsPage() {
         </p>
         <p>
           All product, brand, and content rights in the service are owned by, or licensed to, the operator.
+        </p>
+        <h2>Third-party platform</h2>
+        <p>
+          This service runs on WhatsApp, a platform owned by Meta Platforms, Inc. Your use of WhatsApp is
+          also subject to WhatsApp&apos;s Terms of Service and Privacy Policy. AvNeer Solutions Private Limited
+          is not responsible for the availability or conduct of the WhatsApp platform. See
+          {" "}
+          <a href="https://www.whatsapp.com/legal/terms-of-service" target="_blank" rel="noopener noreferrer">
+            whatsapp.com/legal/terms-of-service
+          </a>
+          .
         </p>
         <p>
           These terms are governed by applicable laws of India, and disputes are subject to courts with

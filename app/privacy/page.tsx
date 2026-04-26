@@ -13,7 +13,7 @@ export default function PrivacyPage() {
 
       <main className="legal-page">
         <h1>Privacy Policy</h1>
-        <p>Effective date: April 16, 2026</p>
+        <p>Effective date: April 26, 2026</p>
         <p>
           Parenting AI may process parent-provided messages and child-development context to deliver
           guidance, reminders, and milestone tracking within WhatsApp.
@@ -26,10 +26,16 @@ export default function PrivacyPage() {
           Categories of data we may process include account identifiers you share, messages, child age and
           milestone context, and usage logs required for reliability and abuse prevention.
         </p>
+        <h2>WhatsApp as a data channel</h2>
         <p>
-          When you use our service via WhatsApp, we receive your WhatsApp phone number and the messages you
-          send us. This data is transmitted through Meta&apos;s WhatsApp platform and is subject to Meta&apos;s own
-          Privacy Policy in addition to ours.
+          When you interact with our service via WhatsApp, your phone number and messages pass through Meta
+          Platforms&apos; infrastructure. Meta processes this data under its own Privacy Policy in addition to
+          ours. See
+          {" "}
+          <a href="https://www.whatsapp.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">
+            whatsapp.com/legal/privacy-policy
+          </a>
+          .
         </p>
         <p>
           We use this data to operate the service, personalize responses, maintain safety, and improve quality.
@@ -41,16 +47,16 @@ export default function PrivacyPage() {
         </p>
         <p>
           Conversation logs are retained for 90 days to support service continuity. Account identifiers are
-          retained until you request deletion. We delete data within 30 days of a valid deletion request.
+          retained until deletion is requested. Security and usage logs are retained for 180 days. Deletion
+          requests are completed within 30 days of verification.
         </p>
         <h2>Messaging opt-out</h2>
         <p>
-          You can stop receiving messages from us at any time by replying STOP to any message, or by contacting
-          us at privacy@askparenting.com. We will process opt-out requests within 24 hours.
-        </p>
-        <p>
-          You can request access, correction, or deletion of your data by contacting us through the legal entity
-          details shown in the homepage footer.
+          You can stop messages at any time by replying STOP to any message, or by emailing
+          {" "}
+          <a href="mailto:hello@askparenting.com">hello@askparenting.com</a>
+          {" "}
+          with the subject &quot;Opt out&quot;. We process opt-out requests within 24 hours.
         </p>
         <p>
           We apply reasonable security controls, including encryption and access controls, to protect data.
@@ -65,8 +71,10 @@ export default function PrivacyPage() {
           the effective date on this page.
         </p>
         <p>
-          To request deletion or ask privacy questions, contact us using the legal entity details shown on the
-          homepage footer.
+          For any privacy request or data deletion request, email
+          {" "}
+          <a href="mailto:hello@askparenting.com">hello@askparenting.com</a>
+          . We respond within 7 business days.
         </p>
       </main>
     </>

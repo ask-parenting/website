@@ -41,7 +41,7 @@ jobs:
       - name: Build static export
         env:
           BASE_PATH: ${{ steps.pages.outputs.base_path }}
-          NEXT_PUBLIC_SITE_URL: https://${{ github.repository_owner }}.github.io
+          NEXT_PUBLIC_SITE_URL: ${{ vars.NEXT_PUBLIC_SITE_URL }}
           NEXT_PUBLIC_WHATSAPP_NUMBER: ${{ vars.NEXT_PUBLIC_WHATSAPP_NUMBER }}
           NEXT_PUBLIC_LEGAL_CIN: ${{ vars.NEXT_PUBLIC_LEGAL_CIN }}
           NEXT_PUBLIC_LEGAL_ADDRESS: ${{ vars.NEXT_PUBLIC_LEGAL_ADDRESS }}

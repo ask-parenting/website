@@ -1,0 +1,65 @@
+{
+  "id": "travel-with-toddler-no-meltdown-plan",
+  "title": "Traveling With a Toddler? Pack This No-Meltdown Survival Plan",
+  "excerpt": "A field-tested travel setup for meals, naps, delays, and unpredictable toddler moods.",
+  "publishedAt": "2026-04-04",
+  "readMinutes": 7,
+  "coverImage": "/blog/travel.svg",
+  "coverAlt": "Toddler travel essentials neatly packed",
+  "content": [
+    {
+      "type": "header",
+      "text": "Design for Delays, Not Perfect Timelines"
+    },
+    {
+      "type": "paragraph",
+      "text": "Toddler travel breaks down fast when naps shift and hunger spikes. Survival depends on planning for disruption, not pretending everything will run on schedule."
+    },
+    {
+      "type": "image",
+      "src": "/blog/travel.svg",
+      "alt": "Toddler travel pouches",
+      "caption": "Pack by function for faster recovery."
+    },
+    {
+      "type": "subheader",
+      "text": "What Is Really Happening"
+    },
+    {
+      "type": "paragraph",
+      "text": "A functional kit and rhythmic sequence reduce chaos in queues, traffic, and unexpected waiting windows."
+    },
+    {
+      "type": "subheader",
+      "text": "What To Do Next"
+    },
+    {
+      "type": "paragraph",
+      "text": "Children stay calmer when the order of events feels familiar even if clock times move."
+    },
+    {
+      "type": "bullet",
+      "items": [
+        "One grab pouch: snacks, wipes, change, toy.",
+        "One health pouch: essentials approved by your doctor.",
+        "Rotate short activities during waits."
+      ]
+    },
+    {
+      "type": "subheader",
+      "text": "Quick Action Plan"
+    },
+    {
+      "type": "number",
+      "items": [
+        "Build pouches one day before travel.",
+        "Plan snack windows, not exact meal times.",
+        "Use calm sequence: snack, move, quiet, rest attempt."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "A recoverable trip is a successful trip. Calm planning helps toddlers borrow your regulation."
+    }
+  ]
+}

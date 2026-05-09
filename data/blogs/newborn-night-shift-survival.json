@@ -1,0 +1,65 @@
+{
+  "id": "newborn-night-shift-survival",
+  "title": "Newborn Nights Are Brutal: A Shift Plan That Saves Your Sanity",
+  "excerpt": "A realistic night-duty structure for two caregivers that cuts resentment and protects sleep.",
+  "publishedAt": "2026-04-24",
+  "readMinutes": 7,
+  "coverImage": "/blog/newborn.svg",
+  "coverAlt": "Sleeping newborn near soft night light",
+  "content": [
+    {
+      "type": "header",
+      "text": "Stop Winging the Night Shift"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sleep deprivation can turn loving partners into exhausted rivals by 3 AM. A clear shift system is often the difference between survival and burnout."
+    },
+    {
+      "type": "image",
+      "src": "/blog/newborn.svg",
+      "alt": "Night station for newborn care",
+      "caption": "Systems reduce midnight decision fatigue."
+    },
+    {
+      "type": "subheader",
+      "text": "What Is Really Happening"
+    },
+    {
+      "type": "paragraph",
+      "text": "Vague plans fail when both adults are tired. Defined windows, protected sleep blocks, and short handoff notes reduce confusion and resentment."
+    },
+    {
+      "type": "subheader",
+      "text": "What To Do Next"
+    },
+    {
+      "type": "paragraph",
+      "text": "You cannot remove newborn wake-ups, but you can remove unnecessary friction around them."
+    },
+    {
+      "type": "bullet",
+      "items": [
+        "Pre-stock diapers, wipes, water, and feeding supplies.",
+        "Use one-line handoff notes.",
+        "Protect one uninterrupted sleep block per caregiver."
+      ]
+    },
+    {
+      "type": "subheader",
+      "text": "Quick Action Plan"
+    },
+    {
+      "type": "number",
+      "items": [
+        "Set A/B shifts for the next week.",
+        "Create a bedside checklist.",
+        "Review and adjust shifts every 3 nights."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "This stage is temporary, but depleted parents need systems now, not after burnout hits."
+    }
+  ]
+}

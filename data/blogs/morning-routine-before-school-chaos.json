@@ -1,0 +1,65 @@
+{
+  "id": "morning-routine-before-school-chaos",
+  "title": "Before-School Chaos? Build a 15-Minute Morning Flow That Sticks",
+  "excerpt": "A tighter morning routine that reduces shouting, delays, and forgotten essentials.",
+  "publishedAt": "2026-04-16",
+  "readMinutes": 5,
+  "coverImage": "/blog/morning.svg",
+  "coverAlt": "Family preparing school bag in morning",
+  "content": [
+    {
+      "type": "header",
+      "text": "Turn Morning Chaos Into a Repeatable Flow"
+    },
+    {
+      "type": "paragraph",
+      "text": "If mornings begin with missing shoes and end with yelling, your family doesn’t need more effort. It needs fewer decisions and a tighter sequence."
+    },
+    {
+      "type": "image",
+      "src": "/blog/morning.svg",
+      "alt": "Morning checklist by door",
+      "caption": "Prepare at night, protect the morning."
+    },
+    {
+      "type": "subheader",
+      "text": "What Is Really Happening"
+    },
+    {
+      "type": "paragraph",
+      "text": "Kids struggle when too many choices show up at once. Visual sequencing and pre-night prep remove decision overload."
+    },
+    {
+      "type": "subheader",
+      "text": "What To Do Next"
+    },
+    {
+      "type": "paragraph",
+      "text": "Treat mornings like a workflow. Reduce variables, then reinforce what works."
+    },
+    {
+      "type": "bullet",
+      "items": [
+        "Pack bags and clothes at night.",
+        "Use a 4-step visual board.",
+        "Offer two fixed breakfast options."
+      ]
+    },
+    {
+      "type": "subheader",
+      "text": "Quick Action Plan"
+    },
+    {
+      "type": "number",
+      "items": [
+        "Pilot for 5 school days.",
+        "Identify the step that breaks most often.",
+        "Simplify that one step first."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "A calmer departure is the right metric. Perfection is optional; consistency is not."
+    }
+  ]
+}

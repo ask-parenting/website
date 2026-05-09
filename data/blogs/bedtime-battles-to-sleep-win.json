@@ -1,0 +1,65 @@
+{
+  "id": "bedtime-battles-to-sleep-win",
+  "title": "Bedtime Battles? Try This 20-Minute Reset Tonight",
+  "excerpt": "A practical, no-shouting bedtime flow that calms kids faster and helps parents reclaim evenings.",
+  "publishedAt": "2026-05-03",
+  "readMinutes": 6,
+  "coverImage": "/blog/bedtime.svg",
+  "coverAlt": "Parent reading bedtime story to child",
+  "content": [
+    {
+      "type": "header",
+      "text": "Why Bedtime Blows Up So Fast"
+    },
+    {
+      "type": "paragraph",
+      "text": "If bedtime in your home feels like a nightly war zone, you are not failing. You are likely dealing with an overstimulated routine that is too late and too unpredictable for your child to settle into sleep."
+    },
+    {
+      "type": "image",
+      "src": "/blog/bedtime.svg",
+      "alt": "Calm bedtime setup",
+      "caption": "Consistency beats intensity at bedtime."
+    },
+    {
+      "type": "subheader",
+      "text": "What Is Really Happening"
+    },
+    {
+      "type": "paragraph",
+      "text": "Most bedtime fights are a pattern problem, not a behavior problem. Screens, snacks, and negotiations push sleep later, while anxiety rises as kids feel less certain about what comes next."
+    },
+    {
+      "type": "subheader",
+      "text": "What To Do Next"
+    },
+    {
+      "type": "paragraph",
+      "text": "Use one fixed flow every night. Keep language short, tone low, and boundaries boring. Repetition feels slow at first, but predictability reduces resistance quickly."
+    },
+    {
+      "type": "bullet",
+      "items": [
+        "Keep lights low 30 minutes before bed.",
+        "Use the same order: washroom, pajamas, story, lights out.",
+        "Respond to exits with one calm line only."
+      ]
+    },
+    {
+      "type": "subheader",
+      "text": "Quick Action Plan"
+    },
+    {
+      "type": "number",
+      "items": [
+        "Set a non-negotiable bedtime window for 7 days.",
+        "Track exits and sleep start time nightly.",
+        "Review progress after one week, not one night."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "You do not need perfect nights. You need less chaos than yesterday, repeated consistently enough to become your new normal."
+    }
+  ]
+}

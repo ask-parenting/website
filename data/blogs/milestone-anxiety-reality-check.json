@@ -1,0 +1,66 @@
+{
+  "id": "milestone-anxiety-reality-check",
+  "title": "Is My Child Behind? The Milestone Reality Check Every Parent Needs",
+  "excerpt": "Learn how to track progress without spiraling into social media comparison panic.",
+  "publishedAt": "2026-04-20",
+  "readMinutes": 6,
+  "coverImage": "/blog/milestones.svg",
+  "coverAlt": "Growth chart with toy blocks",
+  "content": [
+    {
+      "type": "header",
+      "text": "Track Progress Without Panic"
+    },
+    {
+      "type": "paragraph",
+      "text": "One social media reel can convince any parent that their child is late. Comparison is loud, but useful tracking is quiet, specific, and far more reassuring."
+    },
+    {
+      "type": "image",
+      "src": "/blog/milestones.svg",
+      "alt": "Milestone notes journal",
+      "caption": "Ranges matter more than rigid deadlines."
+    },
+    {
+      "type": "subheader",
+      "text": "What Is Really Happening"
+    },
+    {
+      "type": "paragraph",
+      "text": "Children do not progress evenly across speech, movement, and social skills. Variation can be normal when trends still show effort and growth."
+    },
+    {
+      "type": "subheader",
+      "text": "What To Do Next"
+    },
+    {
+      "type": "paragraph",
+      "text": "Use weekly observations so pediatric visits are based on patterns, not memory and worry."
+    },
+    {
+      "type": "bullet",
+      "items": [
+        "Communication attempts",
+        "Motor actions",
+        "Social response",
+        "Self-help behavior"
+      ]
+    },
+    {
+      "type": "subheader",
+      "text": "Quick Action Plan"
+    },
+    {
+      "type": "number",
+      "items": [
+        "Log one note per category weekly.",
+        "Review trends every month.",
+        "Escalate persistent concerns early with your pediatrician."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Data reduces anxiety. Your child needs steady support, not a race against someone else’s highlight reel."
+    }
+  ]
+}

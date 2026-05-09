@@ -1,0 +1,65 @@
+{
+  "id": "tantrum-script-every-parent-needs",
+  "title": "Tantrum in Public? Use This 4-Line Script Before It Escalates",
+  "excerpt": "A fast de-escalation script for supermarkets, parks, and every 'everyone is staring' moment.",
+  "publishedAt": "2026-04-28",
+  "readMinutes": 5,
+  "coverImage": "/blog/tantrum.svg",
+  "coverAlt": "Parent calming upset toddler in a store aisle",
+  "content": [
+    {
+      "type": "header",
+      "text": "The Script That Works Under Pressure"
+    },
+    {
+      "type": "paragraph",
+      "text": "Public tantrums trigger instant panic in parents because it feels like the whole world is watching. In that moment, fewer words and slower energy are your strongest tools."
+    },
+    {
+      "type": "image",
+      "src": "/blog/tantrum.svg",
+      "alt": "Parent kneeling to child level",
+      "caption": "Co-regulation first, correction later."
+    },
+    {
+      "type": "subheader",
+      "text": "What Is Really Happening"
+    },
+    {
+      "type": "paragraph",
+      "text": "A dysregulated child cannot process long logic. Validation, safety, and simple choices after calm are far more effective than lectures mid-meltdown."
+    },
+    {
+      "type": "subheader",
+      "text": "What To Do Next"
+    },
+    {
+      "type": "paragraph",
+      "text": "Practice the same language every time so your response becomes automatic under stress."
+    },
+    {
+      "type": "bullet",
+      "items": [
+        "You are upset.",
+        "I am here.",
+        "We are safe."
+      ]
+    },
+    {
+      "type": "subheader",
+      "text": "Quick Action Plan"
+    },
+    {
+      "type": "number",
+      "items": [
+        "Move to a quieter spot.",
+        "Use short validating lines.",
+        "Offer two acceptable choices after calm."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Your goal is faster recovery, not public perfection. Repair skill matters more than avoiding every tantrum."
+    }
+  ]
+}

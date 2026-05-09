@@ -4,7 +4,7 @@
   "excerpt": "Tired of the nightly negotiations and stalling tactics? Discover a practical, zero-shouting bedtime flow that calms kids fast and helps you finally reclaim your evenings.",
   "publishedAt": "2026-05-03",
   "readMinutes": 6,
-  "coverImage": "/blog/bedtime.svg",
+  "coverImage": "/blog/hero_parent_child_bedtime.svg",
   "coverAlt": "Parent reading bedtime story to child",
   "content": [
     {
@@ -17,7 +17,7 @@
     },
     {
       "type": "image",
-      "src": "/blog/bedtime.svg",
+      "src": "/blog/boring_beautiful_sequence.svg",
       "alt": "Calm bedtime setup",
       "caption": "Consistency beats intensity: The secret to a stress-free bedtime."
     },

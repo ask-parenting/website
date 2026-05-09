@@ -4,7 +4,7 @@
   "excerpt": "Tired of the daily iPad tug-of-war? Learn how to set clear, fair screen boundaries that stop the meltdowns and are infinitely easier to enforce.",
   "publishedAt": "2026-04-12",
   "readMinutes": 6,
-  "coverImage": "/blog/screens.svg",
+  "coverImage": "/blog/screen-time-without-guilt_cover.svg",
   "coverAlt": "Child using tablet with parent nearby",
   "content": [
     {
@@ -17,7 +17,7 @@
     },
     {
       "type": "image",
-      "src": "/blog/screens.svg",
+      "src": "/blog/screen-time-without-guilt1.svg",
       "alt": "Family screen timer",
       "caption": "Predictable limits turn screen-time battles into seamless transitions."
     },

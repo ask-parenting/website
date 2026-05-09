@@ -4,7 +4,7 @@
   "excerpt": "Trade the frantic scavenger hunt for missing shoes for a smooth, shout-free morning. Here is how to build a morning launchpad that gets everyone out the door on time.",
   "publishedAt": "2026-04-16",
   "readMinutes": 5,
-  "coverImage": "/blog/morning_cover_rich.svg",
+  "coverImage": "/blog/morning-routine-before-school-chaos_cover.svg",
   "coverAlt": "Family preparing school bag in morning",
   "content": [
     {
@@ -17,7 +17,7 @@
     },
     {
       "type": "image",
-      "src": "/blog/morning_checklist_rich.svg",
+      "src": "/blog/morning-routine-before-school-chaos1.svg",
       "alt": "Morning checklist by door",
       "caption": "Win the morning by doing the heavy lifting the night before."
     },

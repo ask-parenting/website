@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import SiteHeader from "@/app/components/layout/SiteHeader";
 import SiteFooter from "@/app/components/layout/SiteFooter";
 import { getAllBlogs, getBlogById } from "@/lib/blogs";
+import type { BlogContentBlock } from "@/lib/blogs";
 import { buildWhatsAppLink, siteConfig } from "@/lib/site-config";
 
 interface BlogDetailPageProps {
@@ -48,6 +49,53 @@ export async function generateMetadata({ params }: BlogDetailPageProps): Promise
   };
 }
 
+function renderBlogBlock(blogId: string, block: BlogContentBlock, index: number) {
+  if (block.type === "header") {
+    return <h2 key={`${blogId}-block-${index}`} className="blog-block-header">{block.text}</h2>;
+  }
+
+  if (block.type === "subheader") {
+    return <h3 key={`${blogId}-block-${index}`} className="blog-block-subheader">{block.text}</h3>;
+  }
+
+  if (block.type === "paragraph") {
+    return <p key={`${blogId}-block-${index}`}>{block.text}</p>;
+  }
+
+  if (block.type === "image") {
+    return (
+      <figure key={`${blogId}-block-${index}`} className="blog-block-figure">
+        <Image
+          src={block.src}
+          alt={block.alt}
+          width={1200}
+          height={675}
+          className="blog-hero-image blog-inline-image"
+        />
+        {block.caption ? <figcaption>{block.caption}</figcaption> : null}
+      </figure>
+    );
+  }
+
+  if (block.type === "bullet") {
+    return (
+      <ul key={`${blogId}-block-${index}`} className="blog-block-list">
+        {block.items.map((item) => (
+          <li key={item}>{item}</li>
+        ))}
+      </ul>
+    );
+  }
+
+  return (
+    <ol key={`${blogId}-block-${index}`} className="blog-block-list blog-block-list-numbered">
+      {block.items.map((item) => (
+        <li key={item}>{item}</li>
+      ))}
+    </ol>
+  );
+}
+
 export default async function BlogDetailPage({ params }: BlogDetailPageProps) {
   const { id } = await params;
   const blog = getBlogById(id);
@@ -72,19 +120,8 @@ export default async function BlogDetailPage({ params }: BlogDetailPageProps) {
           <h1>{blog.title}</h1>
           <p className="blog-detail-excerpt">{blog.excerpt}</p>
 
-          <Image
-            src={blog.coverImage}
-            alt={blog.coverAlt}
-            width={1200}
-            height={675}
-            className="blog-hero-image"
-            priority
-          />
-
           <div className="blog-content">
-            {blog.content.map((paragraph, index) => (
-              <p key={`${blog.id}-${index}`}>{paragraph}</p>
-            ))}
+            {blog.content.map((block, index) => renderBlogBlock(blog.id, block, index))}
           </div>
         </article>
       </main>

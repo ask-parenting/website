@@ -1,3 +1,11 @@
+export type BlogContentBlock =
+  | { type: "header"; text: string }
+  | { type: "subheader"; text: string }
+  | { type: "paragraph"; text: string }
+  | { type: "image"; src: string; alt: string; caption?: string }
+  | { type: "bullet"; items: string[] }
+  | { type: "number"; items: string[] };
+
 export interface BlogPost {
   id: string;
   title: string;
@@ -6,7 +14,7 @@ export interface BlogPost {
   readMinutes: number;
   coverImage: string;
   coverAlt: string;
-  content: string[];
+  content: BlogContentBlock[];
 }
 
 export const blogPosts: BlogPost[] = [
@@ -19,12 +27,18 @@ export const blogPosts: BlogPost[] = [
     coverImage: "/blog/bedtime.svg",
     coverAlt: "Parent reading bedtime story to child",
     content: [
-      "If bedtime in your house feels like a nightly boxing match, you are not failing. You are likely running a routine that is 15% too late, 20% too stimulating, and 100% exhausting for everyone involved.",
-      "Most sleep struggles are not about one big mistake. They are about tiny friction points stacking up: screens too close to lights-out, last-minute snacks, bargaining over one more story, and inconsistent wake-up times after rough nights. Children read this inconsistency as uncertainty, and uncertainty fuels resistance.",
-      "Start with a 20-minute reset. Keep the sequence fixed every night: washroom, pajamas, one quiet activity, one story, lights out. Keep your tone steady and low. Do not negotiate steps once the routine starts. Predictability lowers anxiety, and lower anxiety reduces pushback.",
-      "If your child gets out of bed repeatedly, respond with the same short line each time: 'It is sleep time. I am right here.' Return them calmly without a lecture. Repetition may feel slow for 3-4 days, but it usually wins by day 7 because the boundary becomes boring and clear.",
-      "Track only two numbers for a week: time in bed and number of exits. When those improve, celebrate quietly in the morning. You do not need a perfect sleeper. You need a calmer night than yesterday, and that is exactly how families build sleep stability." 
-    ]
+      { type: "header", text: "Why Bedtime Blows Up So Fast" },
+      { type: "paragraph", text: "If bedtime in your home feels like a nightly war zone, you are not failing. You are likely dealing with an overstimulated routine that is too late and too unpredictable for your child to settle into sleep." },
+      { type: "image", src: "/blog/bedtime.svg", alt: "Calm bedtime setup", caption: "Consistency beats intensity at bedtime." },
+      { type: "subheader", text: "What Is Really Happening" },
+      { type: "paragraph", text: "Most bedtime fights are a pattern problem, not a behavior problem. Screens, snacks, and negotiations push sleep later, while anxiety rises as kids feel less certain about what comes next." },
+      { type: "subheader", text: "What To Do Next" },
+      { type: "paragraph", text: "Use one fixed flow every night. Keep language short, tone low, and boundaries boring. Repetition feels slow at first, but predictability reduces resistance quickly." },
+      { type: "bullet", items: ["Keep lights low 30 minutes before bed.", "Use the same order: washroom, pajamas, story, lights out.", "Respond to exits with one calm line only."] },
+      { type: "subheader", text: "Quick Action Plan" },
+      { type: "number", items: ["Set a non-negotiable bedtime window for 7 days.", "Track exits and sleep start time nightly.", "Review progress after one week, not one night."] },
+      { type: "paragraph", text: "You do not need perfect nights. You need less chaos than yesterday, repeated consistently enough to become your new normal." },
+    ],
   },
   {
     id: "picky-eating-without-power-struggles",
@@ -35,12 +49,18 @@ export const blogPosts: BlogPost[] = [
     coverImage: "/blog/feeding.svg",
     coverAlt: "Colorful toddler meal plate on a table",
     content: [
-      "When dinner turns into tears, bribing, and threats, it is easy to think your child is stubborn. Usually, they are overwhelmed. New textures, strong smells, and pressure to 'finish everything' can make food feel like a test they are destined to fail.",
-      "Try the 3-plate method for the next 10 days. Plate one is safe food your child already accepts. Plate two is a familiar food prepared differently. Plate three is a tiny exposure bite of something new. This reduces fear because every meal contains a guaranteed success option.",
-      "Your job is structure: what, when, and where food is offered. Your child chooses whether and how much to eat. This division of responsibility lowers power struggles quickly. It also prevents the common trap of turning dessert into a reward and vegetables into punishment.",
-      "Use neutral language: 'You can lick it, smell it, or leave it.' Exposure still counts even if the food is not swallowed. Research and real-world parenting both show that repeated low-pressure exposure builds acceptance more reliably than forcing bites.",
-      "If growth is on track and energy is stable, progress should be measured in behavior, not clean plates. Fewer meltdowns, more table time, and occasional curiosity are major wins. Calm consistency feeds confidence, and confidence eventually feeds appetite."
-    ]
+      { type: "header", text: "Fix Mealtime Stress Without Forcing Bites" },
+      { type: "paragraph", text: "When every dinner ends in pleading or tears, it can feel personal. It is usually sensory overload plus pressure, not stubbornness, and that means the solution is structure, not force." },
+      { type: "image", src: "/blog/feeding.svg", alt: "Balanced toddler plate", caption: "Safety foods + exposure foods lower resistance." },
+      { type: "subheader", text: "What Is Really Happening" },
+      { type: "paragraph", text: "The 3-plate method lowers fear by guaranteeing one accepted option while still exposing children to new food. Repeated low-pressure exposure builds acceptance over time." },
+      { type: "subheader", text: "What To Do Next" },
+      { type: "paragraph", text: "Parents own the schedule and menu. Children own intake. This split dramatically cuts power struggles and protects appetite regulation." },
+      { type: "bullet", items: ["Plate 1: known safe food.", "Plate 2: familiar food, small variation.", "Plate 3: tiny taste of a new food."] },
+      { type: "subheader", text: "Quick Action Plan" },
+      { type: "number", items: ["Run this method for 10 days.", "Track table time, not just bites.", "Celebrate curiosity, not clean plates."] },
+      { type: "paragraph", text: "Nutrition improves faster when meals feel safe. Calm consistency is more powerful than one dramatic dinner victory." },
+    ],
   },
   {
     id: "tantrum-script-every-parent-needs",
@@ -51,12 +71,18 @@ export const blogPosts: BlogPost[] = [
     coverImage: "/blog/tantrum.svg",
     coverAlt: "Parent calming upset toddler in a store aisle",
     content: [
-      "The worst part of a public tantrum is not the crying. It is the instant panic in your chest when you feel judged by strangers while your child melts down at maximum volume.",
-      "In that moment, use four lines only. Line 1: 'You are upset.' Line 2: 'I am here.' Line 3: 'We are safe.' Line 4: 'When your body is calm, we can choose.' Short language helps because a dysregulated child cannot process long explanations.",
-      "Do not add threats, bargains, or lectures mid-storm. Those strategies feel logical to adults but usually increase emotional load for children. Instead, move to a lower-stimulation corner, kneel to their level, and breathe slower than usual so your nervous system leads the room.",
-      "After calm returns, offer two acceptable choices: 'Walk or hold hands?' 'Apple or banana?' Choice restores agency without handing over control. Children cooperate more when they feel seen and guided, not cornered.",
-      "Later that evening, rehearse the same event during play with dolls or stuffed toys. Practice turns future chaos into a known pattern. The goal is not zero tantrums forever. The goal is shorter tantrums with faster recovery."
-    ]
+      { type: "header", text: "The Script That Works Under Pressure" },
+      { type: "paragraph", text: "Public tantrums trigger instant panic in parents because it feels like the whole world is watching. In that moment, fewer words and slower energy are your strongest tools." },
+      { type: "image", src: "/blog/tantrum.svg", alt: "Parent kneeling to child level", caption: "Co-regulation first, correction later." },
+      { type: "subheader", text: "What Is Really Happening" },
+      { type: "paragraph", text: "A dysregulated child cannot process long logic. Validation, safety, and simple choices after calm are far more effective than lectures mid-meltdown." },
+      { type: "subheader", text: "What To Do Next" },
+      { type: "paragraph", text: "Practice the same language every time so your response becomes automatic under stress." },
+      { type: "bullet", items: ["You are upset.", "I am here.", "We are safe."] },
+      { type: "subheader", text: "Quick Action Plan" },
+      { type: "number", items: ["Move to a quieter spot.", "Use short validating lines.", "Offer two acceptable choices after calm."] },
+      { type: "paragraph", text: "Your goal is faster recovery, not public perfection. Repair skill matters more than avoiding every tantrum." },
+    ],
   },
   {
     id: "newborn-night-shift-survival",
@@ -67,12 +93,18 @@ export const blogPosts: BlogPost[] = [
     coverImage: "/blog/newborn.svg",
     coverAlt: "Sleeping newborn near soft night light",
     content: [
-      "If your newborn is awake every two hours, you do not need motivation. You need a system. Sleep deprivation turns tiny misunderstandings into major arguments, especially when both caregivers feel they are carrying more than the other.",
-      "Create explicit shifts, not vague intentions. Example: Caregiver A handles 9:30 PM-2:00 AM, Caregiver B handles 2:00 AM-6:00 AM. The off-shift person sleeps in a separate quiet zone when possible. Protected sleep blocks are more restorative than random naps.",
-      "Prepare a night station before bedtime: diapers, wipes, extra onesie, burp cloth, water, and feeding supplies within arm's reach. Reducing midnight hunting keeps babies calmer and caregivers less frustrated.",
-      "Use a one-line handoff note at shift change: last feed time, diaper, mood, and any concerns. This prevents repeated questioning and helps both adults feel informed. Mental load drops when information transfer is simple and consistent.",
-      "This phase is temporary, but burnout can last longer if ignored. If both adults are stretched thin, ask one trusted person for one protected 3-hour block this week. Strategic help is not weakness; it is smart recovery planning."
-    ]
+      { type: "header", text: "Stop Winging the Night Shift" },
+      { type: "paragraph", text: "Sleep deprivation can turn loving partners into exhausted rivals by 3 AM. A clear shift system is often the difference between survival and burnout." },
+      { type: "image", src: "/blog/newborn.svg", alt: "Night station for newborn care", caption: "Systems reduce midnight decision fatigue." },
+      { type: "subheader", text: "What Is Really Happening" },
+      { type: "paragraph", text: "Vague plans fail when both adults are tired. Defined windows, protected sleep blocks, and short handoff notes reduce confusion and resentment." },
+      { type: "subheader", text: "What To Do Next" },
+      { type: "paragraph", text: "You cannot remove newborn wake-ups, but you can remove unnecessary friction around them." },
+      { type: "bullet", items: ["Pre-stock diapers, wipes, water, and feeding supplies.", "Use one-line handoff notes.", "Protect one uninterrupted sleep block per caregiver."] },
+      { type: "subheader", text: "Quick Action Plan" },
+      { type: "number", items: ["Set A/B shifts for the next week.", "Create a bedside checklist.", "Review and adjust shifts every 3 nights."] },
+      { type: "paragraph", text: "This stage is temporary, but depleted parents need systems now, not after burnout hits." },
+    ],
   },
   {
     id: "milestone-anxiety-reality-check",
@@ -83,12 +115,18 @@ export const blogPosts: BlogPost[] = [
     coverImage: "/blog/milestones.svg",
     coverAlt: "Growth chart with toy blocks",
     content: [
-      "One scroll through social media can make any parent feel late. Another baby is speaking in sentences, climbing stairs, and identifying colors while your child is still figuring out one of those skills.",
-      "Milestones are ranges, not deadlines. Children often surge in one domain while moving slowly in another. Language, motor, social, and emotional skills do not always progress in sync, and that variation can still be normal.",
-      "Replace comparison with tracking. Pick four weekly observations: communication attempt, movement skill, social response, and self-help behavior. Write one sentence for each. Pattern awareness is far more useful than random memory during pediatric visits.",
-      "Watch for persistence, not perfection. If a skill is missing and no new attempts appear over several weeks, discuss it early with your pediatrician. Early conversations reduce anxiety because they replace guessing with informed next steps.",
-      "Your child does not need to be first. They need support, repetition, and a parent who can notice progress even when it is subtle. Confidence grows when tracking is grounded in data, not in comparison."
-    ]
+      { type: "header", text: "Track Progress Without Panic" },
+      { type: "paragraph", text: "One social media reel can convince any parent that their child is late. Comparison is loud, but useful tracking is quiet, specific, and far more reassuring." },
+      { type: "image", src: "/blog/milestones.svg", alt: "Milestone notes journal", caption: "Ranges matter more than rigid deadlines." },
+      { type: "subheader", text: "What Is Really Happening" },
+      { type: "paragraph", text: "Children do not progress evenly across speech, movement, and social skills. Variation can be normal when trends still show effort and growth." },
+      { type: "subheader", text: "What To Do Next" },
+      { type: "paragraph", text: "Use weekly observations so pediatric visits are based on patterns, not memory and worry." },
+      { type: "bullet", items: ["Communication attempts", "Motor actions", "Social response", "Self-help behavior"] },
+      { type: "subheader", text: "Quick Action Plan" },
+      { type: "number", items: ["Log one note per category weekly.", "Review trends every month.", "Escalate persistent concerns early with your pediatrician."] },
+      { type: "paragraph", text: "Data reduces anxiety. Your child needs steady support, not a race against someone else’s highlight reel." },
+    ],
   },
   {
     id: "morning-routine-before-school-chaos",
@@ -99,12 +137,18 @@ export const blogPosts: BlogPost[] = [
     coverImage: "/blog/morning.svg",
     coverAlt: "Family preparing school bag in morning",
     content: [
-      "If your mornings start with 'Where are your shoes?' and end with everyone leaving upset, the issue is usually workflow, not attitude. Children struggle when too many decisions appear at once.",
-      "Front-load decisions the night before. Lay out clothes, pack bags, fill water bottles, and place shoes at the door. Morning brain is low-capacity for adults and children alike, so fewer choices means less conflict.",
-      "Use a visual 4-step board: wash, dress, eat, out. Keep it visible at child height. Visual cues reduce repeated verbal reminders and help children self-initiate. Small autonomy here creates huge time savings over a week.",
-      "If one step repeatedly fails, shrink it. For breakfast delays, offer two fixed options only. For dressing delays, choose outfits in advance for 3 days. Simplification beats constant correction.",
-      "Measure success by departure calmness, not perfection. A morning with fewer arguments is a structural win. Once stability appears, you can layer extras like reading time or music." 
-    ]
+      { type: "header", text: "Turn Morning Chaos Into a Repeatable Flow" },
+      { type: "paragraph", text: "If mornings begin with missing shoes and end with yelling, your family doesn’t need more effort. It needs fewer decisions and a tighter sequence." },
+      { type: "image", src: "/blog/morning.svg", alt: "Morning checklist by door", caption: "Prepare at night, protect the morning." },
+      { type: "subheader", text: "What Is Really Happening" },
+      { type: "paragraph", text: "Kids struggle when too many choices show up at once. Visual sequencing and pre-night prep remove decision overload." },
+      { type: "subheader", text: "What To Do Next" },
+      { type: "paragraph", text: "Treat mornings like a workflow. Reduce variables, then reinforce what works." },
+      { type: "bullet", items: ["Pack bags and clothes at night.", "Use a 4-step visual board.", "Offer two fixed breakfast options."] },
+      { type: "subheader", text: "Quick Action Plan" },
+      { type: "number", items: ["Pilot for 5 school days.", "Identify the step that breaks most often.", "Simplify that one step first."] },
+      { type: "paragraph", text: "A calmer departure is the right metric. Perfection is optional; consistency is not." },
+    ],
   },
   {
     id: "screen-time-without-guilt",
@@ -115,12 +159,18 @@ export const blogPosts: BlogPost[] = [
     coverImage: "/blog/screens.svg",
     coverAlt: "Child using tablet with parent nearby",
     content: [
-      "Most parents are not asking 'Should screens exist?' They are asking 'How do I stop screens from running the house?' The guilt comes from inconsistency, not from occasional cartoons.",
-      "Start with a family media rule that is concrete: when, where, and how long. Example: weekdays after snack for 30 minutes, no screens during meals, and no devices in bedrooms at night.",
-      "Make transitions predictable with a 5-minute warning and a visible timer. Sudden stops trigger power struggles because children feel control is being removed without notice. Predictable endings reduce friction.",
-      "Anchor screens to routine, not behavior labels like 'good' or 'bad.' If screens become a reward for compliance, you unintentionally increase their emotional power. Neutral placement keeps screens in proportion.",
-      "Finally, protect one daily tech-free family ritual: dinner talk, a walk, or bedtime stories. That ritual matters more than chasing perfect screen minutes because it strengthens connection consistently."
-    ]
+      { type: "header", text: "Make Screen Rules Enforceable" },
+      { type: "paragraph", text: "Most parents are not trying to eliminate screens. They are trying to stop screens from controlling the daily rhythm of the house." },
+      { type: "image", src: "/blog/screens.svg", alt: "Family screen timer", caption: "Predictable limits reduce arguments." },
+      { type: "subheader", text: "What Is Really Happening" },
+      { type: "paragraph", text: "Inconsistency creates conflict. Kids can handle limits better when those limits are explicit, visible, and repeated." },
+      { type: "subheader", text: "What To Do Next" },
+      { type: "paragraph", text: "Anchor screens to routine rather than behavior rewards to avoid emotional overvaluation." },
+      { type: "bullet", items: ["Define when, where, and how long.", "Give a 5-minute warning.", "Use visible timers for transitions."] },
+      { type: "subheader", text: "Quick Action Plan" },
+      { type: "number", items: ["Write one family media rule card.", "Apply for 14 days without exceptions.", "Add one daily tech-free ritual."] },
+      { type: "paragraph", text: "You do not need zero screens. You need clear boundaries and stronger connection habits around them." },
+    ],
   },
   {
     id: "sibling-fights-fair-rules",
@@ -131,12 +181,18 @@ export const blogPosts: BlogPost[] = [
     coverImage: "/blog/siblings.svg",
     coverAlt: "Two siblings sharing toys on floor",
     content: [
-      "When siblings fight every hour, parents often become full-time referees. That drains everyone and still does not teach the core skills children need: turn-taking, repair, and respectful boundaries.",
-      "Create three house rules and post them where they play: gentle hands, one speaker at a time, and ask before taking. Keep language short and concrete. Long rule lists collapse under stress.",
-      "During conflict, do not hunt for the villain first. Coach process first: separate safely, regulate breathing, then hear each side. Children learn faster when they see conflict handled as a skill, not as a courtroom trial.",
-      "Use timed turns for high-value toys and keep a visible timer nearby. This prevents repeated fairness arguments and reduces parental negotiation load. Predictable systems are quieter than repeated warnings.",
-      "End each repaired conflict with one positive reconnection action: high-five, apology sentence, or shared task. Repair is the real outcome. Over time, siblings who practice repair fight less and recover faster."
-    ]
+      { type: "header", text: "From Referee Mode to Skill-Building Mode" },
+      { type: "paragraph", text: "If sibling fights are nonstop, parents become exhausted referees. The fix is not louder correction; it is clearer rules plus repeatable repair." },
+      { type: "image", src: "/blog/siblings.svg", alt: "Sibling conflict coaching", caption: "Conflict is a teachable skill." },
+      { type: "subheader", text: "What Is Really Happening" },
+      { type: "paragraph", text: "Children need short shared rules and a consistent conflict process. This builds fairness and reduces emotional escalation." },
+      { type: "subheader", text: "What To Do Next" },
+      { type: "paragraph", text: "When repair becomes routine, frequency and intensity of fights usually drop over time." },
+      { type: "bullet", items: ["Gentle hands.", "One speaker at a time.", "Ask before taking."] },
+      { type: "subheader", text: "Quick Action Plan" },
+      { type: "number", items: ["Post rules in play area.", "Use timer-based turns for high-value toys.", "End with one repair action every time."] },
+      { type: "paragraph", text: "Less policing, more coaching. That is how sibling conflict becomes growth instead of daily chaos." },
+    ],
   },
   {
     id: "travel-with-toddler-no-meltdown-plan",
@@ -147,12 +203,18 @@ export const blogPosts: BlogPost[] = [
     coverImage: "/blog/travel.svg",
     coverAlt: "Toddler travel essentials neatly packed",
     content: [
-      "Travel days with toddlers can feel like a live emergency drill: missed naps, snack drama, bathroom panic, and sudden tears in the longest queue of the day.",
-      "Pack by function, not by category. Keep one grab pouch with snacks, wipes, one change of clothes, tiny toy, and comfort item. Keep another pouch for health: thermometer, medicines approved by your doctor, and hydration essentials.",
-      "Protect rhythm over schedule. If timing shifts, keep sequence stable: snack, movement, calm activity, rest attempt. Familiar order gives children a sense of control even when surroundings change.",
-      "For long waits, rotate 10-minute activity blocks: sticker book, window spotting game, snack, story audio, stretch break. Rotation prevents boredom spikes that often trigger meltdowns.",
-      "Your goal is not a flawless trip. It is a recoverable one. When parents plan for delays instead of fighting them, toddlers borrow that calm and travel becomes manageable."
-    ]
+      { type: "header", text: "Design for Delays, Not Perfect Timelines" },
+      { type: "paragraph", text: "Toddler travel breaks down fast when naps shift and hunger spikes. Survival depends on planning for disruption, not pretending everything will run on schedule." },
+      { type: "image", src: "/blog/travel.svg", alt: "Toddler travel pouches", caption: "Pack by function for faster recovery." },
+      { type: "subheader", text: "What Is Really Happening" },
+      { type: "paragraph", text: "A functional kit and rhythmic sequence reduce chaos in queues, traffic, and unexpected waiting windows." },
+      { type: "subheader", text: "What To Do Next" },
+      { type: "paragraph", text: "Children stay calmer when the order of events feels familiar even if clock times move." },
+      { type: "bullet", items: ["One grab pouch: snacks, wipes, change, toy.", "One health pouch: essentials approved by your doctor.", "Rotate short activities during waits."] },
+      { type: "subheader", text: "Quick Action Plan" },
+      { type: "number", items: ["Build pouches one day before travel.", "Plan snack windows, not exact meal times.", "Use calm sequence: snack, move, quiet, rest attempt."] },
+      { type: "paragraph", text: "A recoverable trip is a successful trip. Calm planning helps toddlers borrow your regulation." },
+    ],
   },
   {
     id: "working-parents-evening-connection-ritual",
@@ -163,13 +225,19 @@ export const blogPosts: BlogPost[] = [
     coverImage: "/blog/connection.svg",
     coverAlt: "Parent and child sharing quiet evening time",
     content: [
-      "If work drains your day, evenings can become logistics only: dinner, bath, cleanup, sleep. Then guilt sneaks in and whispers that you are missing your child's childhood in fast-forward.",
-      "Try a 12-minute reconnection ritual before bed. Split it into 4 minutes of child-led play, 4 minutes of talk, and 4 minutes of physical closeness like cuddling or reading.",
-      "Child-led means no teaching and no correcting. Follow their game, mirror their excitement, and name what you notice. This strengthens emotional safety faster than long lectures or expensive activities.",
-      "In the talk segment, use one question: 'What felt hard today, and what felt good?' Keep your response curious, not corrective. Children open up more when they sense listening without immediate fixing.",
-      "Twelve consistent minutes beat one occasional perfect weekend. Connection is built through repeatable rituals, and repeatable rituals are exactly what busy families can sustain."
-    ]
-  }
+      { type: "header", text: "Protect Connection Even on Busy Days" },
+      { type: "paragraph", text: "When workdays are packed, evenings can shrink into logistics only. A short reconnection ritual can still create deep emotional safety for children." },
+      { type: "image", src: "/blog/connection.svg", alt: "Parent and child reading", caption: "Short, consistent rituals build strong attachment." },
+      { type: "subheader", text: "What Is Really Happening" },
+      { type: "paragraph", text: "Children remember repeated presence more than occasional grand gestures. Twelve focused minutes can reset connection after a long day." },
+      { type: "subheader", text: "What To Do Next" },
+      { type: "paragraph", text: "Use child-led play, reflective talk, and quiet closeness in a fixed sequence." },
+      { type: "bullet", items: ["4 minutes child-led play.", "4 minutes open conversation.", "4 minutes cuddle or story."] },
+      { type: "subheader", text: "Quick Action Plan" },
+      { type: "number", items: ["Schedule the ritual before bedtime.", "Use one daily reflection question.", "Repeat for 2 weeks before evaluating impact."] },
+      { type: "paragraph", text: "Connection is a practice, not an event. Consistent small rituals are what children carry for life." },
+    ],
+  },
 ];
 
 export function getAllBlogs() {

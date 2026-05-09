@@ -1,0 +1,201 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FBF6EF;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#F2EBE0;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="tableGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4B896;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#B89870;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="tableSide" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#A88060;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#8A6848;stop-opacity:1"/>
+    </linearGradient>
+    <radialGradient id="plateGrad" cx="45%" cy="40%" r="55%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#F0ECE6;stop-opacity:1"/>
+    </radialGradient>
+    <radialGradient id="plateShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="70%" style="stop-color:transparent"/>
+      <stop offset="100%" style="stop-color:#00000015;stop-opacity:1"/>
+    </radialGradient>
+    <linearGradient id="placematGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8D8C8;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#D8C8B0;stop-opacity:1"/>
+    </linearGradient>
+    <radialGradient id="cupGrad" cx="35%" cy="30%" r="60%">
+      <stop offset="0%" style="stop-color:#A8D8C0;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#78B898;stop-opacity:1"/>
+    </radialGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#00000018"/>
+    </filter>
+    <filter id="shadowLight">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#00000012"/>
+    </filter>
+    <filter id="softBlur">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+  </defs>
+
+  <!-- Background wall -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+  <!-- Subtle wall texture band -->
+  <rect y="0" width="1200" height="380" fill="#F8F2EA" opacity="0.5"/>
+
+  <!-- Warm light patch from upper left -->
+  <ellipse cx="120" cy="80" rx="320" ry="220" fill="#FDF6E8" opacity="0.5"/>
+
+  <!-- TABLE -->
+  <!-- Table top -->
+  <rect y="340" width="1200" height="180" rx="0" fill="url(#tableGrad)"/>
+  <!-- Table top edge highlight -->
+  <rect y="338" width="1200" height="8" fill="#DEC0A0" opacity="0.7"/>
+  <!-- Table wood grain lines -->
+  <line x1="0" y1="380" x2="1200" y2="380" stroke="#C4A878" stroke-width="1.5" opacity="0.3"/>
+  <line x1="0" y1="420" x2="1200" y2="420" stroke="#C4A878" stroke-width="1.5" opacity="0.25"/>
+  <line x1="0" y1="460" x2="1200" y2="460" stroke="#C4A878" stroke-width="1.5" opacity="0.2"/>
+  <!-- Vertical grain -->
+  <line x1="300" y1="340" x2="280" y2="520" stroke="#C4A878" stroke-width="1" opacity="0.15"/>
+  <line x1="600" y1="340" x2="580" y2="520" stroke="#C4A878" stroke-width="1" opacity="0.15"/>
+  <line x1="900" y1="340" x2="880" y2="520" stroke="#C4A878" stroke-width="1" opacity="0.15"/>
+
+  <!-- Placemat -->
+  <ellipse cx="600" cy="390" rx="280" ry="55" fill="url(#placematGrad)" filter="url(#shadowLight)"/>
+  <ellipse cx="600" cy="388" rx="272" ry="50" fill="#E4D4C0" opacity="0.5"/>
+  <!-- Placemat woven texture suggestion -->
+  <ellipse cx="600" cy="388" rx="268" ry="47" fill="none" stroke="#D0C0A8" stroke-width="1.5" opacity="0.4"/>
+  <ellipse cx="600" cy="388" rx="255" ry="42" fill="none" stroke="#D0C0A8" stroke-width="1" opacity="0.3"/>
+
+  <!-- MAIN PLATE -->
+  <ellipse cx="580" cy="340" rx="195" ry="60" fill="#00000018" filter="url(#softBlur)"/>
+  <ellipse cx="580" cy="330" rx="192" ry="58" fill="url(#plateGrad)" filter="url(#shadow)"/>
+  <ellipse cx="580" cy="327" rx="182" ry="54" fill="#FAFAF8"/>
+  <ellipse cx="580" cy="326" rx="162" ry="48" fill="#F8F6F2"/>
+  <!-- Plate inner rim shadow -->
+  <ellipse cx="580" cy="326" rx="162" ry="48" fill="url(#plateShadow)"/>
+
+  <!-- FOOD on main plate -->
+  <!-- Pasta / noodles (safe food - familiar) -->
+  <g opacity="0.92">
+    <!-- Noodle pile left section of plate -->
+    <ellipse cx="520" cy="316" rx="68" ry="28" fill="#F0C878"/>
+    <!-- Individual noodle curves -->
+    <path d="M 462 310 Q 490 298 518 308 Q 545 318 572 308" stroke="#E8B860" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.7"/>
+    <path d="M 468 320 Q 496 310 522 320 Q 548 330 572 320" stroke="#E8B860" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.6"/>
+    <path d="M 465 328 Q 492 318 520 326 Q 546 334 568 326" stroke="#E0B058" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.5"/>
+    <!-- Pasta highlight -->
+    <ellipse cx="500" cy="308" rx="20" ry="8" fill="#F8D890" opacity="0.4"/>
+  </g>
+
+  <!-- Broccoli florets (green veggie) -->
+  <g opacity="0.88">
+    <!-- Stem -->
+    <rect x="602" y="308" width="6" height="22" rx="3" fill="#6A9858"/>
+    <rect x="626" y="312" width="6" height="18" rx="3" fill="#6A9858"/>
+    <rect x="614" y="306" width="6" height="24" rx="3" fill="#6A9858"/>
+    <!-- Floret tops -->
+    <circle cx="605" cy="306" r="11" fill="#7AB868"/>
+    <circle cx="596" cy="300" r="9" fill="#8AC878"/>
+    <circle cx="614" cy="298" r="10" fill="#7AB868"/>
+    <circle cx="625" cy="302" r="8" fill="#88C070"/>
+    <circle cx="629" cy="310" r="9" fill="#7AB868"/>
+    <circle cx="618" cy="295" r="7" fill="#96D080" opacity="0.8"/>
+    <circle cx="600" cy="294" r="6" fill="#96D080" opacity="0.8"/>
+    <!-- Broccoli highlight -->
+    <circle cx="598" cy="297" r="4" fill="#A8DC90" opacity="0.5"/>
+    <circle cx="616" cy="294" r="3.5" fill="#A8DC90" opacity="0.5"/>
+  </g>
+
+  <!-- Cherry tomatoes -->
+  <circle cx="660" cy="320" r="16" fill="#E06050" filter="url(#shadowLight)"/>
+  <circle cx="660" cy="320" r="14" fill="#E87060"/>
+  <circle cx="654" cy="313" r="5" fill="#F09080" opacity="0.45"/>
+  <!-- Tomato stem -->
+  <path d="M 660 304 Q 663 296 666 298" stroke="#5A8840" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <circle cx="666" cy="298" r="3" fill="#6A9850"/>
+
+  <circle cx="685" cy="334" r="14" fill="#D85848" filter="url(#shadowLight)"/>
+  <circle cx="685" cy="334" r="12" fill="#E06858"/>
+  <circle cx="679" cy="328" r="4" fill="#F08070" opacity="0.4"/>
+  <path d="M 685 320 Q 688 313 691 315" stroke="#5A8840" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Cheese cubes -->
+  <rect x="552" y="324" width="22" height="16" rx="3" fill="#F0C840" filter="url(#shadowLight)"/>
+  <rect x="552" y="316" width="22" height="10" rx="3" fill="#F8D858"/>
+  <!-- Cube top face -->
+  <path d="M 552 316 L 558 310 L 580 310 L 574 316 Z" fill="#FCE068"/>
+  <path d="M 574 316 L 580 310 L 580 320 L 574 326 Z" fill="#E0B830"/>
+
+  <!-- Cucumber slices -->
+  <ellipse cx="496" cy="336" rx="18" ry="12" fill="#A8D890" filter="url(#shadowLight)"/>
+  <ellipse cx="496" cy="335" rx="14" ry="9" fill="#C0E8A0"/>
+  <ellipse cx="496" cy="334" rx="8" ry="5" fill="#D8F0B8" opacity="0.6"/>
+  <!-- Seeds -->
+  <ellipse cx="492" cy="334" rx="2" ry="3" fill="#88C070" opacity="0.5"/>
+  <ellipse cx="500" cy="334" rx="2" ry="3" fill="#88C070" opacity="0.5"/>
+
+  <!-- FORK to the left of plate -->
+  <g filter="url(#shadowLight)" opacity="0.85">
+    <rect x="348" y="290" width="8" height="120" rx="4" fill="#C8C0B8"/>
+    <!-- Fork tines -->
+    <rect x="344" y="272" width="4" height="28" rx="2" fill="#C8C0B8"/>
+    <rect x="350" y="272" width="4" height="28" rx="2" fill="#C8C0B8"/>
+    <rect x="356" y="272" width="4" height="28" rx="2" fill="#C8C0B8"/>
+    <rect x="362" y="272" width="4" height="28" rx="2" fill="#C8C0B8"/>
+  </g>
+
+  <!-- SIPPY CUP / SMALL CUP right side -->
+  <g filter="url(#shadowLight)">
+    <!-- Cup body -->
+    <rect x="810" y="280" width="68" height="90" rx="16" fill="url(#cupGrad)"/>
+    <rect x="813" y="283" width="62" height="82" rx="14" fill="#9CCEB0" opacity="0.4"/>
+    <!-- Cup top lid -->
+    <rect x="807" y="270" width="76" height="18" rx="8" fill="#68A888"/>
+    <!-- Sippy spout -->
+    <rect x="832" y="254" width="26" height="18" rx="8" fill="#58987A"/>
+    <rect x="838" y="246" width="14" height="12" rx="5" fill="#489068"/>
+    <!-- Cup handle -->
+    <path d="M 878 298 Q 900 298 900 316 Q 900 334 878 334" stroke="#68A888" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <!-- Liquid level inside -->
+    <rect x="816" y="320" width="56" height="48" rx="10" fill="#B8E8D0" opacity="0.35"/>
+    <!-- Cup highlight -->
+    <ellipse cx="826" cy="290" rx="8" ry="14" fill="white" opacity="0.2"/>
+  </g>
+
+  <!-- Small side bowl (dipping sauce / extra) -->
+  <ellipse cx="820" cy="378" rx="55" ry="20" fill="#E8E0D4" filter="url(#shadowLight)"/>
+  <ellipse cx="820" cy="374" rx="52" ry="18" fill="#F0E8DC"/>
+  <ellipse cx="820" cy="372" rx="42" ry="14" fill="#FAF0E6"/>
+  <!-- Contents - yogurt dip -->
+  <ellipse cx="820" cy="370" rx="36" ry="11" fill="#F8F4EE"/>
+  <ellipse cx="815" cy="368" rx="12" ry="6" fill="white" opacity="0.5"/>
+
+  <!-- Scatter of small berries near plate -->
+  <circle cx="420" cy="370" r="8" fill="#C870A0" opacity="0.8" filter="url(#shadowLight)"/>
+  <circle cx="436" cy="362" r="7" fill="#D880B0" opacity="0.8"/>
+  <circle cx="406" cy="358" r="7" fill="#B86090" opacity="0.75"/>
+  <!-- Berry stems -->
+  <path d="M 420 362 Q 422 356 424 354" stroke="#5A8040" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M 436 355 Q 438 349 440 347" stroke="#5A8040" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Small napkin folded -->
+  <g filter="url(#shadowLight)" opacity="0.9">
+    <rect x="270" y="358" width="72" height="56" rx="4" fill="#EAE0D4" transform="rotate(-8, 306, 386)"/>
+    <rect x="274" y="362" width="64" height="48" rx="3" fill="#F0E6DA" opacity="0.7" transform="rotate(-8, 306, 386)"/>
+    <!-- Napkin fold lines -->
+    <line x1="272" y1="378" x2="340" y2="374" stroke="#D8CEBC" stroke-width="1.5" opacity="0.5" transform="rotate(-8, 306, 386)"/>
+    <line x1="272" y1="390" x2="340" y2="386" stroke="#D8CEBC" stroke-width="1" opacity="0.4" transform="rotate(-8, 306, 386)"/>
+  </g>
+
+  <!-- Soft table shadow -->
+  <rect y="336" width="1200" height="8" fill="#0000000A"/>
+
+  <!-- Subtle vignette -->
+  <radialGradient id="vig" cx="50%" cy="50%" r="65%">
+    <stop offset="45%" style="stop-color:transparent"/>
+    <stop offset="100%" style="stop-color:#D8C8B0;stop-opacity:0.22"/>
+  </radialGradient>
+  <rect width="1200" height="630" fill="url(#vig)"/>
+</svg>

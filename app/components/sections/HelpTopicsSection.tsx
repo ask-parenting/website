@@ -1,4 +1,8 @@
-import { helpTopics } from "@/lib/content";
+"use client";
+
+import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
+import { helpTopics, type HelpTopic } from "@/lib/content";
 
 function TopicIcon({ type }: { type: "feeding" | "sleep" | "development" | "milestones" | "everyday" }) {
   if (type === "feeding") {
@@ -52,6 +56,33 @@ function TopicIcon({ type }: { type: "feeding" | "sleep" | "development" | "mile
 }
 
 export default function HelpTopicsSection() {
+  const [activeTopic, setActiveTopic] = useState<HelpTopic | null>(null);
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  useEffect(() => {
+    if (!activeTopic) {
+      return;
+    }
+
+    const onEscape = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        setActiveTopic(null);
+      }
+    };
+
+    document.body.style.overflow = "hidden";
+    window.addEventListener("keydown", onEscape);
+
+    return () => {
+      document.body.style.overflow = "";
+      window.removeEventListener("keydown", onEscape);
+    };
+  }, [activeTopic]);
+
   return (
     <section
       className="section trust-section"
@@ -61,7 +92,12 @@ export default function HelpTopicsSection() {
 
       <div className="trust-grid">
         {helpTopics.map((item) => (
-          <div key={item.title} className="trust-item">
+          <button
+            key={item.title}
+            type="button"
+            className="trust-item trust-item-button"
+            onClick={() => setActiveTopic(item)}
+          >
             <div className={`trust-icon trust-icon-${item.icon}`} aria-hidden="true">
               <TopicIcon type={item.icon} />
             </div>
@@ -70,9 +106,50 @@ export default function HelpTopicsSection() {
               <p>{item.question}</p>
               <p>{item.description}</p>
             </div>
-          </div>
+          </button>
         ))}
       </div>
+
+      {isMounted && activeTopic
+        ? createPortal(
+        <div
+          className="topic-modal-backdrop"
+          role="presentation"
+          onClick={() => setActiveTopic(null)}
+        >
+          <article
+            className="topic-modal-card"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="topic-modal-title"
+            onClick={(event) => event.stopPropagation()}
+          >
+            <button
+              type="button"
+              className="topic-modal-close"
+              onClick={() => setActiveTopic(null)}
+              aria-label="Close details"
+            >
+              ×
+            </button>
+            <div className={`trust-icon trust-icon-${activeTopic.icon}`} aria-hidden="true">
+              <TopicIcon type={activeTopic.icon} />
+            </div>
+            <h3 id="topic-modal-title">{activeTopic.title}</h3>
+            <p className="topic-modal-question">{activeTopic.question}</p>
+            <ul className="topic-modal-list">
+              {activeTopic.details.map((detail) => (
+                <li key={detail}>{detail}</li>
+              ))}
+            </ul>
+            <p className="topic-modal-story">
+              <strong>Parent story:</strong> {activeTopic.story}
+            </p>
+          </article>
+        </div>,
+        document.body
+      )
+        : null}
     </section>
   );
 }

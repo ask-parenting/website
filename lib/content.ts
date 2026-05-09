@@ -3,6 +3,8 @@ export interface HelpTopic {
   title: string;
   question: string;
   description: string;
+  details: string[];
+  story: string;
 }
 
 export interface FeatureStat {
@@ -23,30 +25,65 @@ export const helpTopics: HelpTopic[] = [
     title: "Feeding",
     question: "\"My baby isn't eating properly\"",
     description: "Get simple, age-appropriate meal ideas and tips",
+    details: [
+      "Age-wise meal ideas for newborn to toddler stages.",
+      "Easy ways to handle picky eating and appetite dips.",
+      "Simple food logs to spot patterns and triggers.",
+    ],
+    story:
+      "A parent shared that dinner had become a daily struggle. With a gentle 5-day food rotation and timing tweaks, their toddler started finishing at least one balanced meal each day.",
   },
   {
     icon: "sleep",
     title: "Sleep",
     question: "\"Why is my baby waking up at night?\"",
     description: "Understand patterns and build better routines",
+    details: [
+      "Bedtime routines tailored to your child’s age.",
+      "Night-waking checklists to reduce guesswork at 2 AM.",
+      "Nap timing guidance to avoid overtired evenings.",
+    ],
+    story:
+      "One family was waking up 4 times every night. After adjusting nap windows and using a calmer bedtime sequence, they saw longer stretches within a week.",
   },
   {
     icon: "development",
     title: "Child Development",
     question: "\"Is my child growing normally?\"",
     description: "Know what to expect at every stage",
+    details: [
+      "Clear developmental expectations by age range.",
+      "Practical play ideas that support learning at home.",
+      "Guidance on when to monitor versus when to consult a doctor.",
+    ],
+    story:
+      "A first-time parent worried about language delay. Weekly observation prompts helped them track progress and bring focused questions to their pediatric visit.",
   },
   {
     icon: "milestones",
     title: "Milestones",
     question: "\"Should my baby be crawling yet?\"",
     description: "Track and understand progress without stress",
+    details: [
+      "Milestone timelines with normal variation ranges.",
+      "Simple trackers for movement, speech, and social signs.",
+      "Early warning cues explained in plain language.",
+    ],
+    story:
+      "A mother felt anxious because her baby was not crawling yet. The milestone tracker showed steady progress in other areas, which reduced stress and helped her plan the next checkup calmly.",
   },
   {
     icon: "everyday",
     title: "Everyday Parenting",
     question: "Tantrums, routines, habits",
     description: "We're here for it all",
+    details: [
+      "Real-life scripts for tantrums and emotional moments.",
+      "Routine planning for mornings, meals, and bedtime.",
+      "Small habit-building tips that actually fit busy days.",
+    ],
+    story:
+      "During a chaotic travel week, a parent used quick routine prompts from chat for meals and sleep. They said the household felt calmer and more predictable by the weekend.",
   },
 ];
 

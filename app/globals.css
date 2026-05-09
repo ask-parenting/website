@@ -629,6 +629,13 @@ h1 {
   transition: background 0.2s ease;
 }
 
+.trust-item-button {
+  width: 100%;
+  text-align: left;
+  border: none;
+  cursor: pointer;
+}
+
 .trust-item:hover {
   background: #eaeaec;
 }
@@ -698,6 +705,103 @@ h1 {
   line-height: 1.5;
   color: var(--text-secondary);
   letter-spacing: -0.005em;
+}
+
+.topic-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 220;
+  background: rgba(22, 18, 38, 0.44);
+  backdrop-filter: blur(4px) saturate(105%);
+  -webkit-backdrop-filter: blur(4px) saturate(105%);
+  display: grid;
+  place-items: center;
+  padding: max(20px, env(safe-area-inset-top)) max(16px, env(safe-area-inset-right)) max(20px, env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left));
+  animation: topic-backdrop-in 220ms ease;
+}
+
+.topic-modal-card {
+  position: relative;
+  width: min(640px, 100%);
+  max-height: min(82vh, 760px);
+  overflow-y: auto;
+  background: linear-gradient(165deg, #ffffff, #fbf9ff);
+  border: 1px solid #ded6f2;
+  border-radius: 18px;
+  box-shadow: 0 26px 64px rgba(20, 14, 41, 0.34);
+  padding: 24px;
+  display: grid;
+  gap: 14px;
+  animation: topic-modal-in 260ms cubic-bezier(0.2, 0.9, 0.2, 1);
+}
+
+.topic-modal-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ddd4f5;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.9);
+  color: #4a416a;
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.topic-modal-card h3 {
+  margin: 0;
+  font-size: clamp(24px, 3.3vw, 30px);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.topic-modal-question {
+  margin: 0;
+  color: #4f4a64;
+  font-size: 16px;
+}
+
+.topic-modal-list {
+  margin: 0;
+  padding-left: 18px;
+  display: grid;
+  gap: 8px;
+  color: #2f2a41;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.topic-modal-story {
+  margin: 0;
+  padding: 14px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #ece5fd;
+  color: #3a3450;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+@keyframes topic-backdrop-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes topic-modal-in {
+  from {
+    opacity: 0;
+    transform: translateY(16px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
 }
 
 /* ── How it works ── */
@@ -1577,9 +1681,25 @@ h1 {
   .trust-icon {
     width: 44px;
     height: 44px;
-    font-size: 22px;
     flex-shrink: 0;
     margin-top: 2px;
+  }
+
+  .topic-icon-svg {
+    width: 25px;
+    height: 25px;
+  }
+
+  .topic-modal-card {
+    padding: 20px;
+    gap: 12px;
+    max-height: 84vh;
+    border-radius: 16px;
+  }
+
+  .topic-modal-close {
+    top: 10px;
+    right: 10px;
   }
 
   .onboarding-steps {

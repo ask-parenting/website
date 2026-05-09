@@ -1,0 +1,277 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="roomBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E2438;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#141820;stop-opacity:1"/>
+    </linearGradient>
+    <radialGradient id="lampGlowMain" cx="30%" cy="50%" r="55%">
+      <stop offset="0%" style="stop-color:#F5DC8A;stop-opacity:0.55"/>
+      <stop offset="60%" style="stop-color:#E8B84A;stop-opacity:0.18"/>
+      <stop offset="100%" style="stop-color:#E8B84A;stop-opacity:0"/>
+    </radialGradient>
+    <radialGradient id="nightLightGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#A8C8F0;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#A8C8F0;stop-opacity:0"/>
+    </radialGradient>
+    <linearGradient id="floorNight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2A2018;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#1A1410;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="chairBody" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A5870;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#3A4560;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="chairCushion" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#6A7890;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#556078;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="cartWood" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8A7050;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#6A5038;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="lampShade2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F0D080;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#D8A850;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="cribWood2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#A07848;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#7A5830;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="bottleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#B8D8E8;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#88B8D0;stop-opacity:0.9"/>
+    </linearGradient>
+    <filter id="glowFilter">
+      <feGaussianBlur stdDeviation="22" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <filter id="dropShadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="7" flood-color="#00000045"/>
+    </filter>
+    <filter id="shadowLight">
+      <feDropShadow dx="1" dy="3" stdDeviation="4" flood-color="#00000030"/>
+    </filter>
+  </defs>
+
+  <!-- Night room background -->
+  <rect width="1200" height="630" fill="url(#roomBg)"/>
+  <!-- Warm lamp glow on left wall/floor area -->
+  <ellipse cx="370" cy="380" rx="450" ry="360" fill="url(#lampGlowMain)" opacity="1"/>
+  <!-- Night light glow far right -->
+  <ellipse cx="1050" cy="420" rx="200" ry="180" fill="url(#nightLightGlow)" opacity="0.5"/>
+
+  <!-- Wall -->
+  <rect width="1200" height="470" fill="transparent"/>
+  <!-- Subtle wall panel lines -->
+  <line x1="0" y1="0" x2="0" y2="470" stroke="#28304A" stroke-width="2" opacity="0.5"/>
+  <line x1="1200" y1="0" x2="1200" y2="470" stroke="#28304A" stroke-width="2" opacity="0.5"/>
+  <!-- Wainscoting hint -->
+  <rect y="370" width="1200" height="6" fill="#28304A" opacity="0.3"/>
+  <rect y="376" width="1200" height="94" fill="#1C2030" opacity="0.3"/>
+
+  <!-- Floor -->
+  <rect y="468" width="1200" height="162" fill="url(#floorNight)"/>
+  <rect y="466" width="1200" height="6" fill="#221A0E" opacity="0.7"/>
+  <!-- Floorboard seams -->
+  <line x1="0" y1="505" x2="1200" y2="505" stroke="#1A1208" stroke-width="1.5" opacity="0.45"/>
+  <line x1="0" y1="542" x2="1200" y2="542" stroke="#1A1208" stroke-width="1.5" opacity="0.4"/>
+  <line x1="0" y1="580" x2="1200" y2="580" stroke="#1A1208" stroke-width="1.5" opacity="0.35"/>
+  <line x1="180" y1="468" x2="180" y2="630" stroke="#1A1208" stroke-width="1" opacity="0.3"/>
+  <line x1="440" y1="468" x2="440" y2="630" stroke="#1A1208" stroke-width="1" opacity="0.3"/>
+  <line x1="700" y1="468" x2="700" y2="630" stroke="#1A1208" stroke-width="1" opacity="0.3"/>
+  <line x1="960" y1="468" x2="960" y2="630" stroke="#1A1208" stroke-width="1" opacity="0.3"/>
+
+  <!-- Lamp glow on floor pool -->
+  <ellipse cx="280" cy="498" rx="200" ry="55" fill="#F5DC8A" opacity="0.12" filter="url(#softGlow)"/>
+
+  <!-- ===== FLOOR LAMP ===== -->
+  <!-- Lamp base -->
+  <ellipse cx="188" cy="490" rx="36" ry="10" fill="#1A1408" opacity="0.7"/>
+  <rect x="182" y="300" width="12" height="192" rx="6" fill="#6A5838"/>
+  <!-- Lamp pole detail -->
+  <rect x="184" y="302" width="8" height="188" rx="4" fill="#7A6848" opacity="0.5"/>
+  <!-- Lamp arm -->
+  <path d="M 188 302 Q 230 270 270 260" stroke="#7A6848" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <!-- Lamp shade -->
+  <path d="M 242 232 L 252 264 L 320 264 L 310 232 Z" fill="url(#lampShade2)" filter="url(#dropShadow)"/>
+  <path d="M 242 232 Q 276 218 310 232" stroke="#D8A040" stroke-width="3" fill="none"/>
+  <!-- Lamp bulb glow -->
+  <ellipse cx="286" cy="263" rx="50" ry="15" fill="#F5DC8A" opacity="0.95" filter="url(#softGlow)"/>
+  <ellipse cx="286" cy="263" rx="32" ry="9" fill="#FEEA9A" opacity="0.85"/>
+  <!-- Lamp warm glow halo -->
+  <ellipse cx="286" cy="280" rx="130" ry="90" fill="#F5DC8A" opacity="0.12" filter="url(#softGlow)"/>
+
+  <!-- ===== GLIDER / FEEDING CHAIR ===== -->
+  <!-- Chair shadow -->
+  <ellipse cx="320" cy="494" rx="120" ry="18" fill="#00000040"/>
+  <!-- Chair back legs -->
+  <rect x="220" y="388" width="14" height="108" rx="6" fill="#3A3020" transform="rotate(-5, 227, 442)"/>
+  <rect x="388" y="388" width="14" height="108" rx="6" fill="#3A3020" transform="rotate(5, 395, 442)"/>
+  <!-- Chair front legs -->
+  <rect x="224" y="420" width="14" height="78" rx="6" fill="#3A3020"/>
+  <rect x="390" y="420" width="14" height="78" rx="6" fill="#3A3020"/>
+  <!-- Rocker base -->
+  <path d="M 205 495 Q 315 510 425 495" stroke="#3A3020" stroke-width="12" fill="none" stroke-linecap="round"/>
+
+  <!-- Seat cushion -->
+  <rect x="214" y="390" width="190" height="56" rx="16" fill="url(#chairCushion)" filter="url(#dropShadow)"/>
+  <rect x="218" y="392" width="182" height="48" rx="14" fill="#7A88A0" opacity="0.4"/>
+  <!-- Cushion seam -->
+  <line x1="309" y1="394" x2="309" y2="444" stroke="#5A6880" stroke-width="2" opacity="0.5"/>
+  <path d="M 222 430 Q 309 440 396 430" stroke="#5A6880" stroke-width="1.5" fill="none" opacity="0.4"/>
+
+  <!-- Chair back -->
+  <rect x="205" y="252" width="208" height="142" rx="20" fill="url(#chairBody)" filter="url(#dropShadow)"/>
+  <rect x="212" y="258" width="194" height="130" rx="16" fill="#556080" opacity="0.35"/>
+  <!-- Back cushion stitching -->
+  <line x1="309" y1="262" x2="309" y2="390" stroke="#3A4560" stroke-width="2" opacity="0.5"/>
+  <path d="M 216 320 Q 309 332 400 320" stroke="#3A4560" stroke-width="1.5" fill="none" opacity="0.4"/>
+
+  <!-- Chair armrests -->
+  <rect x="200" y="355" width="24" height="50" rx="8" fill="#4A5870"/>
+  <rect x="394" y="355" width="24" height="50" rx="8" fill="#4A5870"/>
+
+  <!-- Pillow / nursing pillow on chair -->
+  <ellipse cx="309" cy="396" rx="70" ry="22" fill="#C8D0D8" opacity="0.6" filter="url(#shadowLight)"/>
+  <ellipse cx="309" cy="393" rx="64" ry="18" fill="#D4DCE4" opacity="0.55"/>
+
+  <!-- Small blanket draped on arm -->
+  <path d="M 394 360 Q 430 355 445 380 Q 440 400 410 405 L 394 400 Z" fill="#A8B8C8" opacity="0.65"/>
+  <path d="M 394 362 Q 428 358 442 382" stroke="#98A8B8" stroke-width="2" fill="none" opacity="0.5"/>
+
+  <!-- ===== NIGHT CART / SIDE TABLE ===== -->
+  <!-- Cart shadow -->
+  <ellipse cx="620" cy="494" rx="100" ry="14" fill="#00000035"/>
+  <!-- Cart frame top -->
+  <rect x="530" y="310" width="180" height="14" rx="5" fill="url(#cartWood)" filter="url(#dropShadow)"/>
+  <!-- Cart top shelf surface -->
+  <rect x="530" y="310" width="180" height="70" rx="4" fill="#7A6048"/>
+  <rect x="534" y="314" width="172" height="62" rx="3" fill="#826852" opacity="0.4"/>
+
+  <!-- Cart middle shelf -->
+  <rect x="530" y="390" width="180" height="12" rx="4" fill="url(#cartWood)"/>
+  <rect x="530" y="402" width="180" height="68" rx="4" fill="#7A6048"/>
+  <rect x="534" y="406" width="172" height="60" rx="3" fill="#826852" opacity="0.35"/>
+
+  <!-- Cart legs -->
+  <rect x="540" y="468" width="12" height="40" rx="5" fill="#6A5030"/>
+  <rect x="690" y="468" width="12" height="40" rx="5" fill="#6A5030"/>
+  <!-- Cart wheels -->
+  <circle cx="546" cy="508" r="8" fill="#3A2A18"/>
+  <circle cx="696" cy="508" r="8" fill="#3A2A18"/>
+  <circle cx="546" cy="508" r="4" fill="#4A3A28"/>
+  <circle cx="696" cy="508" r="4" fill="#4A3A28"/>
+
+  <!-- Items on top shelf of cart -->
+  <!-- Baby bottle -->
+  <rect x="548" y="256" width="28" height="56" rx="10" fill="url(#bottleGrad)" filter="url(#shadowLight)"/>
+  <rect x="551" y="259" width="22" height="4" rx="2" fill="#C8E8F0" opacity="0.6"/>
+  <!-- Bottle nipple -->
+  <rect x="554" y="249" width="16" height="10" rx="5" fill="#E8D0B0"/>
+  <rect x="557" y="244" width="10" height="8" rx="4" fill="#D8C0A0"/>
+  <!-- Milk level in bottle -->
+  <rect x="551" y="283" width="22" height="22" rx="6" fill="#F0F0EC" opacity="0.5"/>
+  <!-- Bottle measurement lines (decorative, not numbers) -->
+  <line x1="552" y1="272" x2="574" y2="272" stroke="#88B8D0" stroke-width="1" opacity="0.5"/>
+  <line x1="552" y1="280" x2="574" y2="280" stroke="#88B8D0" stroke-width="1" opacity="0.5"/>
+
+  <!-- Wipes box -->
+  <rect x="592" y="258" width="58" height="46" rx="6" fill="#E8D8C8" filter="url(#shadowLight)"/>
+  <rect x="595" y="261" width="52" height="40" rx="4" fill="#F0E4D4" opacity="0.6"/>
+  <!-- Wipes dispenser opening -->
+  <ellipse cx="621" cy="261" rx="18" ry="5" fill="#D8C8B0"/>
+  <!-- Decorative dot pattern (not text) -->
+  <circle cx="605" cy="278" r="2.5" fill="#C8B0A0" opacity="0.5"/>
+  <circle cx="621" cy="278" r="2.5" fill="#C8B0A0" opacity="0.5"/>
+  <circle cx="637" cy="278" r="2.5" fill="#C8B0A0" opacity="0.5"/>
+  <circle cx="613" cy="290" r="2.5" fill="#C8B0A0" opacity="0.5"/>
+  <circle cx="629" cy="290" r="2.5" fill="#C8B0A0" opacity="0.5"/>
+
+  <!-- Diaper stack (middle shelf) -->
+  <!-- Stack of folded diapers -->
+  <rect x="540" y="362" width="64" height="30" rx="5" fill="#F0E8E0" filter="url(#shadowLight)"/>
+  <rect x="540" y="353" width="64" height="12" rx="5" fill="#F8F0E8"/>
+  <rect x="540" y="344" width="64" height="12" rx="5" fill="#F0E8E0"/>
+  <rect x="540" y="335" width="64" height="12" rx="5" fill="#F8F0E8"/>
+  <!-- Diaper tape tabs suggestion -->
+  <rect x="536" y="350" width="8" height="6" rx="2" fill="#E0D4C8"/>
+  <rect x="600" y="350" width="8" height="6" rx="2" fill="#E0D4C8"/>
+
+  <!-- Burp cloth folded beside diapers -->
+  <rect x="618" y="350" width="80" height="44" rx="6" fill="#C8D8C8" filter="url(#shadowLight)"/>
+  <rect x="621" y="353" width="74" height="38" rx="4" fill="#D4E4D4" opacity="0.6"/>
+  <!-- Cloth fold line -->
+  <line x1="658" y1="352" x2="658" y2="392" stroke="#B0C8B0" stroke-width="2" opacity="0.5"/>
+  <!-- Tiny pattern dots -->
+  <circle cx="638" cy="368" r="3" fill="#A8C4A8" opacity="0.5"/>
+  <circle cx="648" cy="375" r="3" fill="#A8C4A8" opacity="0.5"/>
+  <circle cx="672" cy="365" r="3" fill="#A8C4A8" opacity="0.5"/>
+  <circle cx="680" cy="378" r="3" fill="#A8C4A8" opacity="0.5"/>
+
+  <!-- Caregiver water bottle on cart edge -->
+  <rect x="690" y="276" width="22" height="42" rx="8" fill="#788898" filter="url(#shadowLight)"/>
+  <rect x="692" y="279" width="18" height="36" rx="6" fill="#8898A8" opacity="0.5"/>
+  <!-- Lid -->
+  <rect x="692" y="269" width="18" height="10" rx="5" fill="#606878"/>
+  <!-- Small loop handle -->
+  <path d="M 712 274 Q 720 274 720 280 Q 720 285 712 285" stroke="#606878" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Night light plug-in on wall (far right) -->
+  <rect x="1010" y="350" width="58" height="70" rx="10" fill="#2A3048" filter="url(#shadowLight)"/>
+  <rect x="1014" y="354" width="50" height="62" rx="8" fill="#30384C" opacity="0.6"/>
+  <!-- Night light glow lens -->
+  <ellipse cx="1039" cy="385" rx="18" ry="18" fill="#A8D0F8" opacity="0.5" filter="url(#softGlow)"/>
+  <ellipse cx="1039" cy="385" rx="12" ry="12" fill="#C0E0FF" opacity="0.8"/>
+  <ellipse cx="1039" cy="385" rx="7" ry="7" fill="#E8F4FF" opacity="0.95"/>
+  <!-- Night light ambient -->
+  <ellipse cx="1039" cy="400" rx="80" ry="60" fill="#A8C8F0" opacity="0.08" filter="url(#softGlow)"/>
+  <!-- Plug prongs -->
+  <rect x="1026" y="415" width="6" height="12" rx="2" fill="#1A2030"/>
+  <rect x="1046" y="415" width="6" height="12" rx="2" fill="#1A2030"/>
+
+  <!-- ===== CRIB PARTIAL (right edge) ===== -->
+  <!-- Crib visible right side -->
+  <rect x="850" y="185" width="20" height="295" rx="8" fill="url(#cribWood2)" filter="url(#dropShadow)"/>
+  <!-- Top rail -->
+  <rect x="845" y="182" width="355" height="18" rx="8" fill="url(#cribWood2)"/>
+  <!-- Crib spindles right section -->
+  <rect x="876" y="200" width="10" height="278" rx="4" fill="#8A6030" opacity="0.8"/>
+  <rect x="910" y="200" width="10" height="278" rx="4" fill="#8A6030" opacity="0.8"/>
+  <rect x="944" y="200" width="10" height="278" rx="4" fill="#8A6030" opacity="0.8"/>
+  <rect x="978" y="200" width="10" height="278" rx="4" fill="#8A6030" opacity="0.8"/>
+  <rect x="1012" y="200" width="10" height="278" rx="4" fill="#8A6030" opacity="0.7"/>
+  <rect x="1046" y="200" width="10" height="278" rx="4" fill="#8A6030" opacity="0.7"/>
+  <rect x="1080" y="200" width="10" height="278" rx="4" fill="#8A6030" opacity="0.6"/>
+  <rect x="1114" y="200" width="10" height="278" rx="4" fill="#8A6030" opacity="0.6"/>
+  <rect x="1148" y="200" width="10" height="278" rx="4" fill="#8A6030" opacity="0.5"/>
+  <rect x="1182" y="200" width="10" height="278" rx="4" fill="#8A6030" opacity="0.4"/>
+  <!-- Bottom rail -->
+  <rect x="845" y="457" width="355" height="18" rx="8" fill="url(#cribWood2)"/>
+  <!-- Crib mattress hint through bars -->
+  <rect x="860" y="295" width="320" height="162" rx="4" fill="#D8D0C8" opacity="0.25"/>
+  <!-- Baby asleep suggestion (very soft, partial) -->
+  <ellipse cx="970" cy="382" rx="70" ry="28" fill="#C8D4E0" opacity="0.35"/>
+  <circle cx="930" cy="360" r="22" fill="#E8D4C4" opacity="0.35"/>
+
+  <!-- Small detail: monitor on cart corner (baby monitor) -->
+  <rect x="720" y="278" width="46" height="36" rx="6" fill="#2A3040" filter="url(#shadowLight)"/>
+  <rect x="722" y="280" width="42" height="30" rx="4" fill="#202838"/>
+  <!-- Monitor screen -->
+  <rect x="724" y="282" width="38" height="24" rx="3" fill="#303848"/>
+  <!-- Screen glow hint -->
+  <rect x="725" y="283" width="36" height="22" rx="2" fill="#3A4855" opacity="0.8"/>
+  <!-- Antenna -->
+  <line x1="738" y1="278" x2="735" y2="264" stroke="#2A3040" stroke-width="3" stroke-linecap="round"/>
+  <!-- Stand -->
+  <rect x="736" y="314" width="14" height="8" rx="3" fill="#1E2838"/>
+
+  <!-- Soft vignette -->
+  <radialGradient id="vig2" cx="50%" cy="50%" r="65%">
+    <stop offset="35%" style="stop-color:transparent"/>
+    <stop offset="100%" style="stop-color:#080C14;stop-opacity:0.6"/>
+  </radialGradient>
+  <rect width="1200" height="630" fill="url(#vig2)"/>
+</svg>

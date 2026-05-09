@@ -1,0 +1,76 @@
+<svg width="100%" viewBox="0 0 680 420" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>Calm developmental scene with toy blocks and gentle upward growth cues</title>
+<desc>A warm, observational illustration showing toy blocks of varying heights arranged like a gentle growth chart, resting on a soft wooden surface. Pastel-colored blocks in rounded forms suggest progress without competition or clinical pressure.</desc>
+<defs>
+  <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#F5F0E8"/>
+    <stop offset="100%" stop-color="#EDE5D8"/>
+  </linearGradient>
+  <linearGradient id="shelfGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#D4C4A8"/>
+    <stop offset="100%" stop-color="#B8A888"/>
+  </linearGradient>
+  <linearGradient id="floorGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#C8BCA8"/>
+    <stop offset="100%" stop-color="#B0A490"/>
+  </linearGradient>
+  <linearGradient id="curveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#A8C4D0" stop-opacity="0.3"/>
+    <stop offset="50%" stop-color="#7AAABF" stop-opacity="0.55"/>
+    <stop offset="100%" stop-color="#5A90A8" stop-opacity="0.25"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="680" height="420" fill="url(#bgGrad)"/>
+<ellipse cx="480" cy="180" rx="160" ry="130" fill="#E8D8C0" opacity="0.35"/>
+<ellipse cx="200" cy="300" rx="120" ry="80" fill="#D8C8B0" opacity="0.2"/>
+<rect x="60" y="300" width="560" height="18" rx="6" fill="url(#shelfGrad)"/>
+<rect x="60" y="316" width="560" height="8" rx="3" fill="#A89878" opacity="0.5"/>
+<rect x="60" y="318" width="10" height="80" rx="4" fill="#C0B098"/>
+<rect x="610" y="318" width="10" height="80" rx="4" fill="#C0B098"/>
+<rect x="60" y="390" width="560" height="12" rx="4" fill="url(#floorGrad)"/>
+<path d="M100 298 Q180 240 280 220 Q370 202 460 170 Q540 145 580 120" stroke="url(#curveGrad)" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.7"/>
+<path d="M100 298 Q180 252 280 236 Q370 220 460 194 Q540 170 580 148" stroke="#A8C4D0" stroke-width="1.5" fill="none" stroke-dasharray="5 6" stroke-linecap="round" opacity="0.35"/>
+<rect x="100" y="258" width="58" height="44" rx="10" fill="#D8C4B0" opacity="0.9"/>
+<rect x="104" y="262" width="50" height="36" rx="7" fill="#E4D0BC" opacity="0.9"/>
+<rect x="112" y="270" width="16" height="16" rx="4" fill="#C8B4A0" opacity="0.5"/>
+<rect x="132" y="270" width="16" height="16" rx="4" fill="#C8B4A0" opacity="0.5"/>
+<rect x="178" y="232" width="62" height="70" rx="10" fill="#B8C8A8" opacity="0.92"/>
+<rect x="182" y="236" width="54" height="62" rx="7" fill="#C8D8B8" opacity="0.92"/>
+<circle cx="209" cy="268" r="12" fill="#A8B898" opacity="0.45"/>
+<circle cx="209" cy="268" r="6" fill="#90A880" opacity="0.5"/>
+<rect x="262" y="210" width="66" height="92" rx="10" fill="#C4B8D8" opacity="0.92"/>
+<rect x="266" y="214" width="58" height="84" rx="7" fill="#D4C8E8" opacity="0.92"/>
+<rect x="276" y="226" width="38" height="6" rx="3" fill="#B0A4C4" opacity="0.5"/>
+<rect x="276" y="238" width="28" height="6" rx="3" fill="#B0A4C4" opacity="0.4"/>
+<rect x="276" y="250" width="34" height="6" rx="3" fill="#B0A4C4" opacity="0.35"/>
+<rect x="352" y="186" width="64" height="116" rx="10" fill="#E8C4A8" opacity="0.93"/>
+<rect x="356" y="190" width="56" height="108" rx="7" fill="#F4D0B4" opacity="0.93"/>
+<ellipse cx="384" cy="248" rx="18" ry="18" fill="#D8B098" opacity="0.4"/>
+<ellipse cx="384" cy="248" rx="10" ry="10" fill="#C4987E" opacity="0.45"/>
+<path d="M374 248 Q384 238 394 248" stroke="#C4987E" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.6"/>
+<rect x="440" y="158" width="68" height="144" rx="10" fill="#B8CCD8" opacity="0.94"/>
+<rect x="444" y="162" width="60" height="136" rx="7" fill="#C8DCE8" opacity="0.94"/>
+<rect x="454" y="178" width="40" height="40" rx="8" fill="#A8BCC8" opacity="0.4"/>
+<path d="M454 198 L474 178 L494 198 Z" fill="#90ACBC" opacity="0.35"/>
+<rect x="460" y="232" width="28" height="5" rx="2.5" fill="#A0B8C8" opacity="0.45"/>
+<rect x="456" y="244" width="36" height="5" rx="2.5" fill="#A0B8C8" opacity="0.35"/>
+<rect x="534" y="124" width="72" height="178" rx="10" fill="#D4C0B0" opacity="0.95"/>
+<rect x="538" y="128" width="64" height="170" rx="7" fill="#E0CCBC" opacity="0.95"/>
+<circle cx="570" cy="190" r="24" fill="#C4ACA0" opacity="0.35"/>
+<circle cx="570" cy="190" r="14" fill="#B8988A" opacity="0.35"/>
+<rect x="550" y="228" width="40" height="6" rx="3" fill="#C0A898" opacity="0.4"/>
+<rect x="554" y="242" width="32" height="6" rx="3" fill="#C0A898" opacity="0.35"/>
+<rect x="558" y="256" width="24" height="6" rx="3" fill="#C0A898" opacity="0.3"/>
+<circle cx="600" cy="112" r="8" fill="#C8D4A0" opacity="0.6"/>
+<circle cx="618" cy="98" r="5" fill="#C8D4A0" opacity="0.4"/>
+<circle cx="630" cy="88" r="3" fill="#C8D4A0" opacity="0.3"/>
+<ellipse cx="340" cy="390" rx="260" ry="8" fill="#B0A490" opacity="0.18"/>
+<rect x="88" y="122" width="36" height="36" rx="8" fill="#E8C8B0" opacity="0.7"/>
+<rect x="92" y="126" width="28" height="28" rx="5" fill="#F0D4BC" opacity="0.8"/>
+<circle cx="106" cy="140" r="6" fill="#D8B498" opacity="0.5"/>
+<rect x="50" y="160" width="30" height="30" rx="8" fill="#C8D8C0" opacity="0.55"/>
+<rect x="54" y="164" width="22" height="22" rx="5" fill="#D8E8D0" opacity="0.7"/>
+<ellipse cx="640" cy="260" rx="24" ry="24" fill="#E0C8A8" opacity="0.5"/>
+<ellipse cx="640" cy="260" rx="14" ry="14" fill="#D4B898" opacity="0.45"/>
+<path d="M100 302 L580 302" stroke="#C0B098" stroke-width="1" fill="none" opacity="0.3" stroke-dasharray="3 6"/>
+</svg>

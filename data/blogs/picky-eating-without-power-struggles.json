@@ -1,7 +1,7 @@
 {
   "id": "picky-eating-without-power-struggles",
-  "title": "Picky Eating Meltdowns: The 3-Plate Method That Actually Works",
-  "excerpt": "End mealtime arguments with a simple plate format that keeps nutrition and peace on the same table.",
+  "title": "Picky Eating Meltdowns: The '3-Plate Method' to End Dinner Battles",
+  "excerpt": "Turn tears into tasting. Discover a simple, low-pressure plate format that ends mealtime power struggles while keeping both nutrition and peace on the table.",
   "publishedAt": "2026-05-01",
   "readMinutes": 6,
   "coverImage": "/blog/feeding.svg",
@@ -9,57 +9,61 @@
   "content": [
     {
       "type": "header",
-      "text": "Fix Mealtime Stress Without Forcing Bites"
+      "text": "Why the 'Just One Bite' Strategy Always Backfires"
     },
     {
       "type": "paragraph",
-      "text": "When every dinner ends in pleading or tears, it can feel personal. It is usually sensory overload plus pressure, not stubbornness, and that means the solution is structure, not force."
+      "text": "When every single dinner devolves into pleading, bribery, or outright tears, it is incredibly easy to take it personally. But here is the comforting truth: picky eating is rarely about stubbornness. It is often a cocktail of sensory overload and intense pressure. When we force a child to eat, their anxiety spikes, which literally suppresses their appetite. The solution isn't a stronger negotiation tactic; it is structure."
     },
     {
       "type": "image",
       "src": "/blog/feeding.svg",
       "alt": "Balanced toddler plate",
-      "caption": "Safety foods + exposure foods lower resistance."
+      "caption": "Safety foods + micro-exposures = zero power struggles."
     },
     {
       "type": "subheader",
-      "text": "What Is Really Happening"
+      "text": "The Magic of the 'Division of Responsibility'"
     },
     {
       "type": "paragraph",
-      "text": "The 3-plate method lowers fear by guaranteeing one accepted option while still exposing children to new food. Repeated low-pressure exposure builds acceptance over time."
+      "text": "The golden rule of peaceful feeding is remarkably simple: Parents decide what, when, and where food is served. The child decides whether and how much to eat. Handing over this specific control dramatically cuts tension. When your child realizes they aren't going to be forced to eat that vegetable, their defenses drop, and genuine curiosity can finally step in."
     },
     {
       "type": "subheader",
-      "text": "What To Do Next"
+      "text": "Introducing the 3-Plate Method"
     },
     {
       "type": "paragraph",
-      "text": "Parents own the schedule and menu. Children own intake. This split dramatically cuts power struggles and protects appetite regulation."
+      "text": "This method systematically lowers mealtime fear. It guarantees your child always has a reliable option, while consistently exposing them to new textures and flavors without an ounce of pressure. Here is how to build the ultimate stress-free plate:"
     },
     {
       "type": "bullet",
       "items": [
-        "Plate 1: known safe food.",
-        "Plate 2: familiar food, small variation.",
-        "Plate 3: tiny taste of a new food."
+        "The Anchor (Safe Food): A guaranteed win. This is something you know they will eat, even on a bad day—like a familiar, comforting idli or a plain piece of bread. It ensures they will not go hungry.",
+        "The Bridge (Familiar with a Twist): A food they usually accept, presented just slightly differently. If they love Margherita pizza, maybe offer it cut into new shapes or with a tiny sprinkle of a different herb.",
+        "The Explorer (Micro-Exposure): A literal pea-sized amount of a new or previously rejected food. Think one single floret of broccoli or a tiny bite of a quesadilla. The goal isn't for them to eat it; it is just to get them used to it existing on their plate."
       ]
     },
     {
       "type": "subheader",
-      "text": "Quick Action Plan"
+      "text": "Your 10-Day Dinner Table Reset"
+    },
+    {
+      "type": "paragraph",
+      "text": "Changing a deeply ingrained mealtime dynamic takes patience. Follow this action plan to shift the vibe at your table from combat to calm:"
     },
     {
       "type": "number",
       "items": [
-        "Run this method for 10 days.",
-        "Track table time, not just bites.",
-        "Celebrate curiosity, not clean plates."
+        "Commit to the 3-Plate Method for 10 consecutive days. Do not change the rules halfway through.",
+        "Bite your tongue. Do not praise them for eating, and do not scold them for ignoring the new food. Keep all conversation away from what is on the plate.",
+        "Celebrate curiosity, not clean plates. Touching, smelling, poking with a fork, or even just licking the 'Explorer' food is a massive neurological victory."
       ]
     },
     {
       "type": "paragraph",
-      "text": "Nutrition improves faster when meals feel safe. Calm consistency is more powerful than one dramatic dinner victory."
+      "text": "Nutrition improves far faster when the dining table feels like a safe zone rather than a battleground. Ditch the pressure, trust the process, and watch your child's palate slowly, naturally expand."
     }
   ]
 }

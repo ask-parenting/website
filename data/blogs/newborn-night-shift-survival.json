@@ -1,7 +1,7 @@
 {
   "id": "newborn-night-shift-survival",
-  "title": "Newborn Nights Are Brutal: A Shift Plan That Saves Your Sanity",
-  "excerpt": "A realistic night-duty structure for two caregivers that cuts resentment and protects sleep.",
+  "title": "Surviving the 3 AM Shift: A Newborn Night Plan That Saves Your Sanity (and Marriage)",
+  "excerpt": "Stop keeping score in the middle of the night. Discover a realistic, foolproof night-duty structure for two caregivers that slashes resentment and guarantees you both get protected sleep.",
   "publishedAt": "2026-04-24",
   "readMinutes": 7,
   "coverImage": "/blog/newborn.svg",
@@ -9,57 +9,61 @@
   "content": [
     {
       "type": "header",
-      "text": "Stop Winging the Night Shift"
+      "text": "The 3 AM Resentment Trap"
     },
     {
       "type": "paragraph",
-      "text": "Sleep deprivation can turn loving partners into exhausted rivals by 3 AM. A clear shift system is often the difference between survival and burnout."
+      "text": "Sleep deprivation is a literal torture tactic, yet it is standard operating procedure for new parents. When it is 3:14 AM and the baby is wailing, even the most loving partners can turn into bitter rivals keeping a silent tally of who slept more. A clear, uncompromising shift system isn't just about sleep—it is the difference between surviving the fourth trimester as a team and burning out completely."
     },
     {
       "type": "image",
       "src": "/blog/newborn.svg",
       "alt": "Night station for newborn care",
-      "caption": "Systems reduce midnight decision fatigue."
+      "caption": "A bulletproof system is your best defense against midnight decision fatigue."
     },
     {
       "type": "subheader",
-      "text": "What Is Really Happening"
+      "text": "Why 'We Will Just Take Turns' Always Fails"
     },
     {
       "type": "paragraph",
-      "text": "Vague plans fail when both adults are tired. Defined windows, protected sleep blocks, and short handoff notes reduce confusion and resentment."
+      "text": "Vague plans like 'I will get the next one' completely collapse when both adults are running on fumes. Without defined windows, every whimper becomes a silent standoff of pretending to be asleep. This creates friction, confusion, and broken rest for everyone. You need a setup where one person is truly 'off the clock' and allowed to sleep without listening out for the baby."
     },
     {
       "type": "subheader",
-      "text": "What To Do Next"
+      "text": "The 'Divide and Conquer' Shift Strategy"
     },
     {
       "type": "paragraph",
-      "text": "You cannot remove newborn wake-ups, but you can remove unnecessary friction around them."
+      "text": "You cannot negotiate with a newborn, and you cannot eliminate the wake-ups. But you can ruthlessly eliminate the friction surrounding them by treating night duty like a relay race."
     },
     {
       "type": "bullet",
       "items": [
-        "Pre-stock diapers, wipes, water, and feeding supplies.",
-        "Use one-line handoff notes.",
-        "Protect one uninterrupted sleep block per caregiver."
+        "The Midnight Command Center: Pre-stock diapers, wipes, a fresh bottle, and a massive water bottle for yourself right next to the feeding chair before 8 PM. Zero midnight scavenging allowed.",
+        "The Anchor Sleep Rule: Structure your shifts (e.g., 9 PM to 2 AM, and 2 AM to 7 AM) so that each caregiver gets at least 4 to 5 hours of uninterrupted, continuous sleep. This is neurologically necessary to function.",
+        "The 'Ghost Handoff': When shifts change, leave a simple notepad or text message. 'Ate 3oz at 2 AM, pee diaper, went down easy.' No talking required—talking wakes up the brain."
       ]
     },
     {
       "type": "subheader",
-      "text": "Quick Action Plan"
+      "text": "Your 48-Hour Night Shift Reset"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ready to stop the madness? Implement this protocol tonight to take back control of your rest:"
     },
     {
       "type": "number",
       "items": [
-        "Set A/B shifts for the next week.",
-        "Create a bedside checklist.",
-        "Review and adjust shifts every 3 nights."
+        "Draft a rigid A/B shift schedule for the next three nights. Put it in writing on the fridge.",
+        "Set up your bedside 'Command Center' an hour before the first shift starts.",
+        "Hold a 5-minute debrief over breakfast. What worked? What broke? Adjust the timing every 3 nights as needed."
       ]
     },
     {
       "type": "paragraph",
-      "text": "This stage is temporary, but depleted parents need systems now, not after burnout hits."
+      "text": "The newborn fog is temporary, but depleted parents need a lifeline right now. Protect your sleep, protect your team, and remember: you are both doing your absolute best."
     }
   ]
 }

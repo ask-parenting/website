@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import "./globals.css";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://askparenting.com";
+const siteUrl = "https://askparenting.com";
 const gaId = process.env.NEXT_PUBLIC_GA_ID;
 
 export const viewport: Viewport = {
@@ -20,8 +20,7 @@ export const metadata: Metadata = {
     shortcut: "/logo.svg",
     apple: "/logo.svg"
   },
-  metadataBase: new URL(siteUrl)
-  ,
+  metadataBase: new URL(siteUrl),
   keywords: [
     "parenting support",
     "baby care",

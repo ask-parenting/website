@@ -1,5 +1,14 @@
+import type { Metadata } from "next";
 import SiteHeader from "@/app/components/layout/SiteHeader";
 import { buildWhatsAppLink, siteConfig } from "@/lib/site-config";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy | Parenting AI",
+  description: "Privacy Policy for Parenting AI.",
+  alternates: {
+    canonical: "/privacy/",
+  },
+};
 
 export default function PrivacyPage() {
   const whatsappLink = buildWhatsAppLink(

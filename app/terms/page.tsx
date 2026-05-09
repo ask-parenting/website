@@ -1,5 +1,14 @@
+import type { Metadata } from "next";
 import SiteHeader from "@/app/components/layout/SiteHeader";
 import { buildWhatsAppLink, siteConfig } from "@/lib/site-config";
+
+export const metadata: Metadata = {
+  title: "Terms of Service | Parenting AI",
+  description: "Terms of Service for Parenting AI.",
+  alternates: {
+    canonical: "/terms/",
+  },
+};
 
 export default function TermsPage() {
   const whatsappLink = buildWhatsAppLink(

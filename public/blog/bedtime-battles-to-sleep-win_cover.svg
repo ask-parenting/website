@@ -1,6 +1,6 @@
-<svg width="100%" viewBox="0 0 690 430" role="img" xmlns="http://www.w3.org/2000/svg" style="">
-<title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Parent reading bedtime story to child in a warm, dimly lit bedroom</title>
-<desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">A cozy bedroom scene with a parent sitting beside a child in bed, reading a storybook by the soft glow of a bedside lamp. Deep navy walls, warm amber light, and soft bedding create a peaceful, sleepy atmosphere.</desc>
+<svg width="100%" viewBox="0 0 680 420" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>Parent reading bedtime story to child in a warm, dimly lit bedroom</title>
+<desc>A cozy bedroom scene with a parent sitting beside a child in bed, reading a storybook by the soft glow of a bedside lamp. Deep navy walls, warm amber light, and soft bedding create a peaceful, sleepy atmosphere.</desc>
 <defs>
   <radialGradient id="lampGlow" cx="50%" cy="50%" r="50%">
     <stop offset="0%" stop-color="#F5C97A" stop-opacity="0.55"/>
@@ -15,151 +15,82 @@
     <stop offset="0%" stop-color="#C8D8F0" stop-opacity="0.18"/>
     <stop offset="100%" stop-color="#8AA8D0" stop-opacity="0"/>
   </radialGradient>
-  <clipPath id="roomClip">
-    <rect x="0" y="0" width="680" height="420"/>
-  </clipPath>
 </defs>
-
-<!-- Room background -->
-<rect x="0" y="0" width="680" height="420" fill="url(#roomAmbient)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-
-<!-- Wall texture — subtle warm band behind lamp -->
-<rect x="380" y="0" width="300" height="260" fill="url(#lampGlow)" opacity="0.9" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.9;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-
-<!-- Floor -->
-<rect x="0" y="310" width="680" height="110" fill="#1A1E2E" rx="0" style="fill:rgb(26, 30, 46);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-
-<!-- Baseboard -->
-<rect x="0" y="306" width="680" height="6" fill="#232A3E" rx="0" style="fill:rgb(35, 42, 62);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-
-<!-- Window with moonlight -->
-<rect x="60" y="38" width="110" height="140" rx="4" fill="#1B2540" style="fill:rgb(27, 37, 64);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<rect x="64" y="42" width="102" height="132" rx="3" fill="#1C2E50" style="fill:rgb(28, 46, 80);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<!-- Window panes -->
-<line x1="115" y1="42" x2="115" y2="174" stroke="#243050" stroke-width="2" style="fill:rgb(0, 0, 0);stroke:rgb(36, 48, 80);color:rgb(255, 255, 255);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<line x1="64" y1="108" x2="166" y2="108" stroke="#243050" stroke-width="2" style="fill:rgb(0, 0, 0);stroke:rgb(36, 48, 80);color:rgb(255, 255, 255);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<!-- Moonlight glow through window -->
-<ellipse cx="115" cy="108" rx="58" ry="72" fill="url(#moonGlow)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<!-- Moon -->
-<circle cx="115" cy="75" r="18" fill="#C8D8F0" opacity="0.45" style="fill:rgb(200, 216, 240);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.45;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<circle cx="122" cy="71" r="14" fill="#1C2E50" opacity="0.85" style="fill:rgb(28, 46, 80);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.85;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<!-- Stars -->
-<circle cx="82" cy="60" r="1.2" fill="#C8D8F0" opacity="0.6" style="fill:rgb(200, 216, 240);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.6;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<circle cx="145" cy="52" r="1" fill="#C8D8F0" opacity="0.5" style="fill:rgb(200, 216, 240);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.5;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<circle cx="98" cy="140" r="1" fill="#C8D8F0" opacity="0.4" style="fill:rgb(200, 216, 240);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.4;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<circle cx="152" cy="130" r="1.2" fill="#C8D8F0" opacity="0.55" style="fill:rgb(200, 216, 240);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.55;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<!-- Window curtains -->
-<rect x="42" y="30" width="28" height="180" rx="4" fill="#2A3050" opacity="0.85" style="fill:rgb(42, 48, 80);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.85;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<rect x="166" y="30" width="28" height="180" rx="4" fill="#2A3050" opacity="0.85" style="fill:rgb(42, 48, 80);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.85;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<!-- Curtain drape folds -->
-<path d="M42 30 Q56 80 48 180" stroke="#222840" stroke-width="2" fill="none" opacity="0.5" style="fill:none;stroke:rgb(34, 40, 64);color:rgb(255, 255, 255);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.5;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<path d="M194 30 Q180 80 188 180" stroke="#222840" stroke-width="2" fill="none" opacity="0.5" style="fill:none;stroke:rgb(34, 40, 64);color:rgb(255, 255, 255);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.5;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-
-<!-- Nightstand -->
-<rect x="400" y="240" width="100" height="72" rx="6" fill="#2C2018" style="fill:rgb(44, 32, 24);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<rect x="406" y="246" width="88" height="60" rx="4" fill="#352818" style="fill:rgb(53, 40, 24);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<!-- Nightstand drawer line -->
-<line x1="420" y1="272" x2="490" y2="272" stroke="#4A3820" stroke-width="1.5" opacity="0.7" style="fill:rgb(0, 0, 0);stroke:rgb(74, 56, 32);color:rgb(255, 255, 255);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<circle cx="455" cy="272" r="3" fill="#5A4830" opacity="0.8" style="fill:rgb(90, 72, 48);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.8;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-
-<!-- Bedside lamp base -->
-<rect x="435" y="208" width="20" height="34" rx="3" fill="#9E7A3A" style="fill:rgb(158, 122, 58);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<rect x="431" y="238" width="28" height="6" rx="3" fill="#7A5E2A" style="fill:rgb(122, 94, 42);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<!-- Lamp shade -->
-<path d="M420 168 L450 210 L490 210 L510 168 Z" fill="#F0D080" opacity="0.92" style="fill:rgb(240, 208, 128);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.92;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<path d="M420 168 L510 168" stroke="#D4A830" stroke-width="1.5" fill="none" style="fill:none;stroke:rgb(212, 168, 48);color:rgb(255, 255, 255);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<path d="M450 210 L490 210" stroke="#C49020" stroke-width="1" fill="none" style="fill:none;stroke:rgb(196, 144, 32);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<!-- Lamp glow halo -->
-<ellipse cx="465" cy="210" rx="80" ry="60" fill="url(#lampGlow)" opacity="0.8" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.8;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<ellipse cx="465" cy="230" rx="60" ry="30" fill="#F5C97A" opacity="0.12" style="fill:rgb(245, 201, 122);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.12;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-
-<!-- Book on nightstand -->
-<rect x="412" y="228" width="36" height="14" rx="2" fill="#6B8FA0" opacity="0.9" style="fill:rgb(107, 143, 160);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.9;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<rect x="412" y="228" width="4" height="14" rx="1" fill="#4A6A80" style="fill:rgb(74, 106, 128);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-
-<!-- Bed frame headboard -->
-<rect x="200" y="160" width="380" height="20" rx="6" fill="#2C2018" style="fill:rgb(44, 32, 24);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<rect x="200" y="160" width="380" height="8" rx="4" fill="#3A2820" style="fill:rgb(58, 40, 32);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-
-<!-- Bed base -->
-<rect x="200" y="292" width="380" height="22" rx="4" fill="#2C2018" style="fill:rgb(44, 32, 24);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-
-<!-- Mattress / bedding base -->
-<rect x="208" y="178" width="364" height="120" rx="8" fill="#E8E0D0" style="fill:rgb(232, 224, 208);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-
-<!-- Pillow (child) -->
-<rect x="218" y="184" width="120" height="56" rx="10" fill="#F4EEE0" style="fill:rgb(244, 238, 224);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<rect x="224" y="190" width="108" height="44" rx="8" fill="#F8F4EC" style="fill:rgb(248, 244, 236);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-
-<!-- Duvet / blanket -->
-<rect x="208" y="230" width="364" height="70" rx="8" fill="#BFD0C8" style="fill:rgb(191, 208, 200);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<rect x="208" y="230" width="364" height="8" rx="4" fill="#A8C0B0" style="fill:rgb(168, 192, 176);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<!-- Blanket fold detail -->
-<path d="M208 250 Q320 244 420 252 Q500 258 572 248" stroke="#A0B8A8" stroke-width="1.5" fill="none" opacity="0.7" style="fill:none;stroke:rgb(160, 184, 168);color:rgb(255, 255, 255);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<!-- Blanket pattern — subtle dots -->
-<circle cx="280" cy="260" r="2.5" fill="#A0B8A8" opacity="0.4" style="fill:rgb(160, 184, 168);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.4;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<circle cx="340" cy="256" r="2.5" fill="#A0B8A8" opacity="0.4" style="fill:rgb(160, 184, 168);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.4;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<circle cx="400" cy="262" r="2.5" fill="#A0B8A8" opacity="0.4" style="fill:rgb(160, 184, 168);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.4;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<circle cx="460" cy="258" r="2.5" fill="#A0B8A8" opacity="0.4" style="fill:rgb(160, 184, 168);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.4;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<circle cx="520" cy="264" r="2.5" fill="#A0B8A8" opacity="0.4" style="fill:rgb(160, 184, 168);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.4;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-
-<!-- Child — head on pillow -->
-<!-- Head -->
-<ellipse cx="278" cy="212" rx="28" ry="26" fill="#D4A882" style="fill:rgb(212, 168, 130);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<!-- Hair -->
-<ellipse cx="278" cy="194" rx="26" ry="14" fill="#4A3018" style="fill:rgb(74, 48, 24);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<path d="M252 200 Q260 186 278 186 Q296 186 304 200" fill="#4A3018" style="fill:rgb(74, 48, 24);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<!-- Closed eyes (sleeping) -->
-<path d="M266 212 Q272 208 278 212" stroke="#8B6040" stroke-width="1.8" fill="none" stroke-linecap="round" style="fill:none;stroke:rgb(139, 96, 64);color:rgb(255, 255, 255);stroke-width:1.8px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<path d="M280 212 Q286 208 292 212" stroke="#8B6040" stroke-width="1.8" fill="none" stroke-linecap="round" style="fill:none;stroke:rgb(139, 96, 64);color:rgb(255, 255, 255);stroke-width:1.8px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<!-- Tiny sleeping smile -->
-<path d="M272 220 Q278 224 284 220" stroke="#B08060" stroke-width="1.5" fill="none" stroke-linecap="round" style="fill:none;stroke:rgb(176, 128, 96);color:rgb(255, 255, 255);stroke-width:1.5px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<!-- Child body / bump under blanket -->
-<ellipse cx="296" cy="248" rx="50" ry="16" fill="#BFD0C8" opacity="0.6" style="fill:rgb(191, 208, 200);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.6;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-
-<!-- Parent — sitting on edge of bed, right side -->
-<!-- Parent body / torso -->
-<ellipse cx="490" cy="280" rx="48" ry="30" fill="#3A4858" opacity="0.85" style="fill:rgb(58, 72, 88);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.85;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<rect x="444" y="252" width="96" height="60" rx="18" fill="#3A4858" style="fill:rgb(58, 72, 88);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<!-- Parent upper body / shoulders -->
-<ellipse cx="490" cy="252" rx="42" ry="22" fill="#4A5868" style="fill:rgb(74, 88, 104);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<!-- Parent arm (reading arm) -->
-<path d="M448 262 Q420 270 400 258" stroke="#3A4858" stroke-width="22" fill="none" stroke-linecap="round" style="fill:none;stroke:rgb(58, 72, 88);color:rgb(255, 255, 255);stroke-width:22px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<path d="M450 270 Q424 276 402 262" stroke="#4A5868" stroke-width="14" fill="none" stroke-linecap="round" style="fill:none;stroke:rgb(74, 88, 104);color:rgb(255, 255, 255);stroke-width:14px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<!-- Other arm -->
-<path d="M532 262 Q548 272 550 290" stroke="#3A4858" stroke-width="20" fill="none" stroke-linecap="round" style="fill:none;stroke:rgb(58, 72, 88);color:rgb(255, 255, 255);stroke-width:20px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<!-- Parent head -->
-<ellipse cx="490" cy="222" rx="30" ry="30" fill="#C4906A" style="fill:rgb(196, 144, 106);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<!-- Parent hair -->
-<ellipse cx="490" cy="200" rx="30" ry="16" fill="#1A1008" style="fill:rgb(26, 16, 8);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<path d="M460 210 Q468 192 490 190 Q512 192 520 210" fill="#1A1008" style="fill:rgb(26, 16, 8);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<!-- Parent face — looking down at book -->
-<path d="M478 226 Q484 222 490 226" stroke="#A07040" stroke-width="1.8" fill="none" stroke-linecap="round" style="fill:none;stroke:rgb(160, 112, 64);color:rgb(255, 255, 255);stroke-width:1.8px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<!-- Eyelids down (reading) -->
-<path d="M478 222 Q484 218 490 222" stroke="#8B6040" stroke-width="1.5" fill="none" style="fill:none;stroke:rgb(139, 96, 64);color:rgb(255, 255, 255);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<path d="M492 222 Q498 218 504 222" stroke="#8B6040" stroke-width="1.5" fill="none" style="fill:none;stroke:rgb(139, 96, 64);color:rgb(255, 255, 255);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-
-<!-- Book in parent's hands -->
-<g transform="translate(390, 252) rotate(-12)" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
-  <rect x="0" y="0" width="52" height="38" rx="3" fill="#E8D0B0" style="fill:rgb(232, 208, 176);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-  <rect x="0" y="0" width="52" height="38" rx="3" fill="none" stroke="#C0A070" stroke-width="1" style="fill:none;stroke:rgb(192, 160, 112);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-  <!-- Book spine -->
-  <rect x="0" y="0" width="5" height="38" rx="2" fill="#A08050" style="fill:rgb(160, 128, 80);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-  <!-- Book pages fanned -->
-  <path d="M5 2 Q28 6 52 2" stroke="#D0B880" stroke-width="0.8" fill="none" opacity="0.6" style="fill:none;stroke:rgb(208, 184, 128);color:rgb(255, 255, 255);stroke-width:0.8px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.6;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-  <path d="M5 8 Q28 12 52 8" stroke="#D0B880" stroke-width="0.8" fill="none" opacity="0.4" style="fill:none;stroke:rgb(208, 184, 128);color:rgb(255, 255, 255);stroke-width:0.8px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.4;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-  <!-- Warm glow on book pages from lamp -->
-  <rect x="5" y="0" width="47" height="38" rx="2" fill="#F5C97A" opacity="0.18" style="fill:rgb(245, 201, 122);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.18;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<rect x="0" y="0" width="680" height="420" fill="url(#roomAmbient)"/>
+<rect x="380" y="0" width="300" height="260" fill="url(#lampGlow)" opacity="0.9"/>
+<rect x="0" y="310" width="680" height="110" fill="#1A1E2E"/>
+<rect x="0" y="306" width="680" height="6" fill="#232A3E"/>
+<rect x="60" y="38" width="110" height="140" rx="4" fill="#1B2540"/>
+<rect x="64" y="42" width="102" height="132" rx="3" fill="#1C2E50"/>
+<line x1="115" y1="42" x2="115" y2="174" stroke="#243050" stroke-width="2"/>
+<line x1="64" y1="108" x2="166" y2="108" stroke="#243050" stroke-width="2"/>
+<ellipse cx="115" cy="108" rx="58" ry="72" fill="url(#moonGlow)"/>
+<circle cx="115" cy="75" r="18" fill="#C8D8F0" opacity="0.45"/>
+<circle cx="122" cy="71" r="14" fill="#1C2E50" opacity="0.85"/>
+<circle cx="82" cy="60" r="1.2" fill="#C8D8F0" opacity="0.6"/>
+<circle cx="145" cy="52" r="1" fill="#C8D8F0" opacity="0.5"/>
+<circle cx="98" cy="140" r="1" fill="#C8D8F0" opacity="0.4"/>
+<circle cx="152" cy="130" r="1.2" fill="#C8D8F0" opacity="0.55"/>
+<rect x="42" y="30" width="28" height="180" rx="4" fill="#2A3050" opacity="0.85"/>
+<rect x="166" y="30" width="28" height="180" rx="4" fill="#2A3050" opacity="0.85"/>
+<path d="M42 30 Q56 80 48 180" stroke="#222840" stroke-width="2" fill="none" opacity="0.5"/>
+<path d="M194 30 Q180 80 188 180" stroke="#222840" stroke-width="2" fill="none" opacity="0.5"/>
+<rect x="400" y="240" width="100" height="72" rx="6" fill="#2C2018"/>
+<rect x="406" y="246" width="88" height="60" rx="4" fill="#352818"/>
+<line x1="420" y1="272" x2="490" y2="272" stroke="#4A3820" stroke-width="1.5" opacity="0.7"/>
+<circle cx="455" cy="272" r="3" fill="#5A4830" opacity="0.8"/>
+<rect x="435" y="208" width="20" height="34" rx="3" fill="#9E7A3A"/>
+<rect x="431" y="238" width="28" height="6" rx="3" fill="#7A5E2A"/>
+<path d="M420 168 L450 210 L490 210 L510 168 Z" fill="#F0D080" opacity="0.92"/>
+<path d="M420 168 L510 168" stroke="#D4A830" stroke-width="1.5" fill="none"/>
+<path d="M450 210 L490 210" stroke="#C49020" stroke-width="1" fill="none"/>
+<ellipse cx="465" cy="210" rx="80" ry="60" fill="url(#lampGlow)" opacity="0.8"/>
+<ellipse cx="465" cy="230" rx="60" ry="30" fill="#F5C97A" opacity="0.12"/>
+<rect x="412" y="228" width="36" height="14" rx="2" fill="#6B8FA0" opacity="0.9"/>
+<rect x="412" y="228" width="4" height="14" rx="1" fill="#4A6A80"/>
+<rect x="200" y="160" width="380" height="20" rx="6" fill="#2C2018"/>
+<rect x="200" y="160" width="380" height="8" rx="4" fill="#3A2820"/>
+<rect x="200" y="292" width="380" height="22" rx="4" fill="#2C2018"/>
+<rect x="208" y="178" width="364" height="120" rx="8" fill="#E8E0D0"/>
+<rect x="218" y="184" width="120" height="56" rx="10" fill="#F4EEE0"/>
+<rect x="224" y="190" width="108" height="44" rx="8" fill="#F8F4EC"/>
+<rect x="208" y="230" width="364" height="70" rx="8" fill="#BFD0C8"/>
+<rect x="208" y="230" width="364" height="8" rx="4" fill="#A8C0B0"/>
+<path d="M208 250 Q320 244 420 252 Q500 258 572 248" stroke="#A0B8A8" stroke-width="1.5" fill="none" opacity="0.7"/>
+<circle cx="280" cy="260" r="2.5" fill="#A0B8A8" opacity="0.4"/>
+<circle cx="340" cy="256" r="2.5" fill="#A0B8A8" opacity="0.4"/>
+<circle cx="400" cy="262" r="2.5" fill="#A0B8A8" opacity="0.4"/>
+<circle cx="460" cy="258" r="2.5" fill="#A0B8A8" opacity="0.4"/>
+<circle cx="520" cy="264" r="2.5" fill="#A0B8A8" opacity="0.4"/>
+<ellipse cx="278" cy="212" rx="28" ry="26" fill="#D4A882"/>
+<ellipse cx="278" cy="194" rx="26" ry="14" fill="#4A3018"/>
+<path d="M252 200 Q260 186 278 186 Q296 186 304 200" fill="#4A3018"/>
+<path d="M266 212 Q272 208 278 212" stroke="#8B6040" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+<path d="M280 212 Q286 208 292 212" stroke="#8B6040" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+<path d="M272 220 Q278 224 284 220" stroke="#B08060" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<ellipse cx="296" cy="248" rx="50" ry="16" fill="#BFD0C8" opacity="0.6"/>
+<ellipse cx="490" cy="280" rx="48" ry="30" fill="#3A4858" opacity="0.85"/>
+<rect x="444" y="252" width="96" height="60" rx="18" fill="#3A4858"/>
+<ellipse cx="490" cy="252" rx="42" ry="22" fill="#4A5868"/>
+<path d="M448 262 Q420 270 400 258" stroke="#3A4858" stroke-width="22" fill="none" stroke-linecap="round"/>
+<path d="M450 270 Q424 276 402 262" stroke="#4A5868" stroke-width="14" fill="none" stroke-linecap="round"/>
+<path d="M532 262 Q548 272 550 290" stroke="#3A4858" stroke-width="20" fill="none" stroke-linecap="round"/>
+<ellipse cx="490" cy="222" rx="30" ry="30" fill="#C4906A"/>
+<ellipse cx="490" cy="200" rx="30" ry="16" fill="#1A1008"/>
+<path d="M460 210 Q468 192 490 190 Q512 192 520 210" fill="#1A1008"/>
+<path d="M478 226 Q484 222 490 226" stroke="#A07040" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+<path d="M478 222 Q484 218 490 222" stroke="#8B6040" stroke-width="1.5" fill="none"/>
+<path d="M492 222 Q498 218 504 222" stroke="#8B6040" stroke-width="1.5" fill="none"/>
+<g transform="translate(390, 252) rotate(-12)">
+  <rect x="0" y="0" width="52" height="38" rx="3" fill="#E8D0B0"/>
+  <rect x="0" y="0" width="52" height="38" rx="3" fill="none" stroke="#C0A070" stroke-width="1"/>
+  <rect x="0" y="0" width="5" height="38" rx="2" fill="#A08050"/>
+  <path d="M5 2 Q28 6 52 2" stroke="#D0B880" stroke-width="0.8" fill="none" opacity="0.6"/>
+  <path d="M5 8 Q28 12 52 8" stroke="#D0B880" stroke-width="0.8" fill="none" opacity="0.4"/>
+  <rect x="5" y="0" width="47" height="38" rx="2" fill="#F5C97A" opacity="0.18"/>
 </g>
-
-<!-- Lamp warm light cast on bed -->
-<ellipse cx="380" cy="310" rx="160" ry="18" fill="#F5C97A" opacity="0.06" style="fill:rgb(245, 201, 122);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.06;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-
-<!-- Floor rug -->
-<ellipse cx="340" cy="336" rx="180" ry="22" fill="#2E3A2E" opacity="0.45" style="fill:rgb(46, 58, 46);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.45;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<ellipse cx="340" cy="336" rx="155" ry="16" fill="#364438" opacity="0.35" style="fill:rgb(54, 68, 56);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.35;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-
-<!-- Ambient light scatter on wall -->
-<ellipse cx="465" cy="155" rx="90" ry="65" fill="#F5C97A" opacity="0.13" style="fill:rgb(245, 201, 122);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.13;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-
+<ellipse cx="380" cy="310" rx="160" ry="18" fill="#F5C97A" opacity="0.06"/>
+<ellipse cx="340" cy="336" rx="180" ry="22" fill="#2E3A2E" opacity="0.45"/>
+<ellipse cx="340" cy="336" rx="155" ry="16" fill="#364438" opacity="0.35"/>
+<ellipse cx="465" cy="155" rx="90" ry="65" fill="#F5C97A" opacity="0.13"/>
 </svg>

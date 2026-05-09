@@ -1,5 +1,5 @@
 export interface HelpTopic {
-  icon: string;
+  icon: "feeding" | "sleep" | "development" | "milestones" | "everyday";
   title: string;
   question: string;
   description: string;
@@ -19,31 +19,31 @@ export interface ParentSuccessMessage {
 
 export const helpTopics: HelpTopic[] = [
   {
-    icon: "🥣",
+    icon: "feeding",
     title: "Feeding",
     question: "\"My baby isn't eating properly\"",
     description: "Get simple, age-appropriate meal ideas and tips",
   },
   {
-    icon: "😴",
+    icon: "sleep",
     title: "Sleep",
     question: "\"Why is my baby waking up at night?\"",
     description: "Understand patterns and build better routines",
   },
   {
-    icon: "🧠",
+    icon: "development",
     title: "Child Development",
     question: "\"Is my child growing normally?\"",
     description: "Know what to expect at every stage",
   },
   {
-    icon: "📈",
+    icon: "milestones",
     title: "Milestones",
     question: "\"Should my baby be crawling yet?\"",
     description: "Track and understand progress without stress",
   },
   {
-    icon: "💛",
+    icon: "everyday",
     title: "Everyday Parenting",
     question: "Tantrums, routines, habits",
     description: "We're here for it all",

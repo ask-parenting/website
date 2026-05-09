@@ -17,6 +17,43 @@ function formatReviewDateTime(value: string) {
   });
 }
 
+function StarIcon({ fillPercent, id }: { fillPercent: number; id: string }) {
+  return (
+    <svg viewBox="0 0 24 24" className="review-star" aria-hidden="true">
+      <defs>
+        <linearGradient id={id} x1="0" y1="0" x2="1" y2="0">
+          <stop offset={`${fillPercent}%`} stopColor="currentColor" />
+          <stop offset={`${fillPercent}%`} stopColor="transparent" />
+        </linearGradient>
+      </defs>
+      <path
+        d="M12 2.8l2.8 5.7 6.2.9-4.5 4.4 1.1 6.2L12 17.1 6.4 20l1.1-6.2L3 9.4l6.2-.9L12 2.8Z"
+        fill={`url(#${id})`}
+        stroke="currentColor"
+        strokeWidth="1.6"
+      />
+    </svg>
+  );
+}
+
+function ReviewStars({ rating, reviewIndex }: { rating: number; reviewIndex: number }) {
+  return (
+    <div className="review-rating" aria-label={`Rated ${rating} out of 5`}>
+      {Array.from({ length: 5 }, (_, starIndex) => {
+        const starFill = Math.max(0, Math.min(1, rating - starIndex));
+        return (
+          <StarIcon
+            key={`review-star-${reviewIndex}-${starIndex}`}
+            id={`review-star-${reviewIndex}-${starIndex}`}
+            fillPercent={starFill * 100}
+          />
+        );
+      })}
+      <span className="review-rating-value">{rating.toFixed(2).replace(/\.00$/, "")}</span>
+    </div>
+  );
+}
+
 export default function WhyParentsLoveSection() {
   const [showAllReviews, setShowAllReviews] = useState(false);
   const [expandedReviews, setExpandedReviews] = useState<Record<number, boolean>>({});
@@ -48,7 +85,7 @@ export default function WhyParentsLoveSection() {
 
           return (
           <article key={`${review.name}-${review.scenario}`} className="review-card">
-            <p className="review-rating">Rating: {review.rating}/5</p>
+            <ReviewStars rating={review.rating} reviewIndex={index} />
             <p className="review-datetime">{formatReviewDateTime(review.reviewedAt)}</p>
             <p className="review-scenario">
               &quot;{isLongReview && !isExpanded ? previewText : review.scenario}&quot;

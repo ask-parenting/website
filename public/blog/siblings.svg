@@ -1,0 +1,13 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1200" y2="675" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE9F2"/>
+      <stop offset="1" stop-color="#FFDCEC"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#g)"/>
+  <circle cx="210" cy="140" r="90" fill="rgba(255,255,255,0.22)"/>
+  <circle cx="1050" cy="590" r="160" fill="rgba(255,255,255,0.16)"/>
+  <rect x="90" y="482" width="1020" height="120" rx="24" fill="rgba(255,255,255,0.22)"/>
+  <text x="120" y="560" fill="#1D1D1F" font-size="58" font-family="Helvetica, Arial, sans-serif" font-weight="700">Sibling Harmony</text>
+</svg>

@@ -72,6 +72,7 @@ export default function SiteFooter({ whatsappLink }: SiteFooterProps) {
                   {label}
                 </a>
               ))}
+              <Link href="/blogs">Blogs</Link>
               <Link href="/faq">FAQs</Link>
               <Link href="/privacy">Privacy Policy</Link>
               <Link href="/terms">Terms of Service</Link>

@@ -1,0 +1,237 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F4F1EC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EBF2F7;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="wall2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#EDEBE6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E2DDD6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="floor2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#D8CEBF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C8BEA8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="doorGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#C8B89A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B8A888;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="benchGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4C4A8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#BEA890;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bag2Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6BAEE0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4A90CC;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="hookPanel" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#EAE4D8;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#D8D0C4;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="sunlight" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDF5E8;stop-opacity:0.7"/>
+      <stop offset="100%" style="stop-color:#FDF5E8;stop-opacity:0"/>
+    </linearGradient>
+    <linearGradient id="plateGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#F0EDE8;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="shadow1">
+      <feDropShadow dx="3" dy="6" stdDeviation="7" flood-color="#00000014"/>
+    </filter>
+    <filter id="shadow2">
+      <feDropShadow dx="2" dy="4" stdDeviation="5" flood-color="#0000000F"/>
+    </filter>
+    <filter id="shadow3">
+      <feDropShadow dx="1" dy="2" stdDeviation="3" flood-color="#0000000A"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg2)"/>
+  <rect width="1200" height="430" fill="url(#wall2)"/>
+  <!-- Floor -->
+  <rect y="430" width="1200" height="200" fill="url(#floor2)"/>
+  <!-- Floor meeting line -->
+  <rect y="428" width="1200" height="6" fill="#C8B89A" opacity="0.5"/>
+  <!-- Baseboard -->
+  <rect y="422" width="1200" height="14" rx="3" fill="#CEC0A8"/>
+
+  <!-- Sunlight glow from upper right (morning light) -->
+  <ellipse cx="1100" cy="80" rx="320" ry="280" fill="url(#sunlight)" opacity="0.5"/>
+
+  <!-- DOOR (left side, ajar) -->
+  <rect x="60" y="60" width="220" height="400" rx="6" fill="#B0A080" filter="url(#shadow1)"/>
+  <!-- Door face -->
+  <rect x="64" y="64" width="212" height="392" rx="4" fill="url(#doorGrad)"/>
+  <!-- Door panels -->
+  <rect x="82" y="90" width="82" height="120" rx="6" fill="#C8B690" opacity="0.5"/>
+  <rect x="178" y="90" width="82" height="120" rx="6" fill="#C8B690" opacity="0.5"/>
+  <rect x="82" y="230" width="82" height="140" rx="6" fill="#C8B690" opacity="0.5"/>
+  <rect x="178" y="230" width="82" height="140" rx="6" fill="#C8B690" opacity="0.5"/>
+  <!-- Door knob -->
+  <circle cx="258" cy="265" r="12" fill="#C8A840" filter="url(#shadow3)"/>
+  <circle cx="258" cy="265" r="8" fill="#D8B850"/>
+  <circle cx="255" cy="262" r="3" fill="#E8C860" opacity="0.6"/>
+  <!-- Door hinge hints -->
+  <rect x="64" y="120" width="10" height="30" rx="3" fill="#A89870"/>
+  <rect x="64" y="310" width="10" height="30" rx="3" fill="#A89870"/>
+
+  <!-- HOOK PANEL on wall right of door -->
+  <rect x="320" y="85" width="180" height="260" rx="10" fill="url(#hookPanel)" filter="url(#shadow2)"/>
+  <rect x="325" y="90" width="170" height="250" rx="8" fill="#F0EBE0" opacity="0.5"/>
+  <!-- Hooks (3 hooks) -->
+  <!-- Hook 1 -->
+  <rect x="356" y="115" width="10" height="28" rx="5" fill="#A89070"/>
+  <path d="M 361 143 Q 380 143 380 158" stroke="#A89070" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <!-- Hook 2 -->
+  <rect x="406" y="115" width="10" height="28" rx="5" fill="#A89070"/>
+  <path d="M 411 143 Q 430 143 430 158" stroke="#A89070" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <!-- Hook 3 -->
+  <rect x="456" y="115" width="10" height="28" rx="5" fill="#A89070"/>
+  <path d="M 461 143 Q 480 143 480 158" stroke="#A89070" stroke-width="8" fill="none" stroke-linecap="round"/>
+
+  <!-- Jacket/coat on hook 1 (already prepped) -->
+  <g filter="url(#shadow3)">
+    <path d="M 330 152 Q 355 148 365 160 L 365 240 Q 355 250 330 248 Q 305 250 305 240 L 305 160 Q 315 148 330 152Z" fill="#88A8C8"/>
+    <!-- Collar -->
+    <path d="M 315 160 Q 330 152 345 160" stroke="#7898B8" stroke-width="3" fill="none"/>
+    <!-- Arm hint -->
+    <path d="M 305 172 Q 285 168 278 190 Q 280 210 292 208 L 305 200" fill="#88A8C8"/>
+    <path d="M 355 172 Q 375 168 380 190 Q 378 210 366 208 L 355 200" fill="#88A8C8"/>
+  </g>
+
+  <!-- BENCH / LAUNCHPAD SHELF below hooks -->
+  <rect x="285" y="345" width="620" height="28" rx="8" fill="url(#benchGrad)" filter="url(#shadow1)"/>
+  <rect x="285" y="365" width="620" height="80" rx="4" fill="#C8B898"/>
+  <!-- Bench legs -->
+  <rect x="300" y="443" width="16" height="50" rx="6" fill="#B8A882"/>
+  <rect x="874" y="443" width="16" height="50" rx="6" fill="#B8A882"/>
+  <rect x="540" y="443" width="14" height="50" rx="6" fill="#B8A882"/>
+
+  <!-- SHOES on floor in front of bench -->
+  <!-- Left shoe pair (child) - prepped neatly -->
+  <g filter="url(#shadow3)">
+    <!-- Left shoe 1 -->
+    <ellipse cx="360" cy="510" rx="46" ry="18" fill="#E85858"/>
+    <path d="M 318 510 Q 318 492 332 488 L 400 488 Q 410 490 406 510 Z" fill="#E85858"/>
+    <path d="M 320 498 Q 340 490 370 490 Q 395 490 405 498" stroke="#CC4040" stroke-width="3" fill="none"/>
+    <!-- Lace bow -->
+    <path d="M 355 492 Q 362 484 370 492" stroke="#FAFAFA" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <circle cx="355" cy="492" r="4" fill="#FAFAFA"/>
+    <circle cx="370" cy="492" r="4" fill="#FAFAFA"/>
+    <!-- Left shoe 2 (beside it) -->
+    <ellipse cx="440" cy="510" rx="46" ry="18" fill="#E85858"/>
+    <path d="M 398 510 Q 398 492 412 488 L 480 488 Q 490 490 486 510 Z" fill="#E85858"/>
+    <path d="M 400 498 Q 420 490 450 490 Q 475 490 485 498" stroke="#CC4040" stroke-width="3" fill="none"/>
+    <path d="M 435 492 Q 442 484 450 492" stroke="#FAFAFA" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <circle cx="435" cy="492" r="4" fill="#FAFAFA"/>
+    <circle cx="450" cy="492" r="4" fill="#FAFAFA"/>
+  </g>
+
+  <!-- BACKPACK on bench, ready to go -->
+  <g filter="url(#shadow1)" transform="translate(570, 240)">
+    <!-- Bag body -->
+    <rect x="0" y="0" width="130" height="160" rx="18" fill="url(#bag2Grad)"/>
+    <!-- Top curve -->
+    <ellipse cx="65" cy="0" rx="65" ry="22" fill="#7ABCEA"/>
+    <!-- Front pocket -->
+    <rect x="14" y="80" width="102" height="64" rx="12" fill="#5A9ED8"/>
+    <!-- Zipper line -->
+    <path d="M 22 100 Q 65 90 108 100" stroke="#3A80BC" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <!-- Zipper pull -->
+    <circle cx="65" cy="96" r="5" fill="#A0D0F0"/>
+    <!-- Shoulder straps -->
+    <path d="M 20 0 Q 4 -22 10 -52" stroke="#3A80BC" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <path d="M 110 0 Q 126 -22 120 -52" stroke="#3A80BC" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <!-- Keychain/charm on zipper -->
+    <circle cx="65" cy="108" r="7" fill="#F0C840" opacity="0.9"/>
+    <circle cx="65" cy="108" r="4" fill="#E8B830"/>
+    <!-- Side compression straps -->
+    <rect x="2" y="40" width="7" height="50" rx="3.5" fill="#4A8FCC" opacity="0.5"/>
+    <rect x="121" y="40" width="7" height="50" rx="3.5" fill="#4A8FCC" opacity="0.5"/>
+  </g>
+
+  <!-- OUTFIT / CLOTHES folded on bench (right section) -->
+  <!-- Folded shirt -->
+  <g filter="url(#shadow3)">
+    <!-- Shirt base fold -->
+    <rect x="770" y="306" width="110" height="56" rx="8" fill="#88C0A0"/>
+    <rect x="770" y="306" width="110" height="10" rx="8" fill="#98D0B0" opacity="0.7"/>
+    <!-- Collar hint -->
+    <path d="M 810 314 Q 825 308 840 314" stroke="#68A880" stroke-width="2.5" fill="none"/>
+    <!-- Stripe detail (decorative, not text) -->
+    <rect x="778" y="332" width="94" height="4" rx="2" fill="#70B090" opacity="0.45"/>
+    <rect x="778" y="342" width="80" height="4" rx="2" fill="#70B090" opacity="0.35"/>
+    <!-- Pants folded on top -->
+    <rect x="776" y="280" width="98" height="30" rx="6" fill="#7A8EC0"/>
+    <rect x="780" y="284" width="90" height="4" rx="2" fill="#8A9ED0" opacity="0.5"/>
+    <!-- Small sock roll -->
+    <ellipse cx="900" cy="346" rx="30" ry="22" fill="#FAFAFA" filter="url(#shadow3)"/>
+    <ellipse cx="900" cy="346" rx="24" ry="16" fill="#F0EDE8"/>
+    <path d="M 878 340 Q 900 332 922 340" stroke="#E0D8D0" stroke-width="2.5" fill="none"/>
+  </g>
+
+  <!-- BREAKFAST TRAY / SMALL TABLE to the right -->
+  <!-- Small side table -->
+  <rect x="950" y="340" width="210" height="14" rx="6" fill="#D4C8B0" filter="url(#shadow2)"/>
+  <rect x="950" y="354" width="210" height="90" rx="4" fill="#C8BCA4"/>
+  <rect x="960" y="442" width="14" height="48" rx="5" fill="#B8AC94"/>
+  <rect x="1132" y="442" width="14" height="48" rx="5" fill="#B8AC94"/>
+
+  <!-- On breakfast table: plate, cup, fruit -->
+  <!-- Plate -->
+  <ellipse cx="1028" cy="342" rx="52" ry="14" fill="#E8E4DC" filter="url(#shadow3)"/>
+  <ellipse cx="1028" cy="338" rx="48" ry="12" fill="url(#plateGrad)"/>
+  <ellipse cx="1028" cy="336" rx="36" ry="9" fill="#F8F6F2"/>
+  <!-- Food on plate: toast slice -->
+  <rect x="1004" y="306" width="48" height="32" rx="5" fill="#D4A858" filter="url(#shadow3)"/>
+  <rect x="1007" y="308" width="42" height="28" rx="4" fill="#E0B86A"/>
+  <!-- Toast crust suggestion -->
+  <rect x="1004" y="328" width="48" height="10" rx="0 0 5 5" fill="#C89848"/>
+  <!-- Butter shine on toast -->
+  <ellipse cx="1024" cy="316" rx="14" ry="6" fill="#F0D080" opacity="0.45"/>
+
+  <!-- Mug -->
+  <rect x="1092" y="290" width="52" height="52" rx="10" fill="#E8A870" filter="url(#shadow3)"/>
+  <rect x="1095" y="293" width="46" height="46" rx="8" fill="#F0B880"/>
+  <!-- Mug handle -->
+  <path d="M 1144 308 Q 1165 308 1165 316 Q 1165 328 1144 328" stroke="#E0A068" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <!-- Steam curls (morning warmth) -->
+  <path d="M 1108 288 Q 1112 278 1108 268" stroke="#D0C0A8" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <path d="M 1120 285 Q 1124 273 1120 263" stroke="#D0C0A8" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <path d="M 1132 288 Q 1136 276 1132 264" stroke="#D0C0A8" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.45"/>
+
+  <!-- Fruit: small apple or orange beside plate -->
+  <circle cx="1076" cy="316" r="18" fill="#E86858" filter="url(#shadow3)"/>
+  <circle cx="1076" cy="316" r="15" fill="#F07868"/>
+  <!-- Apple stem -->
+  <path d="M 1076 298 Q 1080 290 1084 294" stroke="#6A4030" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Apple highlight -->
+  <circle cx="1070" cy="311" r="5" fill="white" opacity="0.25"/>
+
+  <!-- Soft checkmark "done" indicator floating near bench area -->
+  <circle cx="745" cy="490" r="24" fill="#A8D8A8" opacity="0.4"/>
+  <path d="M 733 490 L 741 499 L 758 481" stroke="#4A9860" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.75"/>
+
+  <!-- Moon/star night-before prep symbol - subtle, upper left corner -->
+  <g transform="translate(1100, 55)" opacity="0.22">
+    <path d="M 0 -25 Q 20 -15 18 8 Q 16 28 -5 32 Q 15 20 14 0 Q 12 -18 0 -25 Z" fill="#7090C0"/>
+    <circle cx="28" cy="-15" r="4" fill="#B0C8E8"/>
+    <circle cx="35" cy="5" r="2.5" fill="#B0C8E8"/>
+    <circle cx="15" cy="-28" r="2" fill="#B0C8E8"/>
+  </g>
+
+  <!-- Subtle sunlight patch on floor -->
+  <ellipse cx="200" cy="530" rx="120" ry="40" fill="#F8EDD8" opacity="0.25"/>
+
+  <!-- Floor shadow under bench -->
+  <ellipse cx="595" cy="494" rx="280" ry="16" fill="#0000000A"/>
+
+  <!-- Soft vignette -->
+  <radialGradient id="vig2" cx="50%" cy="50%" r="70%">
+    <stop offset="55%" style="stop-color:transparent"/>
+    <stop offset="100%" style="stop-color:#C8BCA8;stop-opacity:0.16"/>
+  </radialGradient>
+  <rect width="1200" height="630" fill="url(#vig2)"/>
+</svg>

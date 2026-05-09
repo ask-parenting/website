@@ -197,78 +197,62 @@ export const heroStats: FeatureStat[] = [
 
 export const faqs = [
   {
-    question: "Is this a replacement for a doctor?",
+    question: "Is Parenting AI a replacement for a doctor?",
     answer:
-      "No. Parenting AI is informational support only. For diagnosis, treatment, or emergencies, contact a licensed doctor or emergency services immediately.",
+      "No. It is educational support only. For diagnosis, treatment, or emergencies, contact a licensed doctor or emergency services immediately.",
   },
   {
-    question: "What age group is this for?",
+    question: "Who is this for?",
     answer:
-      "The service is designed for pre-delivery guidance through early childhood, up to 5 years of age.",
+      "Parents and caregivers from pregnancy planning and newborn stage through early childhood (up to around 5 years).",
   },
   {
-    question: "How quickly do I get responses?",
+    question: "How does it work?",
     answer:
-      "Responses are designed to be near-instant on WhatsApp so you can get support when a concern comes up.",
+      "Tap Start on WhatsApp, send the prefilled message, and ask your question. No separate app install is needed.",
+  },
+  {
+    question: "How fast are replies?",
+    answer:
+      "Replies are usually near-instant on WhatsApp, but timing can vary based on network and system load.",
+  },
+  {
+    question: "What can I ask about?",
+    answer:
+      "Feeding, sleep, milestones, behavior, routines, and day-to-day parenting concerns.",
   },
   {
     question: "Do you sell my personal data?",
-    answer:
-      "No. We do not sell personal data. You can request deletion by contacting us through the details in our footer.",
+    answer: "No. We do not sell personal data.",
   },
   {
-    question: "Do I need to install another app?",
-    answer: "No. The experience is built for WhatsApp, with no app install and no separate signup flow.",
+    question: "Can I stop messages?",
+    answer:
+      "Yes. Reply STOP on WhatsApp anytime, or email hello@askparenting.com with the subject line Opt out.",
   },
   {
-    question: "Can both parents use the same child profile?",
+    question: "Can I delete my data?",
     answer:
-      "Yes. You can share context between caregivers by using the same WhatsApp flow and clearly mentioning updates from each parent.",
+      "Yes. Email hello@askparenting.com with the subject line Delete my data. We process verified requests as per our Privacy Policy.",
   },
   {
-    question: "What kind of questions can I ask?",
+    question: "Can both parents use it?",
     answer:
-      "You can ask about feeding, sleep, milestones, routines, behavior, and day-to-day parenting concerns for children up to 5 years.",
+      "Yes. Both caregivers can use the service and share child updates clearly in chat.",
   },
   {
-    question: "How are reminders handled?",
+    question: "Do you send reminders?",
     answer:
-      "When enabled, reminders can be sent for practical parenting tasks like routines and follow-ups. You can choose to ignore or request changes.",
+      "If reminders are enabled, you may receive practical follow-up messages. You can ask to stop or change them anytime.",
   },
   {
-    question: "Can I delete my chat data?",
+    question: "Does guidance consider my child's age?",
     answer:
-      "Yes. You can request deletion using the contact details in the footer. We process deletion requests according to our policy obligations.",
+      "Yes. Share your child's age (or due date) so guidance can be age-appropriate.",
   },
   {
-    question: "What if my child has urgent symptoms?",
-    answer:
-      "For urgent symptoms, contact emergency services or a licensed doctor immediately. Use this service for educational support, not emergency care.",
-  },
-  {
-    question: "Is this only for newborns?",
-    answer:
-      "No. The service supports parents from pre-delivery preparation through early childhood, up to 5 years of age.",
-  },
-  {
-    question: "Do responses consider my child's age?",
-    answer:
-      "Yes. Guidance is designed to be age-aware when you share your child\'s age or due-date context.",
-  },
-  {
-    question: "Can I use it while traveling?",
-    answer:
-      "Yes. Since it runs on WhatsApp, you can use it wherever your WhatsApp access is available.",
-  },
-  {
-    question: "How much does it cost right now?",
-    answer:
-      "Current pricing and offers are shown on the landing page. If a beta or free access program is active, it will be clearly stated there.",
-  },
-  {
-    question: "How do I start quickly?",
-    answer:
-      "Tap Start on WhatsApp, send the prefilled message, and ask your first parenting question. No separate signup is required.",
+    question: "Can I use this while traveling?",
+    answer: "Yes, as long as your WhatsApp works in that location.",
   },
 ];
 

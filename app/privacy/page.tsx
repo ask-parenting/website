@@ -13,76 +13,92 @@ export default function PrivacyPage() {
 
       <main className="legal-page">
         <h1>Privacy Policy</h1>
-        <p>Effective date: April 26, 2026</p>
+        <p>Effective date: May 9, 2026</p>
         <p>
-          Parenting AI may process parent-provided messages and child-development context to deliver
-          guidance, reminders, and milestone tracking within WhatsApp.
+          Parenting AI (operated by AvNeer Solutions Private Limited) provides parenting support on WhatsApp.
+          This page explains what data we use and why.
+        </p>
+
+        <h2>What we collect</h2>
+        <ul>
+          <li>Your WhatsApp phone number</li>
+          <li>Messages you send us</li>
+          <li>Child context you choose to share (for example: age, milestones, routines)</li>
+          <li>Basic technical logs for security and reliability</li>
+        </ul>
+
+        <h2>How we use data</h2>
+        <ul>
+          <li>To reply to your parenting questions</li>
+          <li>To personalize guidance based on what you share</li>
+          <li>To send requested follow-ups such as reminders and check-ins</li>
+          <li>To improve safety, quality, and service reliability</li>
+        </ul>
+        <p>We do not sell your personal data.</p>
+        <p>We do not use your data for unrelated advertising.</p>
+
+        <h2>WhatsApp and Meta</h2>
+        <p>
+          This service runs on WhatsApp. Your messages and phone number pass through WhatsApp infrastructure,
+          which is operated by Meta Platforms, Inc.
         </p>
         <p>
-          We collect only information required to provide the service, improve response quality, and
-          maintain security. We do not sell personal data.
-        </p>
-        <p>
-          Categories of data we may process include account identifiers you share, messages, child age and
-          milestone context, and usage logs required for reliability and abuse prevention.
-        </p>
-        <h2>WhatsApp as a data channel</h2>
-        <p>
-          When users interact with this service via WhatsApp, their phone number and messages are transmitted
-          through Meta Platforms Inc.&apos;s WhatsApp infrastructure. Meta processes this data under its own Privacy
-          Policy, which users can read at
+          WhatsApp handles this data under its own policy:
           {" "}
           <a href="https://www.whatsapp.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">
             whatsapp.com/legal/privacy-policy
           </a>
           .
         </p>
-        <p>
-          AvNeer Solutions only receives the messages users send and their WhatsApp phone number, and nothing
-          beyond that.
-        </p>
-        <p>
-          We use this data to operate the service, personalize responses, maintain safety, and improve quality.
-          We do not use your data for unrelated advertising.
-        </p>
-        <h2>Messaging opt-out</h2>
-        <p>
-          Users can stop receiving messages at any time by replying STOP to any message sent by Parenting AI.
-          Alternatively, users can email
-          {" "}
-          <a href="mailto:hello@askparenting.com">hello@askparenting.com</a>
-          {" "}
-          with the subject line &quot;Opt out&quot;. All opt-out requests are processed within 24 hours. After
-          opting out, no further messages are sent unless the user initiates contact again.
-        </p>
-        <p>
-          Data may be processed by essential service providers that help us run hosting, delivery, and analytics.
-          Where required, we apply contractual and technical safeguards.
-        </p>
+
+        <h2>Opt-out of messages</h2>
+        <ul>
+          <li>Reply <strong>STOP</strong> on WhatsApp anytime, or</li>
+          <li>
+            Email
+            {" "}
+            <a href="mailto:hello@askparenting.com">hello@askparenting.com</a>
+            {" "}
+            with subject: "Opt out"
+          </li>
+        </ul>
+        <p>We process opt-out requests within 24 hours.</p>
+
         <h2>Data retention</h2>
+        <ul>
+          <li>Conversation logs: 90 days</li>
+          <li>Security and usage logs: 180 days</li>
+          <li>Account/contact identifiers: until deletion request</li>
+          <li>Reminder preferences and milestone context: until deletion request or opt-out</li>
+        </ul>
         <p>
-          Conversation logs are kept for 90 days from the date of the conversation. Account identifiers are
-          kept until the user requests deletion. Security and usage logs are kept for 180 days. Deletion
-          requests are completed within 30 days of verification. To request deletion, users should email
+          To request deletion, email
           {" "}
           <a href="mailto:hello@askparenting.com">hello@askparenting.com</a>
           {" "}
-          with the subject &quot;Delete my data&quot;.
+          with subject: "Delete my data".
         </p>
+        <p>We complete verified deletion requests within 30 days.</p>
+
+        <h2>Children's data</h2>
         <p>
-          We apply reasonable security controls, including encryption and access controls, to protect data.
-          No method of transmission or storage is fully risk-free.
+          The service is for parents and caregivers. If you believe a child shared personal data directly,
+          contact us so we can review and remove it where appropriate.
         </p>
+
+        <h2>Security</h2>
         <p>
-          This service is intended for parents and caregivers. If you believe a child has provided personal data
-          directly, contact us so we can investigate and remove it where appropriate.
+          We use reasonable safeguards like encryption and access controls. No online system is 100% risk-free.
         </p>
+
+        <h2>Policy updates</h2>
         <p>
-          We may update this Privacy Policy from time to time. Material updates will be reflected by revising
-          the effective date on this page.
+          We may update this policy. Any major update will be reflected by changing the effective date on this page.
         </p>
+
+        <h2>Contact</h2>
         <p>
-          For any privacy request or data deletion request, email
+          For privacy questions, opt-out, or deletion requests, email
           {" "}
           <a href="mailto:hello@askparenting.com">hello@askparenting.com</a>
           . We respond within 7 business days.

@@ -13,62 +13,58 @@ export default function TermsPage() {
 
       <main className="legal-page">
         <h1>Terms of Service</h1>
-        <p>Effective date: April 26, 2026</p>
+        <p>Effective date: May 9, 2026</p>
         <p>
-          Parenting AI provides informational support for caregivers and is not a substitute for professional
-          medical diagnosis, treatment, or emergency services.
+          Parenting AI is operated by AvNeer Solutions Private Limited. By using this service, you agree to
+          these terms.
+        </p>
+
+        <h2>Important medical disclaimer</h2>
+        <ul>
+          <li>This service provides educational parenting support only.</li>
+          <li>It is not a doctor, hospital, or emergency service.</li>
+          <li>For urgent symptoms, call your local emergency service or a licensed doctor immediately.</li>
+        </ul>
+
+        <h2>Your responsibilities</h2>
+        <ul>
+          <li>Share accurate information when asking questions.</li>
+          <li>Use guidance responsibly and confirm critical decisions with qualified professionals.</li>
+          <li>Do not misuse the service or attempt unauthorized access.</li>
+        </ul>
+
+        <h2>Service availability</h2>
+        <p>
+          We may update, pause, or change features at any time for product, legal, or security reasons.
         </p>
         <p>
-          By using the service, you agree to provide accurate information, avoid unlawful use, and verify
-          critical health decisions with qualified professionals.
+          Features can include AI chat replies, milestone guidance, and reminder/check-in messages on WhatsApp.
+        </p>
+
+        <h2>WhatsApp platform</h2>
+        <p>
+          This service works through WhatsApp, owned by Meta Platforms, Inc. Your use of WhatsApp is also
+          governed by WhatsApp terms and privacy policy.
         </p>
         <p>
-          In an emergency, contact your local emergency number or licensed medical provider immediately.
-        </p>
-        <p>
-          You are responsible for how you use information provided by the service. Final health decisions must
-          always be made with qualified professionals.
-        </p>
-        <p>
-          You must not misuse the service, attempt unauthorized access, or use it in ways that violate law or
-          third-party rights.
-        </p>
-        <p>
-          We may suspend or restrict access for abuse, security risk, non-payment (if applicable), or legal
-          compliance reasons.
-        </p>
-        <p>
-          The service may change over time, including features, availability, and supported regions, without
-          prior notice.
-        </p>
-        <p>
-          To the maximum extent allowed by law, the service is provided on an as-is and as-available basis,
-          without warranties of uninterrupted operation or error-free output.
-        </p>
-        <p>
-          To the maximum extent allowed by law, AvNeer Solutions Private Limited will not be liable for indirect,
-          incidental, special, consequential, or punitive damages arising from use of the service.
-        </p>
-        <p>
-          All product, brand, and content rights in the service are owned by, or licensed to, the operator.
-        </p>
-        <h2>Third-party platform</h2>
-        <p>
-          This service runs on WhatsApp, a platform owned by Meta Platforms, Inc. Your use of WhatsApp is
-          also subject to WhatsApp&apos;s Terms of Service and Privacy Policy. AvNeer Solutions Private Limited
-          is not responsible for the availability or conduct of the WhatsApp platform. See
+          Read WhatsApp terms here:
           {" "}
           <a href="https://www.whatsapp.com/legal/terms-of-service" target="_blank" rel="noopener noreferrer">
             whatsapp.com/legal/terms-of-service
           </a>
           .
         </p>
+
+        <h2>Warranty and liability</h2>
+        <p>
+          The service is provided on an "as is" and "as available" basis. To the maximum extent allowed by law,
+          AvNeer Solutions Private Limited is not liable for indirect or consequential damages from service use.
+        </p>
+
+        <h2>Governing law</h2>
         <p>
           These terms are governed by applicable laws of India, and disputes are subject to courts with
           competent jurisdiction.
-        </p>
-        <p>
-          The service is operated by AvNeer Solutions Private Limited, as shown in the homepage footer.
         </p>
       </main>
     </>

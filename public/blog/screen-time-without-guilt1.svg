@@ -1,0 +1,237 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f4f1ee;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#e9e4dc;stop-opacity:1"/>
+    </linearGradient>
+
+    <!-- Timer ring gradient (calm blue) -->
+    <linearGradient id="ringFill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6eafd4"/>
+      <stop offset="100%" style="stop-color:#4a90b8"/>
+    </linearGradient>
+
+    <!-- Timer ring background -->
+    <linearGradient id="ringBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#dce8f0"/>
+      <stop offset="100%" style="stop-color:#c8dae8"/>
+    </linearGradient>
+
+    <!-- Inner circle glow -->
+    <radialGradient id="innerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.95"/>
+      <stop offset="70%" style="stop-color:#f0f6fb;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#e0ecf5;stop-opacity:0.8"/>
+    </radialGradient>
+
+    <!-- Card shadow -->
+    <filter id="cardShadow">
+      <feDropShadow dx="0" dy="8" stdDeviation="20" flood-color="#b8b0a4" flood-opacity="0.2"/>
+    </filter>
+    <filter id="timerShadow">
+      <feDropShadow dx="0" dy="12" stdDeviation="28" flood-color="#6eafd4" flood-opacity="0.25"/>
+    </filter>
+
+    <!-- Transition arrow gradient -->
+    <linearGradient id="arrowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6eafd4;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#4a90b8;stop-opacity:0.8"/>
+    </linearGradient>
+
+    <!-- Soft green for "done" state -->
+    <linearGradient id="doneGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7ec8a0"/>
+      <stop offset="100%" style="stop-color:#5aaa80"/>
+    </linearGradient>
+
+    <!-- Floor -->
+    <linearGradient id="floorGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e4ddd5"/>
+      <stop offset="100%" style="stop-color:#d8d0c6"/>
+    </linearGradient>
+
+    <!-- Clip path for ring arc -->
+    <clipPath id="topHalf">
+      <rect x="0" y="0" width="1200" height="315"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg2)"/>
+
+  <!-- Floor line -->
+  <rect x="0" y="490" width="1200" height="140" fill="url(#floorGrad)"/>
+  <rect x="0" y="488" width="1200" height="6" fill="#d0c9c0"/>
+
+  <!-- Wall panel detail (subtle wainscoting suggestion) -->
+  <rect x="0" y="420" width="1200" height="70" fill="#e0d9d0" opacity="0.4"/>
+  <rect x="0" y="418" width="1200" height="4" fill="#ccc5bc" opacity="0.5"/>
+
+  <!-- ============================================================ -->
+  <!-- LEFT PANEL: "Screen time in progress" scene -->
+  <!-- ============================================================ -->
+
+  <!-- Left panel card -->
+  <rect x="60" y="80" width="380" height="380" rx="24" fill="#ffffff" opacity="0.88" filter="url(#cardShadow)"/>
+
+  <!-- Child silhouette on left (using tablet, floor/cushion) -->
+  <!-- Floor cushion -->
+  <ellipse cx="250" cy="430" rx="110" ry="28" fill="#c8d8e4" opacity="0.7"/>
+  <rect x="160" y="408" width="180" height="38" rx="16" fill="#c8d8e4"/>
+  <!-- Child sitting cross-legged -->
+  <!-- Legs -->
+  <ellipse cx="220" cy="422" rx="48" ry="18" fill="#8090a8" transform="rotate(-8,220,422)"/>
+  <ellipse cx="282" cy="420" rx="48" ry="18" fill="#8090a8" transform="rotate(8,282,420)"/>
+  <!-- Body -->
+  <rect x="218" y="340" width="68" height="88" rx="20" fill="#e8926e"/>
+  <!-- Head -->
+  <ellipse cx="252" cy="326" rx="36" ry="38" fill="#e8b888"/>
+  <!-- Hair -->
+  <path d="M216 312 Q220 282 252 278 Q284 282 288 312 Q280 294 252 290 Q224 294 216 312Z" fill="#3a2818"/>
+  <!-- Eyes looking at tablet (slightly downward) -->
+  <ellipse cx="241" cy="328" rx="4.5" ry="4" fill="#2e2018"/>
+  <ellipse cx="263" cy="328" rx="4.5" ry="4" fill="#2e2018"/>
+  <!-- Tablet in hands -->
+  <rect x="220" y="370" width="66" height="50" rx="7" fill="#2a2e38"/>
+  <rect x="225" y="374" width="56" height="40" rx="5" fill="#c8e4f4"/>
+  <!-- Calm content on tablet screen -->
+  <circle cx="253" cy="394" r="12" fill="#8cc8e8" opacity="0.6"/>
+  <circle cx="253" cy="394" r="7" fill="#60aad8" opacity="0.7"/>
+  <!-- Soft glow under tablet -->
+  <ellipse cx="253" cy="425" rx="30" ry="6" fill="#6eafd4" opacity="0.15"/>
+
+  <!-- "Active" indicator: warm soft pulsing ring (animated) -->
+  <circle cx="340" cy="120" r="14" fill="none" stroke="#6eafd4" stroke-width="3" opacity="0.8"/>
+  <circle cx="340" cy="120" r="8" fill="#6eafd4" opacity="0.9"/>
+  <!-- Pulse rings (static suggestion) -->
+  <circle cx="340" cy="120" r="20" fill="none" stroke="#6eafd4" stroke-width="1.5" opacity="0.4"/>
+  <circle cx="340" cy="120" r="28" fill="none" stroke="#6eafd4" stroke-width="1" opacity="0.2"/>
+
+  <!-- ============================================================ -->
+  <!-- CENTER: Large Timer Circle -->
+  <!-- ============================================================ -->
+
+  <!-- Timer outer glow -->
+  <circle cx="600" cy="310" r="175" fill="#6eafd4" opacity="0.08" filter="url(#timerShadow)"/>
+
+  <!-- Timer ring track (background) -->
+  <circle cx="600" cy="310" r="155" fill="url(#ringBg)" stroke="#d4e8f4" stroke-width="1"/>
+
+  <!-- Timer ring progress arc (about 60% remaining, suggests winding down) -->
+  <!-- Full circle stroke with dasharray trick for partial fill -->
+  <circle cx="600" cy="310" r="140"
+    fill="none"
+    stroke="#dce8f0"
+    stroke-width="26"
+    stroke-linecap="round"/>
+  <!-- Progress: ~60% of 2πr = ~880*0.6 -->
+  <circle cx="600" cy="310" r="140"
+    fill="none"
+    stroke="url(#ringFill)"
+    stroke-width="26"
+    stroke-linecap="round"
+    stroke-dasharray="528 880"
+    stroke-dashoffset="220"
+    transform="rotate(-90 600 310)"/>
+
+  <!-- Timer inner circle -->
+  <circle cx="600" cy="310" r="110" fill="url(#innerGlow)" filter="url(#cardShadow)"/>
+
+  <!-- Abstract time markers (dots around ring, no numbers) -->
+  <!-- 12 position dots -->
+  <circle cx="600" cy="158" r="5" fill="#6eafd4" opacity="0.7"/>
+  <circle cx="738" cy="172" r="4" fill="#6eafd4" opacity="0.5"/>
+  <circle cx="810" cy="282" r="4" fill="#6eafd4" opacity="0.5"/>
+  <circle cx="800" cy="410" r="5" fill="#6eafd4" opacity="0.7"/>
+  <circle cx="686" cy="486" r="4" fill="#6eafd4" opacity="0.5"/>
+  <circle cx="514" cy="486" r="4" fill="#6eafd4" opacity="0.5"/>
+  <circle cx="400" cy="410" r="5" fill="#6eafd4" opacity="0.7"/>
+  <circle cx="390" cy="282" r="4" fill="#6eafd4" opacity="0.5"/>
+  <circle cx="462" cy="172" r="4" fill="#6eafd4" opacity="0.5"/>
+  <!-- Quarter markers (slightly larger) -->
+  <circle cx="752" cy="310" r="6" fill="#4a90b8" opacity="0.6"/>
+  <circle cx="448" cy="310" r="6" fill="#4a90b8" opacity="0.6"/>
+
+  <!-- Clock hands (abstract, no numbers) -->
+  <!-- Hour hand -->
+  <line x1="600" y1="310" x2="600" y2="218"
+    stroke="#4a90b8" stroke-width="7" stroke-linecap="round"/>
+  <!-- Minute hand (pointing to ~8 o'clock suggesting time running down) -->
+  <line x1="600" y1="310" x2="528" y2="364"
+    stroke="#6eafd4" stroke-width="5" stroke-linecap="round"/>
+  <!-- Center hub -->
+  <circle cx="600" cy="310" r="10" fill="#4a90b8"/>
+  <circle cx="600" cy="310" r="5" fill="#ffffff"/>
+
+  <!-- Soft sand-like fill inside (calm icon: simple house silhouette suggesting "after screen time") -->
+  <path d="M580 348 L580 372 L622 372 L622 348 L601 334 Z" fill="#6eafd4" opacity="0.18"/>
+  <rect x="590" y="355" width="14" height="17" rx="2" fill="#6eafd4" opacity="0.25"/>
+
+  <!-- ============================================================ -->
+  <!-- RIGHT PANEL: "Smooth transition / after" scene -->
+  <!-- ============================================================ -->
+
+  <!-- Right panel card -->
+  <rect x="760" y="80" width="380" height="380" rx="24" fill="#ffffff" opacity="0.88" filter="url(#cardShadow)"/>
+
+  <!-- "Done" soft green glow -->
+  <circle cx="940" cy="270" r="160" fill="#7ec8a0" opacity="0.06"/>
+
+  <!-- Child (same kid) now engaged in activity - drawing/book -->
+  <!-- Beanbag / sitting area -->
+  <ellipse cx="940" cy="445" rx="100" ry="32" fill="#dde8d4" opacity="0.8"/>
+  <ellipse cx="940" cy="430" rx="85" ry="55" fill="#c8d8c0"/>
+  <!-- Child seated -->
+  <!-- Legs -->
+  <ellipse cx="908" cy="440" rx="44" ry="16" fill="#8090a8" transform="rotate(-10,908,440)"/>
+  <ellipse cx="972" cy="438" rx="44" ry="16" fill="#8090a8" transform="rotate(10,972,438)"/>
+  <!-- Body -->
+  <rect x="904" y="354" width="72" height="90" rx="20" fill="#e8926e"/>
+  <!-- Head -->
+  <ellipse cx="940" cy="340" rx="36" ry="38" fill="#e8b888"/>
+  <!-- Hair -->
+  <path d="M904 326 Q908 296 940 292 Q972 296 976 326 Q968 308 940 304 Q912 308 904 326Z" fill="#3a2818"/>
+  <!-- Eyes looking down at activity (happy) -->
+  <path d="M928 340 Q932 337 936 340" fill="none" stroke="#2e2018" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M944 340 Q948 337 952 340" fill="none" stroke="#2e2018" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Smile -->
+  <path d="M930 354 Q940 362 950 354" fill="none" stroke="#c8906a" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Book/drawing activity in hands -->
+  <rect x="904" y="382" width="74" height="56" rx="6" fill="#f5ede0" stroke="#e0d0b8" stroke-width="2"/>
+  <!-- Book page lines (no text, just ruled lines) -->
+  <line x1="914" y1="396" x2="968" y2="396" stroke="#d4c8b4" stroke-width="1.5" opacity="0.7"/>
+  <line x1="914" y1="406" x2="968" y2="406" stroke="#d4c8b4" stroke-width="1.5" opacity="0.7"/>
+  <line x1="914" y1="416" x2="968" y2="416" stroke="#d4c8b4" stroke-width="1.5" opacity="0.7"/>
+  <line x1="914" y1="426" x2="960" y2="426" stroke="#d4c8b4" stroke-width="1.5" opacity="0.7"/>
+  <!-- Crayon/pencil in hand -->
+  <rect x="968" y="378" width="8" height="40" rx="4" fill="#f5c84a" transform="rotate(25,972,398)"/>
+  <polygon points="972,378 968,368 976,368" fill="#e8a830" transform="rotate(25,972,398)"/>
+
+  <!-- "Done" checkmark indicator (soft green circle top right of card) -->
+  <circle cx="1112" cy="120" r="20" fill="#7ec8a0" opacity="0.9"/>
+  <path d="M1102 120 L1110 128 L1122 112" fill="none" stroke="white" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- ============================================================ -->
+  <!-- TRANSITION ARROWS between panels and timer -->
+  <!-- ============================================================ -->
+
+  <!-- Left to center arrow -->
+  <path d="M458 310 Q510 310 540 310" fill="none" stroke="url(#arrowGrad)" stroke-width="3" stroke-dasharray="8,5" opacity="0.7"/>
+  <polygon points="548,305 562,310 548,315" fill="#6eafd4" opacity="0.7"/>
+
+  <!-- Center to right arrow -->
+  <path d="M660 310 Q690 310 742 310" fill="none" stroke="url(#arrowGrad)" stroke-width="3" stroke-dasharray="8,5" opacity="0.7"/>
+  <polygon points="750,305 764,310 750,315" fill="#4a90b8" opacity="0.7"/>
+
+  <!-- Soft bottom wave decoration -->
+  <path d="M0 540 Q150 520 300 540 Q450 560 600 540 Q750 520 900 540 Q1050 560 1200 540 L1200 630 L0 630Z" fill="#d8d2ca" opacity="0.3"/>
+
+  <!-- Subtle decorative dots pattern (top area) -->
+  <circle cx="100" cy="50" r="3" fill="#b8c8d4" opacity="0.4"/>
+  <circle cx="130" cy="38" r="2" fill="#b8c8d4" opacity="0.3"/>
+  <circle cx="160" cy="55" r="3" fill="#b8c8d4" opacity="0.3"/>
+  <circle cx="1040" cy="50" r="3" fill="#b8c8d4" opacity="0.4"/>
+  <circle cx="1070" cy="38" r="2" fill="#b8c8d4" opacity="0.3"/>
+  <circle cx="1100" cy="55" r="3" fill="#b8c8d4" opacity="0.3"/>
+</svg>

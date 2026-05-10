@@ -1,0 +1,245 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5f2ee"/>
+      <stop offset="100%" style="stop-color:#ede7df"/>
+    </linearGradient>
+    <linearGradient id="floorGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8e0d6"/>
+      <stop offset="100%" style="stop-color:#ddd5c8"/>
+    </linearGradient>
+    <linearGradient id="shelfGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#d8d0c4"/>
+      <stop offset="100%" style="stop-color:#c8bfb2"/>
+    </linearGradient>
+    <linearGradient id="shelfL" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#d0c8bc"/>
+      <stop offset="100%" style="stop-color:#c0b8aa"/>
+    </linearGradient>
+    <linearGradient id="ceilingLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fdf8f0;stop-opacity:0.7"/>
+      <stop offset="100%" style="stop-color:#fdf8f0;stop-opacity:0"/>
+    </linearGradient>
+    <radialGradient id="warmGlow" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" style="stop-color:#fef4e4;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:#fef4e4;stop-opacity:0"/>
+    </radialGradient>
+    <filter id="softDrop">
+      <feDropShadow dx="0" dy="6" stdDeviation="14" flood-color="#b0a898" flood-opacity="0.2"/>
+    </filter>
+    <filter id="gentleShadow">
+      <feDropShadow dx="0" dy="3" stdDeviation="7" flood-color="#a8a098" flood-opacity="0.18"/>
+    </filter>
+    <!-- Product colors -->
+    <linearGradient id="prod1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#c8d8b0"/>
+      <stop offset="100%" style="stop-color:#b0c098"/>
+    </linearGradient>
+    <linearGradient id="prod2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8c4a0"/>
+      <stop offset="100%" style="stop-color:#d4a880"/>
+    </linearGradient>
+    <linearGradient id="prod3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#b8ccd8"/>
+      <stop offset="100%" style="stop-color:#9ab4c4"/>
+    </linearGradient>
+    <linearGradient id="prod4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8d4b8"/>
+      <stop offset="100%" style="stop-color:#d4be9c"/>
+    </linearGradient>
+    <linearGradient id="parentShirt" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8a9fb5"/>
+      <stop offset="100%" style="stop-color:#7090a8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+  <!-- Warm ceiling glow -->
+  <rect width="1200" height="630" fill="url(#warmGlow)"/>
+
+  <!-- Ceiling -->
+  <rect x="0" y="0" width="1200" height="48" fill="#eae4dc"/>
+  <!-- Ceiling light strips -->
+  <rect x="180" y="6" width="200" height="12" rx="6" fill="#fdf6e8" opacity="0.9"/>
+  <rect x="520" y="6" width="200" height="12" rx="6" fill="#fdf6e8" opacity="0.9"/>
+  <rect x="860" y="6" width="200" height="12" rx="6" fill="#fdf6e8" opacity="0.9"/>
+  <!-- Light beam softly down -->
+  <path d="M180 18 L130 200 L380 200 L430 18Z" fill="url(#ceilingLight)" opacity="0.3"/>
+  <path d="M520 18 L470 200 L720 200 L770 18Z" fill="url(#ceilingLight)" opacity="0.3"/>
+  <path d="M860 18 L810 200 L1060 200 L1110 18Z" fill="url(#ceilingLight)" opacity="0.2"/>
+
+  <!-- Floor -->
+  <rect x="0" y="498" width="1200" height="132" fill="url(#floorGrad)"/>
+  <!-- Floor tiles (subtle grid) -->
+  <line x1="0" y1="540" x2="1200" y2="540" stroke="#d8d0c4" stroke-width="1" opacity="0.5"/>
+  <line x1="0" y1="582" x2="1200" y2="582" stroke="#d8d0c4" stroke-width="1" opacity="0.5"/>
+  <line x1="0" y1="624" x2="1200" y2="624" stroke="#d8d0c4" stroke-width="1" opacity="0.5"/>
+  <line x1="150" y1="498" x2="150" y2="630" stroke="#d8d0c4" stroke-width="1" opacity="0.4"/>
+  <line x1="300" y1="498" x2="300" y2="630" stroke="#d8d0c4" stroke-width="1" opacity="0.4"/>
+  <line x1="450" y1="498" x2="450" y2="630" stroke="#d8d0c4" stroke-width="1" opacity="0.4"/>
+  <line x1="600" y1="498" x2="600" y2="630" stroke="#d8d0c4" stroke-width="1" opacity="0.4"/>
+  <line x1="750" y1="498" x2="750" y2="630" stroke="#d8d0c4" stroke-width="1" opacity="0.4"/>
+  <line x1="900" y1="498" x2="900" y2="630" stroke="#d8d0c4" stroke-width="1" opacity="0.4"/>
+  <line x1="1050" y1="498" x2="1050" y2="630" stroke="#d8d0c4" stroke-width="1" opacity="0.4"/>
+
+  <!-- ===================== LEFT SHELF ===================== -->
+  <rect x="0" y="48" width="200" height="452" fill="url(#shelfL)" filter="url(#gentleShadow)"/>
+  <!-- Shelf boards -->
+  <rect x="0" y="160" width="200" height="12" fill="#b8b0a2"/>
+  <rect x="0" y="280" width="200" height="12" fill="#b8b0a2"/>
+  <rect x="0" y="400" width="200" height="12" fill="#b8b0a2"/>
+  <!-- Products row 1 (top) -->
+  <rect x="12" y="90" width="32" height="68" rx="4" fill="url(#prod1)"/>
+  <rect x="50" y="96" width="28" height="62" rx="4" fill="url(#prod3)"/>
+  <rect x="84" y="88" width="34" height="70" rx="4" fill="url(#prod2)"/>
+  <rect x="124" y="94" width="30" height="64" rx="4" fill="url(#prod4)"/>
+  <rect x="160" y="90" width="28" height="68" rx="4" fill="url(#prod1)"/>
+  <!-- Products row 2 -->
+  <rect x="10" y="200" width="36" height="76" rx="4" fill="url(#prod4)"/>
+  <rect x="52" y="208" width="28" height="68" rx="4" fill="url(#prod2)"/>
+  <rect x="86" y="200" width="32" height="76" rx="4" fill="url(#prod3)"/>
+  <rect x="124" y="206" width="30" height="70" rx="4" fill="url(#prod1)"/>
+  <rect x="160" y="202" width="28" height="74" rx="4" fill="url(#prod2)"/>
+  <!-- Products row 3 -->
+  <rect x="12" y="318" width="32" height="78" rx="4" fill="url(#prod3)"/>
+  <rect x="50" y="324" width="28" height="72" rx="4" fill="url(#prod1)"/>
+  <rect x="84" y="316" width="36" height="80" rx="4" fill="url(#prod4)"/>
+  <rect x="126" y="322" width="30" height="74" rx="4" fill="url(#prod2)"/>
+  <rect x="162" y="318" width="26" height="78" rx="4" fill="url(#prod3)"/>
+
+  <!-- ===================== RIGHT SHELF ===================== -->
+  <rect x="1000" y="48" width="200" height="452" fill="url(#shelfGrad)" filter="url(#gentleShadow)"/>
+  <!-- Shelf boards -->
+  <rect x="1000" y="160" width="200" height="12" fill="#b8b0a2"/>
+  <rect x="1000" y="280" width="200" height="12" fill="#b8b0a2"/>
+  <rect x="1000" y="400" width="200" height="12" fill="#b8b0a2"/>
+  <!-- Products row 1 -->
+  <rect x="1012" y="88" width="32" height="70" rx="4" fill="url(#prod2)"/>
+  <rect x="1050" y="94" width="28" height="64" rx="4" fill="url(#prod1)"/>
+  <rect x="1084" y="90" width="34" height="68" rx="4" fill="url(#prod3)"/>
+  <rect x="1124" y="92" width="30" height="66" rx="4" fill="url(#prod4)"/>
+  <rect x="1160" y="88" width="28" height="70" rx="4" fill="url(#prod2)"/>
+  <!-- Products row 2 -->
+  <rect x="1010" y="202" width="36" height="74" rx="4" fill="url(#prod1)"/>
+  <rect x="1052" y="208" width="28" height="68" rx="4" fill="url(#prod4)"/>
+  <rect x="1086" y="202" width="32" height="74" rx="4" fill="url(#prod3)"/>
+  <rect x="1124" y="206" width="30" height="70" rx="4" fill="url(#prod2)"/>
+  <rect x="1160" y="202" width="28" height="74" rx="4" fill="url(#prod1)"/>
+  <!-- Products row 3 -->
+  <rect x="1012" y="318" width="30" height="78" rx="4" fill="url(#prod4)"/>
+  <rect x="1048" y="322" width="28" height="74" rx="4" fill="url(#prod2)"/>
+  <rect x="1082" y="316" width="36" height="80" rx="4" fill="url(#prod3)"/>
+  <rect x="1124" y="320" width="30" height="76" rx="4" fill="url(#prod1)"/>
+  <rect x="1160" y="316" width="28" height="80" rx="4" fill="url(#prod4)"/>
+
+  <!-- ===================== SHOPPING CART (background, left of scene) ===================== -->
+  <g opacity="0.55" transform="translate(215,360)">
+    <!-- Cart basket -->
+    <rect x="0" y="0" width="88" height="62" rx="6" fill="none" stroke="#a8b8c4" stroke-width="4"/>
+    <!-- Cart grid lines -->
+    <line x1="0" y1="20" x2="88" y2="20" stroke="#a8b8c4" stroke-width="2"/>
+    <line x1="0" y1="40" x2="88" y2="40" stroke="#a8b8c4" stroke-width="2"/>
+    <line x1="29" y1="0" x2="29" y2="62" stroke="#a8b8c4" stroke-width="2"/>
+    <line x1="58" y1="0" x2="58" y2="62" stroke="#a8b8c4" stroke-width="2"/>
+    <!-- Cart handle -->
+    <path d="M-10 -10 Q44 -28 98 -10" fill="none" stroke="#a8b8c4" stroke-width="5" stroke-linecap="round"/>
+    <!-- Cart legs -->
+    <line x1="14" y1="62" x2="10" y2="100" stroke="#a8b8c4" stroke-width="4" stroke-linecap="round"/>
+    <line x1="74" y1="62" x2="78" y2="100" stroke="#a8b8c4" stroke-width="4" stroke-linecap="round"/>
+    <!-- Wheels -->
+    <circle cx="10" cy="104" r="9" fill="none" stroke="#a8b8c4" stroke-width="3"/>
+    <circle cx="78" cy="104" r="9" fill="none" stroke="#a8b8c4" stroke-width="3"/>
+    <!-- Items in cart -->
+    <rect x="6" y="4" width="22" height="14" rx="3" fill="#c8d8b0" opacity="0.8"/>
+    <rect x="34" y="2" width="18" height="16" rx="3" fill="#e8c4a0" opacity="0.8"/>
+    <rect x="58" y="4" width="22" height="14" rx="3" fill="#b8ccd8" opacity="0.8"/>
+  </g>
+
+  <!-- ===================== AISLE DEPTH (background figures, blurred/faded) ===================== -->
+  <!-- Distant figure walking away (no focus) -->
+  <ellipse cx="900" cy="460" rx="18" ry="52" fill="#c4bdb4" opacity="0.3"/>
+  <ellipse cx="900" cy="398" rx="14" ry="16" fill="#c4bdb4" opacity="0.3"/>
+
+  <!-- ===================== TODDLER (upset, on floor, sitting/crouched) ===================== -->
+  <!-- Child sitting on floor, slightly slumped, not screaming — contained distress -->
+  <!-- Shadow on floor -->
+  <ellipse cx="570" cy="512" rx="80" ry="18" fill="#b8b0a4" opacity="0.2"/>
+  <!-- Legs spread on floor -->
+  <rect x="500" y="475" width="60" height="28" rx="14" fill="#a0b4c4" transform="rotate(-18,530,489)"/>
+  <rect x="576" y="478" width="60" height="28" rx="14" fill="#a0b4c4" transform="rotate(14,606,492)"/>
+  <!-- Shoes -->
+  <ellipse cx="494" cy="490" rx="20" ry="12" fill="#7a8fa0" transform="rotate(-18,494,490)"/>
+  <ellipse cx="636" cy="494" rx="20" ry="12" fill="#7a8fa0" transform="rotate(14,636,494)"/>
+  <!-- Body / torso (small, toddler proportions) -->
+  <rect x="522" y="400" width="78" height="90" rx="24" fill="#e8a070"/>
+  <!-- Shirt detail -->
+  <rect x="522" y="440" width="78" height="52" rx="20" fill="#e8906a"/>
+  <!-- Neck -->
+  <rect x="548" y="385" width="28" height="24" rx="10" fill="#f0b888"/>
+  <!-- Head (slightly bowed, upset but not raging) -->
+  <ellipse cx="562" cy="368" rx="42" ry="44" fill="#f0b888" filter="url(#softDrop)"/>
+  <!-- Hair (toddler, fluffy) -->
+  <path d="M520 354 Q524 314 562 308 Q600 314 604 354 Q594 330 562 326 Q530 330 520 354Z" fill="#4a3020"/>
+  <path d="M520 350 Q518 338 522 330" fill="none" stroke="#3e2818" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+  <path d="M604 350 Q606 338 602 330" fill="none" stroke="#3e2818" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+  <!-- Eyes (squeezed shut / looking down, upset) -->
+  <path d="M546 368 Q553 363 560 367" fill="none" stroke="#3a2818" stroke-width="3" stroke-linecap="round"/>
+  <path d="M567 367 Q574 363 581 367" fill="none" stroke="#3a2818" stroke-width="3" stroke-linecap="round"/>
+  <!-- Furrowed brow -->
+  <path d="M543 358 Q553 354 561 357" fill="none" stroke="#c4845a" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M564 357 Q572 354 581 357" fill="none" stroke="#c4845a" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Mouth (pouty/upset) -->
+  <path d="M550 385 Q562 378 574 385" fill="none" stroke="#c4784a" stroke-width="3" stroke-linecap="round"/>
+  <!-- Arms (one raised slightly, one down) -->
+  <path d="M522 425 Q490 410 478 395" fill="none" stroke="#f0b888" stroke-width="22" stroke-linecap="round"/>
+  <path d="M600 428 Q618 440 624 450" fill="none" stroke="#f0b888" stroke-width="20" stroke-linecap="round"/>
+  <!-- Hands -->
+  <ellipse cx="472" cy="392" rx="18" ry="14" fill="#f0b888"/>
+  <ellipse cx="628" cy="454" rx="16" ry="13" fill="#f0b888"/>
+
+  <!-- ===================== PARENT (kneeling beside child, reaching down) ===================== -->
+  <!-- Parent crouched/kneeling on one knee beside toddler -->
+  <!-- Shadow -->
+  <ellipse cx="680" cy="514" rx="68" ry="15" fill="#b8b0a4" opacity="0.18"/>
+  <!-- Knee on floor -->
+  <ellipse cx="656" cy="504" rx="32" ry="18" fill="#7090a8"/>
+  <!-- Lower legs -->
+  <rect x="630" y="450" width="34" height="58" rx="16" fill="#7090a8"/>
+  <rect x="680" y="420" width="34" height="88" rx="16" fill="#7090a8"/>
+  <!-- Foot/shoe -->
+  <ellipse cx="714" cy="506" rx="28" ry="12" fill="#5a7080"/>
+  <!-- Torso leaning forward -->
+  <rect x="640" y="300" width="92" height="165" rx="24" fill="url(#parentShirt)" filter="url(#gentleShadow)"/>
+  <!-- Arm reaching toward child (supportive gesture) -->
+  <path d="M648 360 Q610 380 582 400" fill="none" stroke="#e0b888" stroke-width="30" stroke-linecap="round"/>
+  <path d="M648 360 Q610 380 582 400" fill="none" stroke="#8a9fb5" stroke-width="22" stroke-linecap="round"/>
+  <!-- Hand gently on child's back -->
+  <ellipse cx="578" cy="404" rx="24" ry="18" fill="#e0b888"/>
+  <!-- Other arm resting on knee -->
+  <path d="M720 380 Q740 420 732 456" fill="none" stroke="#e0b888" stroke-width="28" stroke-linecap="round"/>
+  <ellipse cx="730" cy="460" rx="20" ry="15" fill="#e0b888"/>
+  <!-- Neck -->
+  <rect x="668" y="280" width="32" height="26" rx="10" fill="#e0b888"/>
+  <!-- Head (tilted toward child, calm expression) -->
+  <ellipse cx="684" cy="264" rx="42" ry="44" fill="#e0b888" filter="url(#softDrop)"/>
+  <!-- Hair (parent, medium length pulled back) -->
+  <path d="M642 244 Q646 204 684 200 Q722 204 726 244 Q716 220 684 216 Q652 220 642 244Z" fill="#5c3c24"/>
+  <path d="M642 248 Q638 266 642 282" fill="none" stroke="#4e3018" stroke-width="4" stroke-linecap="round"/>
+  <path d="M726 248 Q730 266 726 282" fill="none" stroke="#4e3018" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <!-- Hair bun suggestion -->
+  <ellipse cx="684" cy="200" rx="22" ry="14" fill="#6a4828"/>
+  <!-- Eyes (soft, looking at child — caring) -->
+  <ellipse cx="671" cy="265" rx="6" ry="6.5" fill="#2e2018"/>
+  <ellipse cx="672" cy="264" rx="2.5" ry="2" fill="white" opacity="0.5"/>
+  <ellipse cx="697" cy="265" rx="6" ry="6.5" fill="#2e2018"/>
+  <ellipse cx="698" cy="264" rx="2.5" ry="2" fill="white" opacity="0.5"/>
+  <!-- Eyebrows (gentle, not furrowed) -->
+  <path d="M663 255 Q671 251 679 254" fill="none" stroke="#5c3c24" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M689 254 Q697 251 705 254" fill="none" stroke="#5c3c24" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Calm, soft expression -->
+  <path d="M672 280 Q684 287 696 280" fill="none" stroke="#c4846a" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Soft warm aura between parent and child (co-regulation glow) -->
+  <ellipse cx="618" cy="420" rx="90" ry="70" fill="#fde8d0" opacity="0.12"/>
+</svg>

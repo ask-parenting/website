@@ -1,0 +1,183 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f6f2ed"/>
+      <stop offset="100%" style="stop-color:#ece5db"/>
+    </linearGradient>
+    <linearGradient id="floor2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e6dfd5"/>
+      <stop offset="100%" style="stop-color:#d9d0c4"/>
+    </linearGradient>
+    <linearGradient id="wall2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0ebe4"/>
+      <stop offset="100%" style="stop-color:#e8e1d8"/>
+    </linearGradient>
+    <radialGradient id="calmAura" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#fde8d0;stop-opacity:0.35"/>
+      <stop offset="60%" style="stop-color:#eaddc8;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#eaddc8;stop-opacity:0"/>
+    </radialGradient>
+    <radialGradient id="floorGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#e8d8c4;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#e8d8c4;stop-opacity:0"/>
+    </radialGradient>
+    <filter id="drop1">
+      <feDropShadow dx="0" dy="8" stdDeviation="18" flood-color="#b0a898" flood-opacity="0.22"/>
+    </filter>
+    <filter id="drop2">
+      <feDropShadow dx="0" dy="4" stdDeviation="9" flood-color="#a8a090" flood-opacity="0.18"/>
+    </filter>
+    <linearGradient id="parentTop" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8ea8c0"/>
+      <stop offset="100%" style="stop-color:#6e90a8"/>
+    </linearGradient>
+    <linearGradient id="childTop" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e89070"/>
+      <stop offset="100%" style="stop-color:#d07850"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg2)"/>
+
+  <!-- Soft window suggestion top left -->
+  <rect x="80" y="60" width="160" height="220" rx="8" fill="#f8f4ee" opacity="0.5"/>
+  <rect x="80" y="60" width="160" height="220" rx="8" fill="none" stroke="#ddd6cc" stroke-width="3"/>
+  <!-- Window cross -->
+  <line x1="160" y1="60" x2="160" y2="280" stroke="#ddd6cc" stroke-width="3"/>
+  <line x1="80" y1="172" x2="240" y2="172" stroke="#ddd6cc" stroke-width="3"/>
+  <!-- Light streaming in from window -->
+  <path d="M80 60 L0 80 L0 360 L240 300 L240 280Z" fill="#fdf8f0" opacity="0.12"/>
+
+  <!-- Baseboard -->
+  <rect x="0" y="480" width="1200" height="150" fill="url(#floor2)"/>
+  <rect x="0" y="478" width="1200" height="8" fill="#d0c8bc"/>
+
+  <!-- Floor tiles subtle -->
+  <line x1="0" y1="520" x2="1200" y2="520" stroke="#ccc5ba" stroke-width="1" opacity="0.4"/>
+  <line x1="0" y1="562" x2="1200" y2="562" stroke="#ccc5ba" stroke-width="1" opacity="0.4"/>
+  <line x1="0" y1="604" x2="1200" y2="604" stroke="#ccc5ba" stroke-width="1" opacity="0.4"/>
+  <line x1="200" y1="480" x2="200" y2="630" stroke="#ccc5ba" stroke-width="1" opacity="0.35"/>
+  <line x1="400" y1="480" x2="400" y2="630" stroke="#ccc5ba" stroke-width="1" opacity="0.35"/>
+  <line x1="600" y1="480" x2="600" y2="630" stroke="#ccc5ba" stroke-width="1" opacity="0.35"/>
+  <line x1="800" y1="480" x2="800" y2="630" stroke="#ccc5ba" stroke-width="1" opacity="0.35"/>
+  <line x1="1000" y1="480" x2="1000" y2="630" stroke="#ccc5ba" stroke-width="1" opacity="0.35"/>
+
+  <!-- Decorative plant - far right -->
+  <rect x="1060" y="390" width="48" height="90" rx="5" fill="#c07858"/>
+  <rect x="1062" y="388" width="44" height="12" rx="4" fill="#a86040"/>
+  <!-- Leaves -->
+  <ellipse cx="1084" cy="375" rx="28" ry="40" fill="#5e9068" transform="rotate(-12,1084,375)"/>
+  <ellipse cx="1090" cy="362" rx="24" ry="36" fill="#70a878" transform="rotate(15,1090,362)"/>
+  <ellipse cx="1074" cy="360" rx="20" ry="32" fill="#5e9068" transform="rotate(-28,1074,360)"/>
+  <ellipse cx="1096" cy="370" rx="18" ry="28" fill="#7aba84" transform="rotate(35,1096,370)"/>
+
+  <!-- Soft shelf/console table in background right -->
+  <rect x="960" y="350" width="90" height="18" rx="5" fill="#ccc4b8"/>
+  <rect x="970" y="368" width="10" height="112" rx="4" fill="#bfb8ac"/>
+  <rect x="1030" y="368" width="10" height="112" rx="4" fill="#bfb8ac"/>
+  <!-- Small decor on shelf -->
+  <rect x="976" y="332" width="22" height="18" rx="4" fill="#e8ddd0"/>
+  <ellipse cx="987" cy="332" rx="11" ry="4" fill="#f0e8e0"/>
+  <!-- Framed art on wall (abstract, no text) -->
+  <rect x="950" y="150" width="130" height="100" rx="6" fill="#f0ebe4" stroke="#d8d0c4" stroke-width="3"/>
+  <!-- Abstract art inside frame -->
+  <ellipse cx="1015" cy="200" rx="28" ry="22" fill="#d4c8bc" opacity="0.6"/>
+  <ellipse cx="1028" cy="192" rx="18" ry="14" fill="#b8ccd8" opacity="0.5"/>
+  <ellipse cx="1003" cy="210" rx="14" ry="10" fill="#c8a088" opacity="0.45"/>
+
+  <!-- ===================== CALM AURA (center glow for co-regulation moment) ===================== -->
+  <ellipse cx="580" cy="400" rx="300" ry="240" fill="url(#calmAura)"/>
+  <ellipse cx="580" cy="490" rx="260" ry="60" fill="url(#floorGlow)"/>
+
+  <!-- ===================== CHILD (standing/slightly crouched, calming down) ===================== -->
+  <!-- Child shadow on floor -->
+  <ellipse cx="510" cy="494" rx="60" ry="14" fill="#b8b0a4" opacity="0.2"/>
+  <!-- Child legs -->
+  <rect x="483" y="415" width="36" height="80" rx="16" fill="#9eb4c8"/>
+  <rect x="527" y="415" width="36" height="80" rx="16" fill="#9eb4c8"/>
+  <!-- Shoes -->
+  <ellipse cx="501" cy="494" rx="24" ry="13" fill="#7a90a4"/>
+  <ellipse cx="545" cy="494" rx="24" ry="13" fill="#7a90a4"/>
+  <!-- Body -->
+  <rect x="470" y="310" width="108" height="120" rx="26" fill="url(#childTop)"/>
+  <!-- Neck -->
+  <rect x="502" y="293" width="32" height="26" rx="10" fill="#f0b888"/>
+  <!-- Head -->
+  <ellipse cx="518" cy="275" rx="46" ry="50" fill="#f0b888" filter="url(#drop1)"/>
+  <!-- Hair -->
+  <path d="M472 258 Q476 210 518 204 Q560 210 564 258 Q552 228 518 224 Q484 228 472 258Z" fill="#4a3020"/>
+  <!-- Hair wisps -->
+  <path d="M472 254 Q468 242 472 232" fill="none" stroke="#3e2818" stroke-width="3.5" stroke-linecap="round" opacity="0.5"/>
+  <!-- Eyes (calming — eyes open, less distress, looking at parent) -->
+  <ellipse cx="504" cy="278" rx="6.5" ry="7" fill="#2e2018"/>
+  <ellipse cx="505.5" cy="276.5" rx="2.5" ry="2.5" fill="white" opacity="0.55"/>
+  <ellipse cx="532" cy="278" rx="6.5" ry="7" fill="#2e2018"/>
+  <ellipse cx="533.5" cy="276.5" rx="2.5" ry="2.5" fill="white" opacity="0.55"/>
+  <!-- Eyebrows (less furrowed than before - calming) -->
+  <path d="M496 266 Q504 262 512 265" fill="none" stroke="#5c3c24" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M524 265 Q532 262 540 265" fill="none" stroke="#5c3c24" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Mouth (small quiver, not fully settled but calming) -->
+  <path d="M506 295 Q518 299 530 295" fill="none" stroke="#c4784a" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Tear on cheek (small, not dramatic) -->
+  <path d="M496 290 Q492 298 494 304" fill="none" stroke="#b8d4e8" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <!-- Arms (one reaching toward parent, one at side) -->
+  <path d="M470 345 Q440 360 420 378" fill="none" stroke="#f0b888" stroke-width="24" stroke-linecap="round"/>
+  <ellipse cx="414" cy="382" rx="19" ry="15" fill="#f0b888"/>
+  <path d="M578 345 Q596 358 604 370" fill="none" stroke="#f0b888" stroke-width="22" stroke-linecap="round"/>
+  <ellipse cx="608" cy="374" rx="17" ry="14" fill="#f0b888"/>
+
+  <!-- ===================== PARENT (kneeling at child's eye level) ===================== -->
+  <!-- Parent shadow -->
+  <ellipse cx="700" cy="496" rx="72" ry="15" fill="#b8b0a4" opacity="0.18"/>
+  <!-- Both knees on floor (fully kneeling) -->
+  <ellipse cx="658" cy="488" rx="34" ry="16" fill="#6e90a8"/>
+  <ellipse cx="730" cy="488" rx="34" ry="16" fill="#6e90a8"/>
+  <!-- Lower legs behind -->
+  <rect x="638" y="430" width="38" height="60" rx="16" fill="#6e90a8"/>
+  <rect x="710" y="430" width="38" height="60" rx="16" fill="#6e90a8"/>
+  <!-- Feet/shoes -->
+  <ellipse cx="655" cy="498" rx="30" ry="12" fill="#526878"/>
+  <ellipse cx="733" cy="498" rx="30" ry="12" fill="#526878"/>
+  <!-- Torso (leaning gently forward, at child level) -->
+  <rect x="648" y="278" width="100" height="170" rx="26" fill="url(#parentTop)" filter="url(#drop2)"/>
+  <!-- Arms reaching out to child (open, welcoming) -->
+  <!-- Left arm reaching toward child -->
+  <path d="M654 330 Q620 354 598 376" fill="none" stroke="#e0b888" stroke-width="30" stroke-linecap="round"/>
+  <path d="M654 330 Q620 354 598 376" fill="none" stroke="#7a9ab4" stroke-width="22" stroke-linecap="round"/>
+  <!-- Hand cupped toward child -->
+  <ellipse cx="594" cy="380" rx="22" ry="17" fill="#e0b888"/>
+  <!-- Right arm slightly raised/open -->
+  <path d="M742 332 Q772 356 788 375" fill="none" stroke="#e0b888" stroke-width="28" stroke-linecap="round"/>
+  <ellipse cx="792" cy="379" rx="20" ry="16" fill="#e0b888"/>
+  <!-- Neck -->
+  <rect x="680" y="256" width="34" height="28" rx="11" fill="#e0b888"/>
+  <!-- Head (tilted slightly toward child, at same height level) -->
+  <ellipse cx="697" cy="238" rx="46" ry="48" fill="#e0b888" filter="url(#drop1)"/>
+  <!-- Hair (swept back, loose) -->
+  <path d="M651 220 Q655 176 697 170 Q739 176 743 220 Q730 192 697 188 Q664 192 651 220Z" fill="#6a4828"/>
+  <!-- Hair flowing sides -->
+  <path d="M651 224 Q644 240 646 258" fill="none" stroke="#5a3c1c" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M743 224 Q750 238 748 256" fill="none" stroke="#5a3c1c" stroke-width="3.5" stroke-linecap="round" opacity="0.7"/>
+  <!-- Hair bun -->
+  <ellipse cx="697" cy="170" rx="24" ry="15" fill="#7a5432"/>
+  <!-- Eyes (soft, eye contact with child — warm) -->
+  <ellipse cx="682" cy="240" rx="6.5" ry="7" fill="#2e2018"/>
+  <ellipse cx="683.5" cy="238.5" rx="2.5" ry="2.5" fill="white" opacity="0.5"/>
+  <ellipse cx="712" cy="240" rx="6.5" ry="7" fill="#2e2018"/>
+  <ellipse cx="713.5" cy="238.5" rx="2.5" ry="2.5" fill="white" opacity="0.5"/>
+  <!-- Eyebrows (gentle, raised — open and caring) -->
+  <path d="M673 228 Q682 224 691 227" fill="none" stroke="#6a4828" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M703 227 Q712 224 721 228" fill="none" stroke="#6a4828" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Warm gentle smile -->
+  <path d="M682 256 Q697 265 712 256" fill="none" stroke="#c4846a" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Eye-level connection line (subtle — both heads at same height) -->
+  <!-- Soft horizontal breath line at eye level between them -->
+  <line x1="468" y1="278" x2="650" y2="240" stroke="#c8a888" stroke-width="1.5" stroke-dasharray="5,8" opacity="0.25"/>
+
+  <!-- Decorative soft rings of calm (expanding outward from connection point) -->
+  <circle cx="564" cy="330" r="90" fill="none" stroke="#d4c4b0" stroke-width="1.5" opacity="0.2"/>
+  <circle cx="564" cy="330" r="150" fill="none" stroke="#d4c4b0" stroke-width="1" opacity="0.12"/>
+  <circle cx="564" cy="330" r="220" fill="none" stroke="#d4c4b0" stroke-width="1" opacity="0.08"/>
+</svg>

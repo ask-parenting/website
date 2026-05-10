@@ -1,0 +1,81 @@
+<svg width="100%" viewBox="0 0 680 420" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>Modular toddler travel pouches arranged by function</title>
+<desc>Five zippered travel pouches laid out in a clean grid — snack pouch, wipes and diaper pouch, distraction toy pouch, health kit pouch, and extras pouch — each with distinct color and subtle icon cues for fast access</desc>
+<style>
+  .bg2 { fill: #F0EBE4; }
+  .pouch-snack { fill: #EED8B8; stroke: #D4BC94; stroke-width: 1; }
+  .pouch-hygiene { fill: #C8DCE0; stroke: #A4C4CA; stroke-width: 1; }
+  .pouch-distract { fill: #E8D0E4; stroke: #CEB0CC; stroke-width: 1; }
+  .pouch-health { fill: #D0E4D4; stroke: #A8CCAC; stroke-width: 1; }
+  .pouch-extras { fill: #DDD4C0; stroke: #BEB098; stroke-width: 1; }
+  .zip { fill: none; stroke-dasharray: 5 2.5; stroke-width: 1.2; stroke-linecap: round; }
+  .zip-snack { stroke: #C4A074; }
+  .zip-hygiene { stroke: #80B0BC; }
+  .zip-distract { stroke: #B084B0; }
+  .zip-health { stroke: #78B480; }
+  .zip-extras { stroke: #A09070; }
+</style>
+<rect width="680" height="420" class="bg2" rx="0"/>
+<rect x="40" y="30" width="600" height="360" rx="14" fill="#EAE4DC"/>
+<rect x="72" y="60" width="184" height="150" rx="12" fill="#E8D0A8" opacity="0.3" transform="translate(3,5)"/>
+<rect x="72" y="60" width="184" height="150" rx="12" class="pouch-snack"/>
+<rect x="72" y="60" width="184" height="28" rx="12" fill="#DEBC8A"/>
+<rect x="72" y="78" width="184" height="10" fill="#DEBC8A"/>
+<path d="M104 60 Q164 44 212 60" class="zip zip-snack"/>
+<rect x="124" y="94" width="80" height="80" rx="8" fill="#E0C090" opacity="0.35"/>
+<circle cx="148" cy="124" r="16" fill="#E8C888" opacity="0.65"/>
+<circle cx="173" cy="118" r="11" fill="#F0D49C" opacity="0.6"/>
+<circle cx="193" cy="128" r="9" fill="#DEB870" opacity="0.55"/>
+<path d="M138 148 Q164 156 190 148" fill="#D4A860" opacity="0.4" stroke="#C89848" stroke-width="0.8"/>
+<ellipse cx="164" cy="195" rx="6" ry="10" fill="#C4A074" opacity="0.85"/>
+<rect x="161" y="195" width="6" height="3" rx="1" fill="#B49060" opacity="0.7"/>
+<rect x="280" y="60" width="184" height="150" rx="12" fill="#A8CACC" opacity="0.2" transform="translate(3,5)"/>
+<rect x="280" y="60" width="184" height="150" rx="12" class="pouch-hygiene"/>
+<rect x="280" y="60" width="184" height="28" rx="12" fill="#A8C8D0"/>
+<rect x="280" y="78" width="184" height="10" fill="#A8C8D0"/>
+<path d="M312 60 Q372 44 420 60" class="zip zip-hygiene"/>
+<rect x="312" y="100" width="70" height="80" rx="6" fill="#B4D0D8" opacity="0.4"/>
+<rect x="314" y="110" width="66" height="3" rx="1.5" fill="#80B0BC" opacity="0.55"/>
+<rect x="314" y="118" width="66" height="3" rx="1.5" fill="#80B0BC" opacity="0.45"/>
+<rect x="314" y="126" width="54" height="3" rx="1.5" fill="#80B0BC" opacity="0.35"/>
+<path d="M328 142 Q347 148 366 142" fill="none" stroke="#80B0BC" stroke-width="1.2" stroke-linecap="round"/>
+<rect x="396" y="100" width="50" height="80" rx="6" fill="#90C4CC" opacity="0.3"/>
+<ellipse cx="421" cy="120" rx="15" ry="18" fill="#88BCCA" opacity="0.45"/>
+<rect x="411" y="150" width="20" height="8" rx="3" fill="#80B0BC" opacity="0.5"/>
+<ellipse cx="372" cy="195" rx="6" ry="10" fill="#80B0BC" opacity="0.85"/>
+<rect x="369" y="195" width="6" height="3" rx="1" fill="#609098" opacity="0.7"/>
+<rect x="72" y="232" width="136" height="138" rx="12" fill="#D8B8D8" opacity="0.2" transform="translate(3,5)"/>
+<rect x="72" y="232" width="136" height="138" rx="12" class="pouch-distract"/>
+<rect x="72" y="232" width="136" height="26" rx="12" fill="#D0A8C8"/>
+<rect x="72" y="248" width="136" height="10" fill="#D0A8C8"/>
+<path d="M98 232 Q140 218 176 232" class="zip zip-distract"/>
+<circle cx="120" cy="296" r="22" fill="#E0C0DC" opacity="0.5"/>
+<rect x="104" y="280" width="32" height="32" rx="6" fill="#D0A8C8" opacity="0.5"/>
+<circle cx="154" cy="296" r="14" fill="#C8A0C0" opacity="0.4"/>
+<path d="M100 330 Q140 340 172 330" fill="none" stroke="#B084B0" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+<ellipse cx="140" cy="356" rx="5" ry="9" fill="#B084B0" opacity="0.85"/>
+<rect x="228" y="232" width="136" height="138" rx="12" fill="#A8C8A8" opacity="0.2" transform="translate(3,5)"/>
+<rect x="228" y="232" width="136" height="138" rx="12" class="pouch-health"/>
+<rect x="228" y="232" width="136" height="26" rx="12" fill="#A0C8A8"/>
+<rect x="228" y="248" width="136" height="10" fill="#A0C8A8"/>
+<path d="M254 232 Q296 218 332 232" class="zip zip-health"/>
+<rect x="283" y="272" width="10" height="30" rx="3" fill="#78B480" opacity="0.65"/>
+<rect x="271" y="282" width="34" height="10" rx="3" fill="#78B480" opacity="0.65"/>
+<circle cx="296" cy="320" r="10" fill="#A0C8A0" opacity="0.45"/>
+<circle cx="316" cy="312" r="7" fill="#90BC90" opacity="0.4"/>
+<path d="M256 338 Q296 346 336 338" fill="none" stroke="#78B480" stroke-width="1" stroke-linecap="round" opacity="0.4"/>
+<ellipse cx="296" cy="356" rx="5" ry="9" fill="#78B480" opacity="0.85"/>
+<rect x="384" y="232" width="232" height="138" rx="12" fill="#C0B090" opacity="0.2" transform="translate(3,5)"/>
+<rect x="384" y="232" width="232" height="138" rx="12" class="pouch-extras"/>
+<rect x="384" y="232" width="232" height="26" rx="12" fill="#B8A884"/>
+<rect x="384" y="248" width="232" height="10" fill="#B8A884"/>
+<path d="M420 232 Q500 216 572 232" class="zip zip-extras"/>
+<rect x="412" y="278" width="80" height="60" rx="8" fill="#CDC0A8" opacity="0.35"/>
+<rect x="420" y="290" width="64" height="4" rx="2" fill="#A09070" opacity="0.5"/>
+<rect x="420" y="300" width="64" height="4" rx="2" fill="#A09070" opacity="0.4"/>
+<rect x="420" y="310" width="48" height="4" rx="2" fill="#A09070" opacity="0.3"/>
+<rect x="508" y="278" width="80" height="60" rx="8" fill="#CDC0A8" opacity="0.3"/>
+<circle cx="548" cy="298" r="12" fill="#B8AA90" opacity="0.45"/>
+<path d="M536 316 Q548 322 560 316" fill="none" stroke="#A09070" stroke-width="1" stroke-linecap="round"/>
+<ellipse cx="500" cy="356" rx="5" ry="9" fill="#A09070" opacity="0.85"/>
+</svg>

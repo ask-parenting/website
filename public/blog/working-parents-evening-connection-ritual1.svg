@@ -1,0 +1,100 @@
+<svg width="100%" viewBox="0 0 680 400" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>Parent and child reading together with undistracted presence</title>
+<desc>An intimate inline article illustration: a parent and child sit close under warm lamp light, fully absorbed in a shared book, no distractions, communicating that small, focused rituals build deep attachment.</desc>
+<defs>
+  <radialGradient id="lampGlow2" cx="72%" cy="15%" r="45%">
+    <stop offset="0%" stop-color="#FFE8A0" stop-opacity="0.85"/>
+    <stop offset="100%" stop-color="#E8C870" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="readGlow" cx="50%" cy="60%" r="40%">
+    <stop offset="0%" stop-color="#FFD870" stop-opacity="0.14"/>
+    <stop offset="100%" stop-color="#C4924A" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect x="0" y="0" width="680" height="400" fill="#3A2818"/>
+<rect x="0" y="0" width="680" height="400" fill="url(#lampGlow2)"/>
+<rect x="0" y="300" width="680" height="100" fill="#201408"/>
+<line x1="0" y1="300" x2="680" y2="300" stroke="#3C2510" stroke-width="1.2"/>
+<rect x="0" y="300" width="680" height="100" fill="url(#readGlow)"/>
+<rect x="30" y="60" width="110" height="230" fill="#2E1E0D" rx="2"/>
+<line x1="30" y1="130" x2="140" y2="130" stroke="#1A0E06" stroke-width="3"/>
+<line x1="30" y1="190" x2="140" y2="190" stroke="#1A0E06" stroke-width="3"/>
+<line x1="30" y1="250" x2="140" y2="250" stroke="#1A0E06" stroke-width="3"/>
+<rect x="35" y="68" width="14" height="58" fill="#8B3A20" rx="1"/>
+<rect x="51" y="72" width="10" height="54" fill="#4A7A3A" rx="1"/>
+<rect x="63" y="65" width="16" height="61" fill="#5A3E80" rx="1"/>
+<rect x="81" y="70" width="11" height="56" fill="#C07830" rx="1"/>
+<rect x="94" y="68" width="13" height="58" fill="#2A5A7A" rx="1"/>
+<rect x="109" y="73" width="10" height="53" fill="#8A4A2A" rx="1"/>
+<rect x="121" y="67" width="14" height="59" fill="#4A6A30" rx="1"/>
+<rect x="35" y="135" width="11" height="51" fill="#6A3A5A" rx="1"/>
+<rect x="48" y="138" width="15" height="48" fill="#9B5820" rx="1"/>
+<rect x="65" y="133" width="12" height="53" fill="#3A6A5A" rx="1"/>
+<rect x="79" y="137" width="10" height="49" fill="#7A3028" rx="1"/>
+<rect x="91" y="134" width="14" height="52" fill="#2A4A8A" rx="1"/>
+<rect x="107" y="139" width="12" height="47" fill="#6A5A2A" rx="1"/>
+<rect x="121" y="135" width="13" height="51" fill="#5A2A40" rx="1"/>
+<rect x="35" y="195" width="13" height="50" fill="#3A5A3A" rx="1"/>
+<rect x="50" y="198" width="10" height="47" fill="#8A4A30" rx="1"/>
+<rect x="62" y="194" width="16" height="52" fill="#4A3A7A" rx="1"/>
+<rect x="80" y="197" width="11" height="49" fill="#6A5A1A" rx="1"/>
+<rect x="93" y="195" width="13" height="51" fill="#1A5A6A" rx="1"/>
+<rect x="108" y="199" width="12" height="47" fill="#7A3848" rx="1"/>
+<rect x="570" y="80" width="8" height="210" fill="#4A3018" rx="2"/>
+<ellipse cx="574" cy="295" rx="22" ry="6" fill="#3A2010"/>
+<path d="M548 80 L600 80 L610 38 L538 38 Z" fill="#E8A040" opacity="0.92"/>
+<path d="M548 80 L600 80 L610 38 L538 38 Z" fill="#FFF4D0" opacity="0.25"/>
+<circle cx="574" cy="80" r="5" fill="#5C3D1A"/>
+<ellipse cx="574" cy="100" rx="100" ry="70" fill="#FFD060" opacity="0.12"/>
+<ellipse cx="574" cy="120" rx="65" ry="50" fill="#FFD060" opacity="0.09"/>
+<rect x="180" y="255" width="280" height="58" fill="#5A3E28" rx="5"/>
+<rect x="190" y="238" width="118" height="50" fill="#694832" rx="4"/>
+<rect x="314" y="238" width="118" height="50" fill="#694832" rx="4"/>
+<rect x="180" y="195" width="280" height="55" fill="#4E3420" rx="5"/>
+<rect x="162" y="205" width="32" height="108" fill="#4E3420" rx="4"/>
+<rect x="446" y="205" width="32" height="108" fill="#4E3420" rx="4"/>
+<rect x="190" y="240" width="118" height="5" fill="#8A6040" rx="2" opacity="0.5"/>
+<rect x="314" y="240" width="118" height="5" fill="#8A6040" rx="2" opacity="0.5"/>
+<path d="M220 250 Q290 243 360 250 Q390 256 420 250 L418 290 Q388 296 360 290 Q290 284 218 290 Z" fill="#9E4E28" opacity="0.5"/>
+<ellipse cx="290" cy="278" rx="42" ry="20" fill="#2A180A"/>
+<path d="M255 242 Q290 228 325 242 L332 268 Q290 276 248 268 Z" fill="#8A4A28"/>
+<rect x="284" y="200" width="13" height="22" fill="#C08060" rx="3"/>
+<ellipse cx="290" cy="190" rx="25" ry="27" fill="#C08060"/>
+<path d="M265 182 Q268 161 290 158 Q312 161 315 182 Q308 170 290 167 Q272 170 265 182 Z" fill="#1E1008"/>
+<ellipse cx="265" cy="191" rx="5" ry="7" fill="#A86E50"/>
+<ellipse cx="282" cy="189" rx="3.5" ry="3" fill="#150A04" opacity="0.8"/>
+<ellipse cx="298" cy="189" rx="3.5" ry="3" fill="#150A04" opacity="0.8"/>
+<path d="M279 187 Q282 185 285 187" fill="none" stroke="#150A04" stroke-width="1.2"/>
+<path d="M295 187 Q298 185 301 187" fill="none" stroke="#150A04" stroke-width="1.2"/>
+<path d="M282 198 Q290 203 298 198" fill="none" stroke="#906040" stroke-width="1.3" stroke-linecap="round"/>
+<path d="M252 255 Q240 268 248 282 Q265 285 280 280" fill="#8A4A28" stroke="#7A3E20" stroke-width="0.8"/>
+<path d="M328 255 Q340 268 332 282 Q315 285 300 280" fill="#8A4A28" stroke="#7A3E20" stroke-width="0.8"/>
+<path d="M248 272 Q290 265 332 272 L335 295 Q290 290 245 295 Z" fill="#F0EAD8" rx="2"/>
+<line x1="290" y1="266" x2="290" y2="295" stroke="#D4C8A8" stroke-width="1.5"/>
+<path d="M252 278 Q270 276 288 278" fill="none" stroke="#C8BCA0" stroke-width="0.8" opacity="0.7"/>
+<path d="M252 283 Q270 281 288 283" fill="none" stroke="#C8BCA0" stroke-width="0.8" opacity="0.6"/>
+<path d="M252 288 Q270 286 288 288" fill="none" stroke="#C8BCA0" stroke-width="0.8" opacity="0.5"/>
+<path d="M293 278 Q311 276 329 278" fill="none" stroke="#C8BCA0" stroke-width="0.8" opacity="0.7"/>
+<path d="M293 283 Q311 281 329 283" fill="none" stroke="#C8BCA0" stroke-width="0.8" opacity="0.6"/>
+<path d="M293 288 Q311 286 329 288" fill="none" stroke="#C8BCA0" stroke-width="0.8" opacity="0.5"/>
+<ellipse cx="388" cy="268" rx="28" ry="22" fill="#2A180A"/>
+<path d="M364 248 Q390 236 415 248 L418 268 Q390 275 360 268 Z" fill="#D06840"/>
+<rect x="384" y="216" width="10" height="16" fill="#D8986A" rx="3"/>
+<ellipse cx="389" cy="206" rx="20" ry="22" fill="#D8986A"/>
+<path d="M369 198 Q371 181 389 178 Q407 181 409 198 Q403 187 389 184 Q375 187 369 198 Z" fill="#1E1008"/>
+<ellipse cx="369" cy="207" rx="4.5" ry="6" fill="#C07858"/>
+<ellipse cx="382" cy="204" rx="3.2" ry="3.2" fill="#150A04" opacity="0.8"/>
+<ellipse cx="396" cy="204" rx="3.2" ry="3.2" fill="#150A04" opacity="0.8"/>
+<path d="M379 202 Q382 200 385 202" fill="none" stroke="#150A04" stroke-width="1.1"/>
+<path d="M393 202 Q396 200 399 202" fill="none" stroke="#150A04" stroke-width="1.1"/>
+<path d="M382 213 Q389 218 396 213" fill="none" stroke="#B06848" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M415 256 Q428 265 420 278 Q400 280 385 278" fill="#D06840" stroke="#C05830" stroke-width="0.8"/>
+<ellipse cx="340" cy="265" rx="160" ry="80" fill="#FFD070" opacity="0.06"/>
+<ellipse cx="330" cy="320" rx="200" ry="18" fill="#5A3410" opacity="0.55"/>
+<path d="M195 317 Q330 310 468 317" fill="none" stroke="#804A20" stroke-width="1" opacity="0.35"/>
+<rect x="0" y="0" width="40" height="400" fill="#2C1A0A" opacity="0.7"/>
+<rect x="140" y="0" width="30" height="400" fill="#3A2818" opacity="0.4"/>
+<rect x="640" y="0" width="40" height="400" fill="#2C1A0A" opacity="0.5"/>
+<rect x="0" y="0" width="680" height="30" fill="#201408" opacity="0.4"/>
+<rect x="0" y="370" width="680" height="30" fill="#100804" opacity="0.5"/>
+</svg>

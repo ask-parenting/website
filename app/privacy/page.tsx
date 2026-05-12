@@ -112,6 +112,12 @@ export default function PrivacyPage() {
           <a href="mailto:hello@askparenting.com">hello@askparenting.com</a>
           . We respond within 7 business days.
         </p>
+        <p>
+          For service terms, see our
+          {" "}
+          <a href="/terms">Terms of Service</a>
+          .
+        </p>
       </main>
     </>
   );

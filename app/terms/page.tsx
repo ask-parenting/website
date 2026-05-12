@@ -49,6 +49,13 @@ export default function TermsPage() {
         <p>
           Features can include AI chat replies, milestone guidance, and reminder/check-in messages on WhatsApp.
         </p>
+        <p>
+          The service is currently intended for users in India.
+        </p>
+        <p>
+          The service is currently offered free during beta. If paid plans are introduced later, we will
+          provide updated terms before charges apply.
+        </p>
 
         <h2>WhatsApp platform</h2>
         <p>
@@ -74,6 +81,20 @@ export default function TermsPage() {
         <p>
           These terms are governed by applicable laws of India, and disputes are subject to courts with
           competent jurisdiction.
+        </p>
+
+        <h2>Contact</h2>
+        <p>
+          For terms-related questions, email
+          {" "}
+          <a href="mailto:hello@askparenting.com">hello@askparenting.com</a>
+          .
+        </p>
+        <p>
+          For information on how we collect and process data, see our
+          {" "}
+          <a href="/privacy">Privacy Policy</a>
+          .
         </p>
       </main>
     </>

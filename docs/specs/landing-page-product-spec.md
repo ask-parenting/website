@@ -1,4 +1,4 @@
-# Parenting AI Landing Page Product Spec
+# Ask Parenting Landing Page Product Spec
 
 ## Objective
 - Primary: drive clicks to a WhatsApp thread.
@@ -13,11 +13,11 @@
 - Mobile navigation collapses into a hamburger menu.
 
 ## Hero
-- Brand: `Parenting AI`
+- Brand: `Ask Parenting`
 - Headline: `Your Parenting Companion on WhatsApp`
 - Subheadline: calm, practical support for parents of children ages 0-5.
 - Primary CTA label (section CTAs): `Start on WhatsApp`
-- Section CTA consent text (rendered below both section CTA buttons): `By messaging us, you agree to receive WhatsApp replies from Parenting AI (AvNeer Solutions Pvt Ltd). Reply STOP anytime to opt out.`
+- Section CTA consent text (rendered below both section CTA buttons): `By messaging us, you agree to receive WhatsApp replies from Ask Parenting (AvNeer Solutions Pvt Ltd). Reply STOP anytime to opt out.`
 - Header CTA label: `Start Chat`
 - CTA target format: `https://wa.me/<BUSINESS_NUMBER>?text=<URL_ENCODED_GREETING>`
 - Hero proof strip communicates low friction and availability: `0 Apps`, `0 Signup`, `24/7`.
@@ -39,7 +39,7 @@
 
 ## Footer
 - Must include exact ownership line:
-  - `Parenting AI is a product of AvNeer Solutions Private Limited.`
+  - `Ask Parenting is a product of AvNeer Solutions Private Limited.`
 - Must include exact legal address matching submitted verification documents.
 - Must include links to:
   - FAQs

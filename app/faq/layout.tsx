@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "FAQs | Parenting AI",
-  description: "Frequently asked questions about Parenting AI.",
+  title: "FAQs | Ask Parenting",
+  description: "Frequently asked questions about Ask Parenting.",
   alternates: {
     canonical: "/faq/",
   },

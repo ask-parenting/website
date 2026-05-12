@@ -1,5 +1,5 @@
 export const siteConfig = {
-  brand: "Parenting AI",
+  brand: "Ask Parenting",
   hero: {
     headline: "Your 24/7 Digital Co-Parent, Right in WhatsApp.",
     subheadline:
@@ -9,10 +9,10 @@ export const siteConfig = {
   },
   whatsapp: {
     businessNumber: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "YOUR_BUSINESS_NUMBER",
-    prefilledText: "Hi Parenting AI!"
+    prefilledText: "Hi Ask Parenting!"
   },
   legal: {
-    ownershipStatement: "Parenting AI is a product of AvNeer Solutions Private Limited.",
+    ownershipStatement: "Ask Parenting is a product of AvNeer Solutions Private Limited.",
     cin:
       process.env.NEXT_PUBLIC_LEGAL_CIN ??
       "[REPLACE_WITH_EXACT_MCA_CIN]",
@@ -54,7 +54,7 @@ export const siteConfig = {
   ],
   onboardingSteps: [
     "Click the button to open WhatsApp.",
-    "Send the pre-filled 'Hi Parenting AI' message.",
+    "Send the pre-filled 'Hi Ask Parenting' message.",
     "Answer two quick questions (Child's age/due date and name) to set up your profile."
   ],
   testimonials: [

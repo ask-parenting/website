@@ -1,4 +1,4 @@
-# Copilot Instructions for Parenting AI Landing
+# Copilot Instructions for Ask Parenting Landing
 
 Use these instructions for all changes in this repository unless a user explicitly overrides them.
 

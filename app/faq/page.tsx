@@ -29,7 +29,7 @@ export default function FaqPage() {
       <main className="legal-page faq-page">
         <h1>Frequently Asked Questions</h1>
         <p className="faq-page-intro">
-          Find quick answers about support scope, privacy, and how Parenting AI works.
+          Find quick answers about support scope, privacy, and how Ask Parenting works.
         </p>
 
         <div className="faq-search-wrap">

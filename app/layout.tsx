@@ -12,7 +12,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Parenting AI | 24/7 Baby and Toddler Support on WhatsApp",
+  title: "Ask Parenting | 24/7 Baby and Toddler Support on WhatsApp",
   description:
     "Get calm, evidence-informed parenting guidance for feeding, sleep, milestones, and everyday care for children 0-5 years old, right inside WhatsApp.",
   icons: {
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     canonical: "/"
   },
   openGraph: {
-    title: "Parenting AI | 24/7 Baby and Toddler Support on WhatsApp",
+    title: "Ask Parenting | 24/7 Baby and Toddler Support on WhatsApp",
     description:
       "Parenting guidance for feeding, sleep, milestones, and daily concerns. No app download needed.",
     url: siteUrl,
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Parenting AI | 24/7 Support on WhatsApp",
+    title: "Ask Parenting | 24/7 Support on WhatsApp",
     description:
       "Ask parenting questions anytime and get calm guidance for children 0-5 years old."
   },
@@ -59,7 +59,7 @@ export default function RootLayout({
   const orgSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "Parenting AI",
+    name: "Ask Parenting",
     url: siteUrl,
     description: "Parenting support via WhatsApp for caregivers of children 0-5 years old.",
     sameAs: []

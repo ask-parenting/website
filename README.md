@@ -1,4 +1,4 @@
-# Parenting AI Landing Page
+# Ask Parenting Landing Page
 
 Next.js single-page landing site for `askparenting.com`, optimized for WhatsApp conversion and Meta verification support.
 

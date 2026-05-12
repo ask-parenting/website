@@ -3,8 +3,8 @@ import SiteHeader from "@/app/components/layout/SiteHeader";
 import { buildWhatsAppLink, siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "Terms of Service | Parenting AI",
-  description: "Terms of Service for Parenting AI.",
+  title: "Terms of Service | Ask Parenting",
+  description: "Terms of Service for Ask Parenting.",
   alternates: {
     canonical: "/terms/",
   },
@@ -24,7 +24,7 @@ export default function TermsPage() {
         <h1>Terms of Service</h1>
         <p>Effective date: May 9, 2026</p>
         <p>
-          Parenting AI is operated by AvNeer Solutions Private Limited. By using this service, you agree to
+          Ask Parenting is operated by AvNeer Solutions Private Limited. By using this service, you agree to
           these terms.
         </p>
 

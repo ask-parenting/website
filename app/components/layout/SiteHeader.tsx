@@ -39,8 +39,8 @@ export default function SiteHeader({ whatsappLink }: SiteHeaderProps) {
     <header className="site-header" aria-label="Site header">
       <div className="topbar shell-inner">
         <div className="topbar-left">
-          <Link className="brand-link" href="/" aria-label="Go to Parenting AI homepage">
-            <img src="/logo.svg" alt="Parenting AI logo" width={28} height={29} className="brand-logo" />
+          <Link className="brand-link" href="/" aria-label="Go to Ask Parenting homepage">
+            <img src="/logo.svg" alt="Ask Parenting logo" width={28} height={29} className="brand-logo" />
             <p className="brand-mark">{siteConfig.brand}</p>
           </Link>
           <p className="micro-tag">Care via WhatsApp</p>

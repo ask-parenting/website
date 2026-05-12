@@ -3,7 +3,7 @@
 ## Blocking Requirements
 - [ ] HTTPS is active on production domain.
 - [ ] Footer includes exact string:
-  - `Parenting AI is a product of AvNeer Solutions Private Limited.`
+  - `Ask Parenting is a product of AvNeer Solutions Private Limited.`
 - [ ] Footer includes exact CIN string from MCA records.
 - [ ] Footer includes exact physical address that matches utility bill/bank statement word-for-word.
 - [ ] Footer includes support/contact email.

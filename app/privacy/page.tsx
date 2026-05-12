@@ -3,8 +3,8 @@ import SiteHeader from "@/app/components/layout/SiteHeader";
 import { buildWhatsAppLink, siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Parenting AI",
-  description: "Privacy Policy for Parenting AI.",
+  title: "Privacy Policy | Ask Parenting",
+  description: "Privacy Policy for Ask Parenting.",
   alternates: {
     canonical: "/privacy/",
   },
@@ -24,7 +24,7 @@ export default function PrivacyPage() {
         <h1>Privacy Policy</h1>
         <p>Effective date: May 9, 2026</p>
         <p>
-          Parenting AI (operated by AvNeer Solutions Private Limited) provides parenting support on WhatsApp.
+          Ask Parenting (operated by AvNeer Solutions Private Limited) provides parenting support on WhatsApp.
           This page explains what data we use and why.
         </p>
 

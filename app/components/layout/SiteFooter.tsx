@@ -35,7 +35,7 @@ export default function SiteFooter({ whatsappLink }: SiteFooterProps) {
   return (
     <footer className="footer" aria-label="Site footer">
       <div className="footer-disclaimer-bar" role="note" aria-label="Medical Disclaimer">
-        Medical Disclaimer: Parenting AI is not a substitute for medical advice. For emergencies, always contact a doctor immediately.
+        Medical Disclaimer: Ask Parenting is not a substitute for medical advice. For emergencies, always contact a doctor immediately.
       </div>
       <div className="footer-shell shell-inner">
         <div className="footer-top">

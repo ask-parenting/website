@@ -224,7 +224,7 @@ export const howItWorksSteps: string[] = [
 ];
 
 export const whatsappOptInConsentText =
-  "By messaging us, you agree to receive WhatsApp replies from Parenting AI (AvNeer Solutions Pvt Ltd). Reply STOP anytime to opt out.";
+  "By messaging us, you agree to receive WhatsApp replies from Ask Parenting (AvNeer Solutions Pvt Ltd). Reply STOP anytime to opt out.";
 
 export const heroStats: FeatureStat[] = [
   { value: "0 Apps", label: "Required" },
@@ -234,7 +234,7 @@ export const heroStats: FeatureStat[] = [
 
 export const faqs = [
   {
-    question: "Is Parenting AI a replacement for a doctor?",
+    question: "Is Ask Parenting a replacement for a doctor?",
     answer:
       "No. It is educational support only. For diagnosis, treatment, or emergencies, contact a licensed doctor or emergency services immediately.",
   },

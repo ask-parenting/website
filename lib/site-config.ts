@@ -9,7 +9,7 @@ export const siteConfig = {
   },
   whatsapp: {
     businessNumber: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "YOUR_BUSINESS_NUMBER",
-    prefilledText: "Hi Ask Parenting!"
+    prefilledText: "Hi Ask Parenting! I'd like to sign up my child."
   },
   legal: {
     ownershipStatement: "Ask Parenting is a product of AvNeer Solutions Private Limited.",
@@ -54,7 +54,7 @@ export const siteConfig = {
   ],
   onboardingSteps: [
     "Click the button to open WhatsApp.",
-    "Send the pre-filled 'Hi Ask Parenting' message.",
+    "Send the pre-filled 'Hi Ask Parenting! I'd like to sign up my child.' message.",
     "Answer two quick questions (Child's age/due date and name) to set up your profile."
   ],
   testimonials: [

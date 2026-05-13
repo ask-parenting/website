@@ -48,8 +48,8 @@ export default function PrivacyPage() {
 
         <h2>WhatsApp and Meta</h2>
         <p>
-          This service runs on WhatsApp. Your messages and phone number pass through WhatsApp infrastructure,
-          which is operated by Meta Platforms, Inc.
+          This service is built on the WhatsApp Business API, operated by Meta Platforms, Inc. Your messages
+          and phone number pass through WhatsApp infrastructure as part of this integration.
         </p>
         <p>
           WhatsApp handles this data under its own policy:
@@ -58,6 +58,11 @@ export default function PrivacyPage() {
             whatsapp.com/legal/privacy-policy
           </a>
           .
+        </p>
+        <p>
+          If we use a WhatsApp Business Solution Provider (BSP) to deliver messages, that provider may process
+          your phone number and message metadata solely to transmit messages on our behalf. We will name any
+          such provider in an update to this section when applicable.
         </p>
 
         <h2>Opt-out of messages</h2>
